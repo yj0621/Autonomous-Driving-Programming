@@ -1,0 +1,27 @@
+{
+  "model_sha256": "6b1d08e7658639e4a1787e068d1cd47d3e15bd889ecefbd43cfad8a5d0a26c9c",
+  "pretrained_weights_used": false,
+  "split": "test",
+  "summary": {
+    "neural": {
+      "trials": 8,
+      "successes": 5,
+      "wall_collisions": 0,
+      "obstacle_collisions": 3,
+      "timeouts": 0,
+      "clean_lap_mean_s": 31.360000000000003,
+      "mean_abs_raceline_error_m": 0.08148242942606244,
+      "controller_p95_ms_mean": 6.531476237705646
+    },
+    "protected": {
+      "trials": 8,
+      "successes": 4,
+      "wall_collisions": 0,
+      "obstacle_collisions": 0,
+      "timeouts": 4,
+      "clean_lap_mean_s": 30.375,
+      "mean_abs_raceline_error_m": 0.09892665864565402,
+      "controller_p95_ms_mean": 20.243127319599807
+    }
+  }
+}

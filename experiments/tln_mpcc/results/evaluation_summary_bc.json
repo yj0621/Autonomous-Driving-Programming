@@ -1,0 +1,35 @@
+{
+  "baseline": {
+    "trials": 6,
+    "successes": 0,
+    "success_rate": 0.0,
+    "wall_collisions": 3,
+    "obstacle_collisions": 3,
+    "timeouts": 0,
+    "mean_progress_m": 24.029066301271303,
+    "clean_lap_mean_s": null,
+    "inference_p95_ms_mean": 28.535558024608083
+  },
+  "baseline_slow": {
+    "trials": 6,
+    "successes": 0,
+    "success_rate": 0.0,
+    "wall_collisions": 4,
+    "obstacle_collisions": 2,
+    "timeouts": 0,
+    "mean_progress_m": 23.829101810553393,
+    "clean_lap_mean_s": null,
+    "inference_p95_ms_mean": 32.51682714205041
+  },
+  "student": {
+    "trials": 6,
+    "successes": 3,
+    "success_rate": 0.5,
+    "wall_collisions": 0,
+    "obstacle_collisions": 3,
+    "timeouts": 0,
+    "mean_progress_m": 40.32617229478266,
+    "clean_lap_mean_s": 42.63333333333333,
+    "inference_p95_ms_mean": 33.77391387548413
+  }
+}

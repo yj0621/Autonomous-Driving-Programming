@@ -1,0 +1,93 @@
+{
+  "model_sha256": "fcde1d40154785e9a01ea966df678dbe8c98121f09fb533a79204129a6ae29bf",
+  "summary": {
+    "neural": {
+      "all": {
+        "trials": 25,
+        "successes": 15,
+        "wall_collisions": 2,
+        "obstacle_collisions": 8,
+        "stops_or_timeouts": 0,
+        "success_mean_sim_time_s": 21.966666666666665,
+        "mean_abs_raceline_error_m": 0.15699919408905252,
+        "end_to_end_ms_p95_mean": 7.153563489278895
+      },
+      "corner_exit": {
+        "trials": 13,
+        "successes": 9,
+        "wall_collisions": 1,
+        "obstacle_collisions": 3,
+        "stops_or_timeouts": 0,
+        "success_mean_sim_time_s": 11.266666666666667,
+        "mean_abs_raceline_error_m": 0.2091588305488081,
+        "end_to_end_ms_p95_mean": 7.571749338239896
+      },
+      "mpcc": {
+        "trials": 6,
+        "successes": 0,
+        "wall_collisions": 1,
+        "obstacle_collisions": 5,
+        "stops_or_timeouts": 0,
+        "success_mean_sim_time_s": null,
+        "mean_abs_raceline_error_m": 0.13715868151214633,
+        "end_to_end_ms_p95_mean": 6.933918532619525
+      },
+      "basic": {
+        "trials": 3,
+        "successes": 3,
+        "wall_collisions": 0,
+        "obstacle_collisions": 0,
+        "stops_or_timeouts": 0,
+        "success_mean_sim_time_s": 36.7,
+        "mean_abs_raceline_error_m": 0.028490428880036875,
+        "end_to_end_ms_p95_mean": 6.579028399088808
+      }
+    },
+    "protected": {
+      "all": {
+        "trials": 25,
+        "successes": 17,
+        "wall_collisions": 1,
+        "obstacle_collisions": 1,
+        "stops_or_timeouts": 6,
+        "success_mean_sim_time_s": 21.27058823529412,
+        "mean_abs_raceline_error_m": 0.13234493621719376,
+        "end_to_end_ms_p95_mean": 12.362320378160803
+      },
+      "corner_exit": {
+        "trials": 13,
+        "successes": 10,
+        "wall_collisions": 0,
+        "obstacle_collisions": 0,
+        "stops_or_timeouts": 3,
+        "success_mean_sim_time_s": 10.29,
+        "mean_abs_raceline_error_m": 0.1373706132045902,
+        "end_to_end_ms_p95_mean": 11.274161161614197
+      },
+      "mpcc": {
+        "trials": 6,
+        "successes": 2,
+        "wall_collisions": 0,
+        "obstacle_collisions": 1,
+        "stops_or_timeouts": 3,
+        "success_mean_sim_time_s": 39.35,
+        "mean_abs_raceline_error_m": 0.16692445216797813,
+        "end_to_end_ms_p95_mean": 13.729920966640444
+      },
+      "basic": {
+        "trials": 3,
+        "successes": 3,
+        "wall_collisions": 0,
+        "obstacle_collisions": 0,
+        "stops_or_timeouts": 0,
+        "success_mean_sim_time_s": 35.5,
+        "mean_abs_raceline_error_m": 0.06913670064179303,
+        "end_to_end_ms_p95_mean": 12.764866666839225
+      }
+    }
+  },
+  "map": "hangar_1905_v0",
+  "no_resets": true,
+  "counts_expert_failures_as_test_scenarios": true,
+  "time_basis": "fixed-step simulation; end-to-end CPU feature+inference+guard, excludes ROS I/O"
+}

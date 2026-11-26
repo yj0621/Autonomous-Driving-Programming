@@ -1,0 +1,33 @@
+{
+  "split": "train",
+  "mode": "avoidance",
+  "seed": 1014,
+  "start_s": 23.0,
+  "success": true,
+  "collision": null,
+  "progress_m": 54.986151379992904,
+  "sim_time_s": 33.1,
+  "wall_time_s": 23.744606494903564,
+  "solver_failures": 0,
+  "samples": 331,
+  "mean_abs_raceline_error_m": 0.04779739715198079,
+  "obstacles": [
+    {
+      "id": "s042d+00t3",
+      "s": 26.095366038689942,
+      "d": 0.0,
+      "theta": 0.2451942751126608,
+      "x": -0.9853571434205002,
+      "y": 19.22954273594796,
+      "side": "RIGHT",
+      "severity": 0.351,
+      "visibility": 2.1,
+      "half_w": 0.1959844447314565
+    }
+  ],
+  "recipe": "spread:1.0 chicane:1:0.10 forced:1:0.20",
+  "relaxed": [
+    "chicane: dropped, no room left in num_obstacles"
+  ],
+  "source_raw": "data/train_avoidance_1014.npz"
+}

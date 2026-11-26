@@ -1,0 +1,29 @@
+{
+  "model": "models_mixture/best_regression.keras",
+  "model_sha256": "d4506aba4c96c3602d3726d3ff14594a845ddbe2c391ca8e2e226dacaee8d26b",
+  "decoder": "mixture_space",
+  "controller_style": "dynamic",
+  "controller_source_sha256": "c2d3028890f9274b34749cdf654c5d210650e04234d7f738ecc0b5ba86a96676",
+  "split": "val",
+  "laps": 1,
+  "no_resets": true,
+  "earlier_training_data_reused": false,
+  "time_basis": "fixed physics time; control timing includes input generation+network+guard, not ROS transmission",
+  "fast_goal": "full completion without collision or stationary period >=1s, <=32 physics seconds per lap",
+  "summary": {
+    "raw": {
+      "trials": 10,
+      "completions": 7,
+      "fast_goal_successes": 7,
+      "wall_collisions": 0,
+      "obstacle_collisions": 3,
+      "stops_or_timeouts": 0,
+      "successful_mean_lap_sim_s": 27.571428571428573,
+      "mean_abs_raceline_error_m": 0.07271266113917883,
+      "clear_road_mean_abs_error_m": 0.03617160486638278,
+      "total_control_p95_ms_mean": 16.99261956506234,
+      "reverse_steps": 0,
+      "path_corrections": 0
+    }
+  }
+}

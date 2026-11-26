@@ -1,0 +1,45 @@
+{
+  "model": "models_moe96/best_regression.keras",
+  "model_sha256": "ac61527d48a953275a101da660030d3a64f5826b1519bf12a45f1912f6c3cbd4",
+  "split": "val",
+  "laps": 3,
+  "no_resets": true,
+  "old_training_data_used": false,
+  "source_sha256": {
+    "inputs.py": "05d4a978ce6e0d3e05154e6c0595669492af0467e11ad667a7b4b5b6c5c3651b",
+    "train_after_preparation.py": "8cdf02ab6982519203fa61d2524d4c5fe47182c6d28c6803d27f5163bdf2fe30",
+    "live.py": "90ba775166445fd34ecd65d6829b069d26f184dfdd695609fd80290d0d6d88e8",
+    "probe_teacher.py": "651ce31eefee7dc58ec2bb60d101427a63d2ff420ceefc53b87593b297f10b2b",
+    "train.py": "8904329a49ca2393262dfadf20703756eda183ca9147a523999b56f36ae0a1ad",
+    "controller.py": "37e07e8ec4f7a52ba160449ff18da6b95575f3247177efe85c1d5a449776c126",
+    "frenet_guide.py": "b6d3c2700a5ba24f6b62964220adfce49e8164a71149a85fb918bf778901531c",
+    "train_moe96.py": "f9fefa63b293f617d0b303bfdb8c66e85ae7e5893485fe5c0bdddc76a7720a13",
+    "train_when_ready.py": "9859f48d5b9c52b1b0a3f29353d2de5a2e5c7c61ed4c391a91ed9a45cea942a1",
+    "show_layout.py": "133f7d9b5d2b5ddaa5928fd045640b49bc10f32f8eff8e67584ef2ae4cc09193",
+    "collect.py": "c00a737f9d3e77d0aeb58b8e48fb46c3ea332e785b2dd6d2c8c8edd97b7c8aaa",
+    "train_moe.py": "0d1f11e04c4529585d294caf90dc35027a828eb3a3bb4084105981c8ae164970",
+    "prepare.py": "ea5036284597babaa02b5d01c4b31eae4be54955ff67aa662f1c1997d9ab6591",
+    "decode.py": "bbe785e297ee7c36a37eb9e6623dc5d367518f8a5e6e8ba4036098c94542807f",
+    "sampled_mpcc.py": "63e929092b7b7f0282473a1d6a5e1d11f118fc3d116e9ab6b59c2ce4a3f1bbcb",
+    "prepare_moe.py": "95ef00b0e6440b065992e85c5a51bc69830f4ce8f9c51cfd32eb8fb8fdfc1e2f",
+    "evaluate.py": "75005571902e095fbf6c093c9ebff5ac986951973da6b0c343518e1cc1fb2d1c",
+    "neural_rollout.py": "ca6a25430677fb127f98e990b594272bfed5bbea2370558ce1adb8d69e9ea85a",
+    "physics.py": "1c7d86963369a2dcee4bab9da706de51b1943572e3bb4f1162d3160c47b2bc4f"
+  },
+  "fast_goal_definition": "collision-free and stationary <1sec, <=24 physics seconds/lap",
+  "summary": {
+    "protected": {
+      "trials": 4,
+      "completions": 4,
+      "fast_goal_successes": 4,
+      "wall_collisions": 0,
+      "obstacle_collisions": 0,
+      "stops_or_timeouts": 0,
+      "successful_mean_lap_sim_s": 19.05,
+      "mean_abs_raceline_error_m": 0.047365727681730446,
+      "mean_straight_speed_mps": 3.9415721132529047,
+      "mean_control_latency_p95_ms": 69.01089807288372,
+      "intervention_steps": 308
+    }
+  }
+}

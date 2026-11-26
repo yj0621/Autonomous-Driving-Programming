@@ -1,0 +1,38 @@
+{
+  "model": "models_moe96/prior_model_reference.keras",
+  "model_sha256": "ac61527d48a953275a101da660030d3a64f5826b1519bf12a45f1912f6c3cbd4",
+  "split": "test",
+  "laps": 1,
+  "no_resets": true,
+  "old_training_data_used": false,
+  "source_sha256": {
+    "inputs.py": "86b5a016beb6ea1bb6ec46b67ef80ee66b8bd65e1c4c5814acf696a66eedd48f",
+    "controller.py": "37e07e8ec4f7a52ba160449ff18da6b95575f3247177efe85c1d5a449776c126",
+    "frenet_guide.py": "b6d3c2700a5ba24f6b62964220adfce49e8164a71149a85fb918bf778901531c",
+    "train_moe96.py": "f9fefa63b293f617d0b303bfdb8c66e85ae7e5893485fe5c0bdddc76a7720a13",
+    "collect.py": "57cac309d329bd83a6529c36e50700ac7a925dbdee4dc3bfd4fd6e4b62a743a4",
+    "prepare.py": "ea5036284597babaa02b5d01c4b31eae4be54955ff67aa662f1c1997d9ab6591",
+    "decode.py": "bbe785e297ee7c36a37eb9e6623dc5d367518f8a5e6e8ba4036098c94542807f",
+    "sampled_mpcc.py": "f9b2468c9f1f2e8092a576aa9004becc9e11cc2ccf7ec87d2a213f370d87748c",
+    "prepare_moe.py": "95ef00b0e6440b065992e85c5a51bc69830f4ce8f9c51cfd32eb8fb8fdfc1e2f",
+    "evaluate.py": "9c039c0f749f54b092a274add2b6deab525c900f442f87a3dec978339e8b4ca3",
+    "neural_rollout.py": "ca6a25430677fb127f98e990b594272bfed5bbea2370558ce1adb8d69e9ea85a",
+    "physics.py": "1c7d86963369a2dcee4bab9da706de51b1943572e3bb4f1162d3160c47b2bc4f"
+  },
+  "fast_goal_definition": "collision-free and stationary <1sec, <=24 physics seconds/lap",
+  "summary": {
+    "raw": {
+      "trials": 12,
+      "completions": 6,
+      "fast_goal_successes": 6,
+      "wall_collisions": 2,
+      "obstacle_collisions": 4,
+      "stops_or_timeouts": 0,
+      "successful_mean_lap_sim_s": 17.8,
+      "mean_abs_raceline_error_m": 0.05520963620206262,
+      "mean_straight_speed_mps": 3.1474891594729644,
+      "mean_control_latency_p95_ms": 11.734414653498483,
+      "intervention_steps": 0
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "PP verified | long lookahead": {
+    "samples": 340,
+    "collision_events": [
+      {
+        "wall_time": 1793292197.4869292,
+        "case": "PP verified | long lookahead",
+        "kind": "wall",
+        "pose": [
+          10.917496508620372,
+          0.2955986627153651
+        ]
+      }
+    ],
+    "speed_cmd_range": [
+      0.0,
+      6.3277974128723145
+    ],
+    "last_sample": {
+      "wall_time": 1793292211.4366543,
+      "elapsed": 16.959116396988975,
+      "case": "PP verified | long lookahead",
+      "mode": "pp",
+      "xy": [
+        10.938210228166522,
+        0.31233975764527633
+      ],
+      "speed": 0.0,
+      "v_cmd": 2.5981452465057373,
+      "steer": -0.19256992638111115,
+      "state": "StateType.GB_TRACK",
+      "spline_points": 0,
+      "collision_count": 1
+    }
+  },
+  "Local verified | evasion_dist 1.40m": {
+    "samples": 756,
+    "collision_events": [],
+    "speed_cmd_range": [
+      0.0,
+      1.5230969190597534
+    ],
+    "last_sample": {
+      "wall_time": 1793292308.086429,
+      "elapsed": 42.7977913460054,
+      "case": "Local verified | evasion_dist 1.40m",
+      "mode": "pp",
+      "xy": [
+        12.788970731119443,
+        3.9625026405984367
+      ],
+      "speed": 1.2996111214723172e-82,
+      "v_cmd": 0.0,
+      "steer": 0.12701991200447083,
+      "state": "StateType.TRAILING",
+      "spline_points": 0,
+      "collision_count": 0
+    }
+  },
+  "TLN verified | corner obstacles": {
+    "samples": 1177,
+    "collision_events": [
+      {
+        "wall_time": 1793292214.2248335,
+        "case": "TLN verified | corner obstacles",
+        "kind": "wall",
+        "pose": [
+          -1.1291266159338036,
+          5.197068510529538
+        ]
+      }
+    ],
+    "speed_cmd_range": [
+      0.0,
+      5.999601364135742
+    ],
+    "last_sample": {
+      "wall_time": 1793292270.2839665,
+      "elapsed": 63.77927197900135,
+      "case": "TLN verified | corner obstacles",
+      "mode": "tln",
+      "xy": [
+        -1.205792230928315,
+        5.2026774654125285
+      ],
+      "speed": 0.0,
+      "v_cmd": 4.029760360717773,
+      "steer": 0.11514545977115631,
+      "state": "StateType.TRAILING",
+      "spline_points": 0,
+      "collision_count": 1
+    }
+  }
+}

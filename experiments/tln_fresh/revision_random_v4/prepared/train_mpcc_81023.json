@@ -1,0 +1,57 @@
+{
+  "split": "train",
+  "mode": "mpcc",
+  "seed": 81023,
+  "success": true,
+  "collision": null,
+  "start_s": 38.719382002353676,
+  "obstacles": [
+    {
+      "x": 3.5571647732726572,
+      "y": 15.097318016590497,
+      "theta": 1.4746350115077673,
+      "s": 15.947000746268271,
+      "d": -0.1631305515752209,
+      "size_m": 0.3
+    },
+    {
+      "x": 2.873036020482113,
+      "y": 2.193355117553695,
+      "theta": 1.0945069837621484,
+      "s": 2.9998602454678416,
+      "d": -0.10511844281862492,
+      "size_m": 0.3
+    },
+    {
+      "x": -2.509260398374608,
+      "y": 13.283679796415091,
+      "theta": -1.8427877711415386,
+      "s": 41.085768511383044,
+      "d": -0.0292395631875777,
+      "size_m": 0.3
+    }
+  ],
+  "corner_biased": false,
+  "progress_m": 55.363910880432606,
+  "sim_time_s": 27.400000000000002,
+  "wall_time_s": 43.355603411997436,
+  "samples": 274,
+  "mean_actual_speed_mps": 2.059742894874753,
+  "max_actual_speed_mps": 3.072678394078925,
+  "mean_abs_raceline_error_m": 0.19063327650838455,
+  "solver_failures": 0,
+  "recovery_steps": 0,
+  "max_observed_object_count": 1,
+  "teacher_gt_obstacle_input": false,
+  "teacher_obstacles": "LiDAR/map connected-corridor perception; uncertainty inflated; no layout GT supplied to Expert.act",
+  "source": "entirely new direct physical simulation, no earlier episode reused",
+  "teacher_source_sha256": {
+    "mpcc_teacher.py": "b402bf31c67d75e4edf98b24378ada5dc47f3c4bd208710d293ee8a4f287dfd3",
+    "mpcc_core.py": "c41d8c3d3152a988ffbaa8940fffdee24c2075c35207bea5c0215a12f09f1a61",
+    "beam_path.py": "c3eb33684de2734fb295516c4745f70fe9036c21d62baee25143ebacb40bc613",
+    "frenet_guide.py": "8d865a49b07c728d48fc046a0029951a3d766b5094bcfe21a9773ec4892339d8",
+    "recovery.py": "67e5c460539a7cd4613343491b0671d99f8f1f002cf24fa1aa7edba6f61625b8",
+    "sensors.py": "dfb778d760b0a74d7f7db56fe55c1637e2e8d30389f01bede020edab70fda034"
+  },
+  "collector_sha256": "e059d3f416cd095767241e811d93462e8a893ab19ecae3ddf03e43529de9e710"
+}

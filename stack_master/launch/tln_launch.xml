@@ -1,0 +1,7 @@
+<launch>
+    <!-- TinyLidarNet end-to-end controller: /scan -> /drive.
+         Uses no planner and no localisation. -->
+    <node pkg="ofc" exec="tln_inference" name="tln_inference" output="screen">
+        <param name="drive_publish_enabled" value="true"/>
+    </node>
+</launch>

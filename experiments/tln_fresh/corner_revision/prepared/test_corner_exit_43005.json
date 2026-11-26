@@ -1,0 +1,33 @@
+{
+  "mode": "corner_exit",
+  "obstacles": [
+    {
+      "x": 0.7931907579511334,
+      "y": 13.68471720352587,
+      "theta": -2.666363317839382,
+      "s": 32.7,
+      "d": 0.1
+    }
+  ],
+  "start_s": 27.6,
+  "required_progress_m": 11.0,
+  "corner_s": 32.1,
+  "exit_distance_m": 0.6,
+  "lateral_m": 0.1,
+  "split": "test",
+  "seed": 43005,
+  "success": true,
+  "collision": null,
+  "progress_m": 11.093128953919567,
+  "sim_time_s": 9.8,
+  "wall_time_s": 13.16196346282959,
+  "solver_failures": 0,
+  "samples": 98,
+  "mean_abs_raceline_error_m": 0.0802854906894665,
+  "teacher": "CornerMPCC",
+  "teacher_sha256": "54f4b860cfa245dacfab5e289a988fcc34e307df719bedcd44268915f2e45a66",
+  "no_reset": true,
+  "raw_lidar_recorded": true,
+  "obstacle_gt_student_input": false,
+  "source_raw": "corner_revision/data/test_corner_exit_43005.npz"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "seed": 72000,
+    "split": "val",
+    "mode": "basic_fast_new",
+    "success": true,
+    "collision": null,
+    "start_s": 0.37,
+    "progress_m": 55.420092910302536,
+    "sim_time_s": 23.900000000000002,
+    "wall_elapsed_s": 1.8148110640031518,
+    "target_straight_mps": 3.0,
+    "mean_measured_speed_mps": 2.245945573404627,
+    "max_measured_speed_mps": 2.999999999998242,
+    "mean_abs_raceline_error_m": 0.07457271031638622,
+    "max_abs_raceline_error_m": 0.29550248757582154,
+    "samples": 239,
+    "obstacles": [],
+    "source": "new direct physical rollout; no previous episode reuse",
+    "controller_sha256": "f455f9d1baed9e31023e3480652caa62fdf8eaa0396c20b31445dfa36f3e1859"
+  },
+  {
+    "seed": 72001,
+    "split": "val",
+    "mode": "basic_fast_new",
+    "success": true,
+    "collision": null,
+    "start_s": 28.01509084175388,
+    "progress_m": 55.47008403298197,
+    "sim_time_s": 24.0,
+    "wall_elapsed_s": 2.0469499219907448,
+    "target_straight_mps": 3.0,
+    "mean_measured_speed_mps": 2.2399469216913728,
+    "max_measured_speed_mps": 2.999999999999003,
+    "mean_abs_raceline_error_m": 0.07177598301991145,
+    "max_abs_raceline_error_m": 0.29910633278864013,
+    "samples": 240,
+    "obstacles": [],
+    "source": "new direct physical rollout; no previous episode reuse",
+    "controller_sha256": "f455f9d1baed9e31023e3480652caa62fdf8eaa0396c20b31445dfa36f3e1859"
+  }
+]

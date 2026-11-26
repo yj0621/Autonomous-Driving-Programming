@@ -1,0 +1,14 @@
+{
+  "capture_wall_start": 1793292267.3172643,
+  "command_wall_time": 1793292270.319029,
+  "command": {
+    "mode": "pp",
+    "case": "Local verified | evasion_dist 1.40m",
+    "reset": 0,
+    "obstacles": [
+      60
+    ],
+    "run_id": 1793292267.3153515
+  },
+  "duration": 16.0
+}

@@ -1,0 +1,17 @@
+<launch>
+    <arg name="racecar_version" default="NUC2" /> <!--  SIM / NUC1 / NUC2 / NUC3 ... -->
+    <arg name="LU_table" default="SIM_linear" />
+    <arg name="ctrl_algo" default="MAP" /> <!-- MAP / PP -->
+
+    <!-- launch controller manager -->
+    <include file="$(find-pkg-share controller_cpp)/launch/controller_launch.xml">
+        <arg name="mode" value="$(var ctrl_algo)"/>
+        <arg name="racecar_version" value="$(var racecar_version)"/>
+        <arg name="LU_table" value="$(var LU_table)"/>
+    </include>
+
+    <!-- launch state machine -->
+    <include file="$(find-pkg-share state_machine)/launch/state_machine_launch.xml">
+        <arg name="mode" value="timetrials"/>
+    </include>
+</launch>

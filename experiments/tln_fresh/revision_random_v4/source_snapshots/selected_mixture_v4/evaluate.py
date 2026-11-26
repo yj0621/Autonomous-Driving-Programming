@@ -1,0 +1,32 @@
+"""Fresh episode-level evaluation. No pose resets; all expert failures remain scenarios."""
+import os
+os.environ.setdefault('TF_CPP_MIN_LOG_LEVEL','3');os.environ.setdefault('OMP_NUM_THREADS','1');os.environ.setdefault('OPENBLAS_NUM_THREADS','1')
+from pathlib import Path
+import sys,json,time,argparse,hashlib
+root=Path(__file__).parent;sys.path.insert(0,str(root.parent));sys.path.insert(0,str(root))
+import numpy as np,tensorflow as tf
+from world import World
+from sensors import Inputs
+from controller import Controller
+p=argparse.ArgumentParser();p.add_argument('--model',required=True);p.add_argument('--split',choices=['val','test'],required=True);p.add_argument('--modes',default='raw,protected');p.add_argument('--laps',type=int,default=1);p.add_argument('--limit',type=int);p.add_argument('--seeds');p.add_argument('--tag',default='');p.add_argument('--decoder',choices=['direct','path','blend','mixture','mixture_space','mixture_grid'],default='direct');p.add_argument('--style',choices=['dynamic','beam','speed_only','pp'],default='dynamic');args=p.parse_args();controller_source_hash=hashlib.sha256((root/'controller.py').read_bytes()).hexdigest();w=World();sim=w.sim();tf.config.threading.set_intra_op_parallelism_threads(2);tf.config.threading.set_inter_op_parallelism_threads(1);model_path=root/args.model;model=tf.keras.models.load_model(model_path,compile=False);feature_count=int(model.inputs[1].shape[-1]);predict=tf.function(lambda h,f:model([h,f],training=False),input_signature=[tf.TensorSpec((None,4,541,2),tf.float32),tf.TensorSpec((None,feature_count),tf.float32)]);predict(tf.zeros((1,4,541,2)),tf.zeros((1,feature_count)))
+if feature_count==84:
+ from inputs_wide import InputsWide as Inputs
+files=sorted((root/'data').glob(args.split+'_*.json'));selected=set(map(int,args.seeds.split(','))) if args.seeds else None
+if selected:files=[f for f in files if json.loads(f.read_text())['seed'] in selected]
+if args.limit:files=files[:args.limit]
+assert files,'No scenarios'
+rows=[];output=root/'results'/f'evaluation_{Path(args.model).stem}{args.tag}_{args.modes.replace(chr(44),chr(95))}_{args.split}_{args.laps}lap.json'
+for mode in args.modes.split(','):
+ for p in files:
+  scenario=json.loads(p.read_text());start=scenario['start_s'];o=w.configure(sim,scenario['obstacles'],start);inputs=Inputs(w);controller=Controller(w,protected=(mode=='protected'),style=args.style,decoder=args.decoder);last=np.zeros(2);previous=start;progress=0.;trace=[];latency=[];error=[];clear_error=[];slow=0;max_slow=0;reverse=0;corrections=0;speed=[];required=w.length*args.laps
+  for k in range(400*args.laps):
+   t=time.perf_counter();st=sim.agents[0].state.copy();scan=o['scans'][0];h,f=inputs.push(scan,st,last,previous);prediction=predict(h[None].astype(np.float32),f[None]).numpy()[0];u,detail=controller.act(st,scan,f,prediction,inputs.obstacles,previous);latency.append((time.perf_counter()-t)*1000);d=float(np.dot(st[:2]-w.xy(previous),w.normal(previous)));error.append(d)
+   if not inputs.obstacles:clear_error.append(d)
+   speed.append(float(st[3]));reverse+=int(u[1]<-.05);corrections+=int(detail['path_correction'] or detail['safe_path_resume']);trace.append({'state':st.tolist(),'command':u.tolist(),'prediction':prediction.tolist(),'guard':detail,'objects':f[34:66].tolist()});last=u;o=w.step(sim,u);s=w.project(*sim.agents[0].state[:2],hint=previous);progress+=(s-previous+w.length/2)%w.length-w.length/2;previous=s;slow=slow+1 if abs(sim.agents[0].state[3])<.05 and k>20 else 0;max_slow=max(max_slow,slow)
+   if o['collisions'][0] or progress>=required or slow>=10:break
+  completed=bool(progress>=required and not o['collisions'][0]);elapsed=(k+1)*.1;goal=bool(completed and max_slow<10 and elapsed<=32.*args.laps)
+  row={'mode':mode,'scenario_mode':scenario['mode'],'seed':scenario['seed'],'laps_required':args.laps,'completed':completed,'goal_success':goal,'collision':sim.agents[0].collision_kind,'progress_m':progress,'required_m':required,'sim_time_s':elapsed,'mean_speed_mps':float(np.mean(speed)),'max_speed_mps':float(max(speed)),'mean_abs_raceline_error_m':float(np.mean(np.abs(error))),'clear_road_mean_abs_error_m':float(np.mean(np.abs(clear_error))) if clear_error else None,'max_abs_error_m':float(max(np.abs(error))),'max_stationary_s_after_start':max_slow*.1,'reverse_command_steps':reverse,'path_corrections':corrections,'total_control_p95_ms':float(np.percentile(latency,95)),'scenario_file':str(p.relative_to(root)),'trace':trace};rows.append(row);output.write_text(json.dumps(rows));print(mode,scenario['seed'],'completed',completed,'fast_goal',goal,'collision',row['collision'],'progress',round(progress,1),'time',elapsed,'clear_error',row['clear_road_mean_abs_error_m'],flush=True)
+summary={}
+for mode in args.modes.split(','):
+ rr=[r for r in rows if r['mode']==mode];ok=[r for r in rr if r['completed']];summary[mode]={'trials':len(rr),'completions':sum(r['completed'] for r in rr),'fast_goal_successes':sum(r['goal_success'] for r in rr),'wall_collisions':sum(r['collision']=='wall' for r in rr),'obstacle_collisions':sum(r['collision']=='obstacle' for r in rr),'stops_or_timeouts':sum(not r['completed'] and not r['collision'] for r in rr),'successful_mean_lap_sim_s':float(np.mean([r['sim_time_s']/args.laps for r in ok])) if ok else None,'mean_abs_raceline_error_m':float(np.mean([r['mean_abs_raceline_error_m'] for r in rr])),'clear_road_mean_abs_error_m':float(np.mean([r['clear_road_mean_abs_error_m'] for r in rr if r['clear_road_mean_abs_error_m'] is not None])),'total_control_p95_ms_mean':float(np.mean([r['total_control_p95_ms'] for r in rr])),'reverse_steps':sum(r['reverse_command_steps'] for r in rr),'path_corrections':sum(r['path_corrections'] for r in rr)}
+report={'model':args.model,'model_sha256':hashlib.sha256(model_path.read_bytes()).hexdigest(),'decoder':args.decoder,'controller_style':args.style,'controller_source_sha256':controller_source_hash,'split':args.split,'laps':args.laps,'no_resets':True,'earlier_training_data_reused':False,'time_basis':'fixed physics time; control timing includes input generation+network+guard, not ROS transmission','fast_goal':'full completion without collision or stationary period >=1s, <=32 physics seconds per lap','summary':summary};output.with_name(output.stem+'_summary.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2),flush=True)

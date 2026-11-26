@@ -1,0 +1,98 @@
+[INFO] [launch]: All log files can be found below /home/misys/.ros/log/2026-10-30-01-33-26-496094-kyjgram-1697040
+[INFO] [launch]: Default logging verbosity is set to INFO
+[gym_bridge_launch] using simulator map /home/misys/forza_ws/race_stack/stack_master/maps/hyhall12/hyhall12_orig.yaml
+[INFO] [rviz2-1]: process started with pid [1697060]
+[INFO] [gym_bridge-2]: process started with pid [1697062]
+[INFO] [lifecycle_manager-3]: process started with pid [1697064]
+[INFO] [map_server-4]: process started with pid [1697066]
+[INFO] [robot_state_publisher-5]: process started with pid [1697068]
+[rviz2-1] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-misys'
+[map_server-4] [INFO] [1793291607.651267355] [map_server]: 
+[map_server-4] 	map_server lifecycle node launched. 
+[map_server-4] 	Waiting on external lifecycle transitions to activate
+[map_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-4] [INFO] [1793291607.652679255] [map_server]: Creating
+[robot_state_publisher-5] [INFO] [1793291607.718121758] [ego_robot_state_publisher]: got segment car_state/back_left_wheel
+[robot_state_publisher-5] [INFO] [1793291607.718323079] [ego_robot_state_publisher]: got segment car_state/back_right_wheel
+[robot_state_publisher-5] [INFO] [1793291607.718336769] [ego_robot_state_publisher]: got segment car_state/base_link
+[robot_state_publisher-5] [INFO] [1793291607.718344955] [ego_robot_state_publisher]: got segment car_state/front_left_hinge
+[robot_state_publisher-5] [INFO] [1793291607.718351945] [ego_robot_state_publisher]: got segment car_state/front_left_wheel
+[robot_state_publisher-5] [INFO] [1793291607.718358437] [ego_robot_state_publisher]: got segment car_state/front_right_hinge
+[robot_state_publisher-5] [INFO] [1793291607.718364874] [ego_robot_state_publisher]: got segment car_state/front_right_wheel
+[robot_state_publisher-5] [INFO] [1793291607.718371328] [ego_robot_state_publisher]: got segment car_state/laser
+[lifecycle_manager-3] [INFO] [1793291607.867501470] [lifecycle_manager_localization]: Creating
+[lifecycle_manager-3] [INFO] [1793291607.879678091] [lifecycle_manager_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[lifecycle_manager-3] [INFO] [1793291607.882604022] [lifecycle_manager_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-3] [INFO] [1793291607.882803639] [lifecycle_manager_localization]: [34m[1mConfiguring map_server[0m[0m
+[map_server-4] [INFO] [1793291607.883340664] [map_server]: Configuring
+[map_server-4] [INFO] [1793291607.883434099] [map_io]: Loading yaml file: /home/misys/forza_ws/race_stack/stack_master/maps/hyhall12/hyhall12_orig.yaml
+[map_server-4] [INFO] [1793291607.886827373] [map_io]: resolution: 0.05
+[map_server-4] [INFO] [1793291607.886889524] [map_io]: origin[0]: -7.28
+[map_server-4] [INFO] [1793291607.886896306] [map_io]: origin[1]: -4.08
+[map_server-4] [INFO] [1793291607.886901295] [map_io]: origin[2]: 0
+[map_server-4] [INFO] [1793291607.886907074] [map_io]: free_thresh: 0.25
+[map_server-4] [INFO] [1793291607.886912546] [map_io]: occupied_thresh: 0.65
+[map_server-4] [INFO] [1793291607.886919005] [map_io]: mode: trinary
+[map_server-4] [INFO] [1793291607.886925856] [map_io]: negate: 0
+[map_server-4] [INFO] [1793291607.896775584] [map_io]: Loading image_file: /home/misys/forza_ws/race_stack/stack_master/maps/hyhall12/hyhall12_orig.png
+[map_server-4] [INFO] [1793291608.025628370] [map_io]: Read map /home/misys/forza_ws/race_stack/stack_master/maps/hyhall12/hyhall12_orig.png: 437 X 267 map @ 0.05 m/cell
+[lifecycle_manager-3] [INFO] [1793291608.042665832] [lifecycle_manager_localization]: [34m[1mActivating map_server[0m[0m
+[map_server-4] [INFO] [1793291608.043873554] [map_server]: Activating
+[map_server-4] [INFO] [1793291608.044788284] [map_server]: Creating bond (map_server) to lifecycle manager.
+[lifecycle_manager-3] [INFO] [1793291608.165779104] [lifecycle_manager_localization]: Server map_server connected with bond.
+[lifecycle_manager-3] [INFO] [1793291608.165860042] [lifecycle_manager_localization]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-3] [INFO] [1793291608.165871165] [lifecycle_manager_localization]: [34m[1mCreating bond timer...[0m[0m
+[rviz2-1] [INFO] [1793291608.786258885] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-1] [INFO] [1793291608.786471197] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[rviz2-1] [INFO] [1793291608.864325540] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-1] [INFO] [1793291609.480582524] [rviz2]: Trying to create a map of size 437 x 267 using 1 swatches
+[rviz2-1] [ERROR] [1793291609.495469500] [rviz2]: Vertex Program:rviz/glsl120/indexed_8bit_image.vert Fragment Program:rviz/glsl120/indexed_8bit_image.frag GLSL link result : 
+[rviz2-1] active samplers with a different type refer to the same texture image unit
+[gym_bridge-2] [INFO] [1793291610.775082579] [bridge]: Using simulator map: /home/misys/forza_ws/race_stack/stack_master/maps/hyhall12/hyhall12_orig.yaml
+[gym_bridge-2] /home/misys/.local/lib/python3.10/site-packages/gymnasium/envs/registration.py:481: UserWarning: [33mWARN: The environment creator metadata doesn't include `render_modes`, contains: ['render.modes'][0m
+[gym_bridge-2]   logger.warn(
+[gym_bridge-2] /home/misys/forza_ws/race_stack/base_system/f110_simulator/f1tenth_gym/gym/f110_gym/envs/base_classes.py:96: UserWarning: Chosen integrator is RK4. This is different from previous versions of the gym.
+[gym_bridge-2]   warnings.warn(f"Chosen integrator is RK4. This is different from previous versions of the gym.")
+[gym_bridge-2] [WARN] [1793292095.967489623] [bridge]: no /sim/obstacles for 3 s — cleared the obstacles so they stop showing up in /scan
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [robot_state_publisher-5]: sending signal 'SIGINT' to process[robot_state_publisher-5]
+[INFO] [map_server-4]: sending signal 'SIGINT' to process[map_server-4]
+[INFO] [lifecycle_manager-3]: sending signal 'SIGINT' to process[lifecycle_manager-3]
+[INFO] [gym_bridge-2]: sending signal 'SIGINT' to process[gym_bridge-2]
+[INFO] [rviz2-1]: sending signal 'SIGINT' to process[rviz2-1]
+[rviz2-1] [INFO] [1793292335.647824747] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-3] [INFO] [1793292335.648323798] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-3] [INFO] [1793292335.648760286] [lifecycle_manager_localization]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_localization)
+[lifecycle_manager-3] [INFO] [1793292335.648990137] [lifecycle_manager_localization]: [34m[1mTerminating bond timer...[0m[0m
+[map_server-4] [INFO] [1793292335.648746112] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-4] [INFO] [1793292335.648969627] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[map_server-4] [INFO] [1793292335.649306980] [map_server]: Deactivating
+[map_server-4] [INFO] [1793292335.649393940] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[robot_state_publisher-5] [INFO] [1793292335.649021006] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[gym_bridge-2] [INFO] [1793292335.651236995] [bridge]: Exiting gym_bridge
+[gym_bridge-2] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[robot_state_publisher-5] [INFO] [1793292335.659584297] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-4] [INFO] [1793292335.660010039] [map_server]: Cleaning up
+[map_server-4] [INFO] [1793292335.660118792] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[rviz2-1] [INFO] [1793292335.660707520] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[gym_bridge-2] Traceback (most recent call last):
+[gym_bridge-2]   File "/home/misys/forza_ws/race_stack/install/f1tenth_gym_ros/lib/f1tenth_gym_ros/gym_bridge", line 33, in <module>
+[gym_bridge-2]     sys.exit(load_entry_point('f1tenth-gym-ros==0.0.0', 'console_scripts', 'gym_bridge')())
+[gym_bridge-2]   File "/home/misys/forza_ws/race_stack/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros/gym_bridge.py", line 648, in main
+[gym_bridge-2]     gym_bridge.destroy_node()
+[gym_bridge-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py", line 1685, in destroy_node
+[gym_bridge-2]     self.destroy_publisher(self._publishers[0])
+[gym_bridge-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py", line 1565, in destroy_publisher
+[gym_bridge-2]     publisher.destroy()
+[gym_bridge-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/publisher.py", line 99, in destroy
+[gym_bridge-2]     self.__publisher.destroy_when_not_in_use()
+[gym_bridge-2] KeyboardInterrupt
+[lifecycle_manager-3] [INFO] [1793292335.678942405] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-4] [INFO] [1793292335.679767917] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-3] [INFO] [1793292335.681993722] [lifecycle_manager_localization]: Destroying lifecycle_manager_localization
+[map_server-4] [INFO] [1793292335.691822921] [map_server]: Destroying
+[INFO] [robot_state_publisher-5]: process has finished cleanly [pid 1697068]
+[INFO] [lifecycle_manager-3]: process has finished cleanly [pid 1697064]
+[INFO] [map_server-4]: process has finished cleanly [pid 1697066]
+[ERROR] [gym_bridge-2]: process has died [pid 1697062, exit code -2, cmd '/home/misys/forza_ws/race_stack/install/f1tenth_gym_ros/lib/f1tenth_gym_ros/gym_bridge --ros-args -r __node:=bridge --params-file /home/misys/forza_ws/race_stack/install/stack_master/share/stack_master/config/SIM/sim.yaml --params-file /tmp/launch_params_gpi3dt3w --params-file /tmp/launch_params_wxpupeb6'].
+[INFO] [rviz2-1]: process has finished cleanly [pid 1697060]

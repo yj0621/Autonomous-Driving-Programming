@@ -1,0 +1,11 @@
+{
+  "selected": "final_model.keras",
+  "source": "fresh_tln_v2.keras",
+  "selection_basis": "validation neural no-reset completions: initial 5/8 versus continued 4/8; held-out test not consulted",
+  "legacy_model_used": false,
+  "initial_training_epochs": 62,
+  "continuation_experiment_epochs": 18,
+  "model_sha256": "6b1d08e7658639e4a1787e068d1cd47d3e15bd889ecefbd43cfad8a5d0a26c9c",
+  "guard_sha256": "d4e5340b9006d80f72f849566084be9cd685881bcdcf3a6168af9e31a1da9fa2",
+  "map": "hangar_1905_v0"
+}

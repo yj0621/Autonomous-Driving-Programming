@@ -1,0 +1,424 @@
+{
+  "classes": [
+    "clear",
+    "left",
+    "right"
+  ],
+  "future_states_for_labels_only": true,
+  "episodes": [
+    {
+      "path": "train_91000",
+      "counts": [
+        153.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91001",
+      "counts": [
+        151.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91002",
+      "counts": [
+        153.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91003",
+      "counts": [
+        153.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91004",
+      "counts": [
+        151.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91005",
+      "counts": [
+        152.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91006",
+      "counts": [
+        152.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91007",
+      "counts": [
+        150.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91008",
+      "counts": [
+        153.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91009",
+      "counts": [
+        149.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91010",
+      "counts": [
+        151.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91011",
+      "counts": [
+        151.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91012",
+      "counts": [
+        135.0,
+        21.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91013",
+      "counts": [
+        120.0,
+        40.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91014",
+      "counts": [
+        73.0,
+        0.0,
+        83.0
+      ],
+      "valid_fraction": 0.9935897588729858
+    },
+    {
+      "path": "train_91015",
+      "counts": [
+        129.0,
+        17.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91016",
+      "counts": [
+        102.0,
+        26.0,
+        33.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91017",
+      "counts": [
+        87.0,
+        0.0,
+        69.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91018",
+      "counts": [
+        125.0,
+        0.0,
+        34.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91019",
+      "counts": [
+        111.0,
+        25.0,
+        29.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91020",
+      "counts": [
+        88.0,
+        27.0,
+        49.0
+      ],
+      "valid_fraction": 0.8902438879013062
+    },
+    {
+      "path": "train_91021",
+      "counts": [
+        128.0,
+        22.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91022",
+      "counts": [
+        102.0,
+        39.0,
+        23.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91023",
+      "counts": [
+        92.0,
+        0.0,
+        62.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91024",
+      "counts": [
+        133.0,
+        28.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91025",
+      "counts": [
+        112.0,
+        18.0,
+        24.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91026",
+      "counts": [
+        88.0,
+        45.0,
+        29.0
+      ],
+      "valid_fraction": 0.895061731338501
+    },
+    {
+      "path": "train_91027",
+      "counts": [
+        131.0,
+        23.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91028",
+      "counts": [
+        117.0,
+        40.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91029",
+      "counts": [
+        98.0,
+        44.0,
+        14.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91030",
+      "counts": [
+        122.0,
+        29.0,
+        0.0
+      ],
+      "valid_fraction": 0.9271523356437683
+    },
+    {
+      "path": "train_91031",
+      "counts": [
+        100.0,
+        58.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91032",
+      "counts": [
+        94.0,
+        51.0,
+        28.0
+      ],
+      "valid_fraction": 0.9364162087440491
+    },
+    {
+      "path": "train_91033",
+      "counts": [
+        121.0,
+        32.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91034",
+      "counts": [
+        109.0,
+        33.0,
+        23.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91035",
+      "counts": [
+        113.0,
+        16.0,
+        43.0
+      ],
+      "valid_fraction": 0.9360465407371521
+    },
+    {
+      "path": "val_92000",
+      "counts": [
+        150.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92001",
+      "counts": [
+        154.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92002",
+      "counts": [
+        150.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92003",
+      "counts": [
+        150.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92004",
+      "counts": [
+        111.0,
+        43.0,
+        0.0
+      ],
+      "valid_fraction": 0.8961039185523987
+    },
+    {
+      "path": "val_92005",
+      "counts": [
+        109.0,
+        42.0,
+        13.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92006",
+      "counts": [
+        121.0,
+        30.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92007",
+      "counts": [
+        110.0,
+        30.0,
+        17.0
+      ],
+      "valid_fraction": 0.8917197585105896
+    },
+    {
+      "path": "val_92008",
+      "counts": [
+        81.0,
+        24.0,
+        49.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92009",
+      "counts": [
+        128.0,
+        0.0,
+        21.0
+      ],
+      "valid_fraction": 1.0
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "pid_rk4_simulator_10step_max_state_error": 0.0,
+  "requested_mean_deceleration_mps2": -2.0,
+  "old_actual_mean_deceleration_mps2": -0.9239991602060083,
+  "new_actual_mean_deceleration_mps2": -2.0658093051128668,
+  "result": "passed",
+  "note": "period mapping uses continuous approximation; actual discrete PID measured above"
+}

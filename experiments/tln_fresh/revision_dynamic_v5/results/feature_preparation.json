@@ -1,0 +1,736 @@
+{
+  "shapes": [
+    [
+      4,
+      541,
+      2
+    ],
+    [
+      94
+    ]
+  ],
+  "orientation_encoding": "cos(4*(object_yaw-body_yaw)), sin(4*(object_yaw-body_yaw)); LiDAR-fitted, square symmetry",
+  "episodes": [
+    {
+      "path": "prepared/test_93000.npz",
+      "raw_path": "data/test_93000.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.722011511162691e-08
+    },
+    {
+      "path": "prepared/test_93001.npz",
+      "raw_path": "data/test_93001.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7026923870844257e-08
+    },
+    {
+      "path": "prepared/test_93002.npz",
+      "raw_path": "data/test_93002.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.6285291337680974e-08
+    },
+    {
+      "path": "prepared/test_93003.npz",
+      "raw_path": "data/test_93003.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.755334722020052e-08
+    },
+    {
+      "path": "prepared/test_93004.npz",
+      "raw_path": "data/test_93004.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7925305684229897e-08
+    },
+    {
+      "path": "prepared/test_93005.npz",
+      "raw_path": "data/test_93005.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7792238793390425e-08
+    },
+    {
+      "path": "prepared/test_93006.npz",
+      "raw_path": "data/test_93006.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.9354596147991288e-08
+    },
+    {
+      "path": "prepared/test_93007.npz",
+      "raw_path": "data/test_93007.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 2.1291844731763376e-08
+    },
+    {
+      "path": "prepared/test_93008.npz",
+      "raw_path": "data/test_93008.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.843491048703072e-08
+    },
+    {
+      "path": "prepared/test_93009.npz",
+      "raw_path": "data/test_93009.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7538415164608523e-08
+    },
+    {
+      "path": "prepared/test_93010.npz",
+      "raw_path": "data/test_93010.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7851494504839138e-08
+    },
+    {
+      "path": "prepared/test_93011.npz",
+      "raw_path": "data/test_93011.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8794310108205536e-08
+    },
+    {
+      "path": "prepared/test_93012.npz",
+      "raw_path": "data/test_93012.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 2.306472346447208e-08
+    },
+    {
+      "path": "prepared/test_93013.npz",
+      "raw_path": "data/test_93013.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.6672489167035565e-08
+    },
+    {
+      "path": "prepared/test_93014.npz",
+      "raw_path": "data/test_93014.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.9565776554486547e-08
+    },
+    {
+      "path": "prepared/test_93015.npz",
+      "raw_path": "data/test_93015.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7792926243487273e-08
+    },
+    {
+      "path": "prepared/test_93016.npz",
+      "raw_path": "data/test_93016.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.5784060281021084e-08
+    },
+    {
+      "path": "prepared/test_93017.npz",
+      "raw_path": "data/test_93017.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.9781722926381917e-08
+    },
+    {
+      "path": "prepared/test_93018.npz",
+      "raw_path": "data/test_93018.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.78877410661471e-08
+    },
+    {
+      "path": "prepared/test_93019.npz",
+      "raw_path": "data/test_93019.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.6627964782855997e-08
+    },
+    {
+      "path": "prepared/test_93020.npz",
+      "raw_path": "data/test_93020.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 2.422066813778656e-08
+    },
+    {
+      "path": "prepared/test_93021.npz",
+      "raw_path": "data/test_93021.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.6885415732303954e-08
+    },
+    {
+      "path": "prepared/test_93022.npz",
+      "raw_path": "data/test_93022.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.883002198610484e-08
+    },
+    {
+      "path": "prepared/test_93023.npz",
+      "raw_path": "data/test_93023.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8920069067007717e-08
+    },
+    {
+      "path": "prepared/train_91000.npz",
+      "raw_path": "data/train_91000.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7861751189229835e-08
+    },
+    {
+      "path": "prepared/train_91001.npz",
+      "raw_path": "data/train_91001.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7213697134366157e-08
+    },
+    {
+      "path": "prepared/train_91002.npz",
+      "raw_path": "data/train_91002.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7489419690264185e-08
+    },
+    {
+      "path": "prepared/train_91003.npz",
+      "raw_path": "data/train_91003.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.719475761774447e-08
+    },
+    {
+      "path": "prepared/train_91004.npz",
+      "raw_path": "data/train_91004.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8068572416041206e-08
+    },
+    {
+      "path": "prepared/train_91005.npz",
+      "raw_path": "data/train_91005.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8102760179772304e-08
+    },
+    {
+      "path": "prepared/train_91006.npz",
+      "raw_path": "data/train_91006.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7207149483056128e-08
+    },
+    {
+      "path": "prepared/train_91007.npz",
+      "raw_path": "data/train_91007.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7532066465264506e-08
+    },
+    {
+      "path": "prepared/train_91008.npz",
+      "raw_path": "data/train_91008.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7136541075046807e-08
+    },
+    {
+      "path": "prepared/train_91009.npz",
+      "raw_path": "data/train_91009.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7514238948024285e-08
+    },
+    {
+      "path": "prepared/train_91010.npz",
+      "raw_path": "data/train_91010.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7162699705863815e-08
+    },
+    {
+      "path": "prepared/train_91011.npz",
+      "raw_path": "data/train_91011.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.6539175362595415e-08
+    },
+    {
+      "path": "prepared/train_91012.npz",
+      "raw_path": "data/train_91012.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 2.005598354060112e-08
+    },
+    {
+      "path": "prepared/train_91013.npz",
+      "raw_path": "data/train_91013.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7853604816764346e-08
+    },
+    {
+      "path": "prepared/train_91014.npz",
+      "raw_path": "data/train_91014.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.9391872996266102e-08
+    },
+    {
+      "path": "prepared/train_91015.npz",
+      "raw_path": "data/train_91015.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8368410792390932e-08
+    },
+    {
+      "path": "prepared/train_91016.npz",
+      "raw_path": "data/train_91016.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7872205049229706e-08
+    },
+    {
+      "path": "prepared/train_91017.npz",
+      "raw_path": "data/train_91017.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8315894578790903e-08
+    },
+    {
+      "path": "prepared/train_91018.npz",
+      "raw_path": "data/train_91018.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7888979186864162e-08
+    },
+    {
+      "path": "prepared/train_91019.npz",
+      "raw_path": "data/train_91019.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8096947940193786e-08
+    },
+    {
+      "path": "prepared/train_91020.npz",
+      "raw_path": "data/train_91020.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.832991713968113e-08
+    },
+    {
+      "path": "prepared/train_91021.npz",
+      "raw_path": "data/train_91021.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.68412661594175e-08
+    },
+    {
+      "path": "prepared/train_91022.npz",
+      "raw_path": "data/train_91022.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7117210759920454e-08
+    },
+    {
+      "path": "prepared/train_91023.npz",
+      "raw_path": "data/train_91023.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.9952603125261703e-08
+    },
+    {
+      "path": "prepared/train_91024.npz",
+      "raw_path": "data/train_91024.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8810624169418588e-08
+    },
+    {
+      "path": "prepared/train_91025.npz",
+      "raw_path": "data/train_91025.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7508254401832346e-08
+    },
+    {
+      "path": "prepared/train_91026.npz",
+      "raw_path": "data/train_91026.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 2.5219421218025673e-08
+    },
+    {
+      "path": "prepared/train_91027.npz",
+      "raw_path": "data/train_91027.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.6704321481597617e-08
+    },
+    {
+      "path": "prepared/train_91028.npz",
+      "raw_path": "data/train_91028.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 2.0025137104084934e-08
+    },
+    {
+      "path": "prepared/train_91029.npz",
+      "raw_path": "data/train_91029.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.928567172626572e-08
+    },
+    {
+      "path": "prepared/train_91030.npz",
+      "raw_path": "data/train_91030.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.86923490019808e-08
+    },
+    {
+      "path": "prepared/train_91031.npz",
+      "raw_path": "data/train_91031.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7239090155385384e-08
+    },
+    {
+      "path": "prepared/train_91032.npz",
+      "raw_path": "data/train_91032.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8565332382536326e-08
+    },
+    {
+      "path": "prepared/train_91033.npz",
+      "raw_path": "data/train_91033.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8463053308437338e-08
+    },
+    {
+      "path": "prepared/train_91034.npz",
+      "raw_path": "data/train_91034.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8176391947122283e-08
+    },
+    {
+      "path": "prepared/train_91035.npz",
+      "raw_path": "data/train_91035.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7843264643602197e-08
+    },
+    {
+      "path": "prepared/train_91036.npz",
+      "raw_path": "data/train_91036.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.6095226484935665e-08
+    },
+    {
+      "path": "prepared/train_91037.npz",
+      "raw_path": "data/train_91037.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7418722464412895e-08
+    },
+    {
+      "path": "prepared/train_91038.npz",
+      "raw_path": "data/train_91038.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.9919511373700516e-08
+    },
+    {
+      "path": "prepared/train_91039.npz",
+      "raw_path": "data/train_91039.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8021035330662016e-08
+    },
+    {
+      "path": "prepared/train_91040.npz",
+      "raw_path": "data/train_91040.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.880478350813064e-08
+    },
+    {
+      "path": "prepared/train_91041.npz",
+      "raw_path": "data/train_91041.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.9588528132885585e-08
+    },
+    {
+      "path": "prepared/train_91042.npz",
+      "raw_path": "data/train_91042.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.6727488727497075e-08
+    },
+    {
+      "path": "prepared/train_91043.npz",
+      "raw_path": "data/train_91043.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.854378339771756e-08
+    },
+    {
+      "path": "prepared/train_91044.npz",
+      "raw_path": "data/train_91044.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 2.33785648617868e-08
+    },
+    {
+      "path": "prepared/train_91045.npz",
+      "raw_path": "data/train_91045.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8002845436626558e-08
+    },
+    {
+      "path": "prepared/train_91046.npz",
+      "raw_path": "data/train_91046.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 2.2671176935773474e-08
+    },
+    {
+      "path": "prepared/train_91047.npz",
+      "raw_path": "data/train_91047.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8255612133089016e-08
+    },
+    {
+      "path": "prepared/train_91048.npz",
+      "raw_path": "data/train_91048.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.794807502619733e-08
+    },
+    {
+      "path": "prepared/train_91049.npz",
+      "raw_path": "data/train_91049.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7934668861130376e-08
+    },
+    {
+      "path": "prepared/train_91050.npz",
+      "raw_path": "data/train_91050.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.6527263113630397e-08
+    },
+    {
+      "path": "prepared/train_91051.npz",
+      "raw_path": "data/train_91051.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7134855312406216e-08
+    },
+    {
+      "path": "prepared/train_91052.npz",
+      "raw_path": "data/train_91052.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 2.6734797486938078e-08
+    },
+    {
+      "path": "prepared/train_91053.npz",
+      "raw_path": "data/train_91053.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.9162568420938442e-08
+    },
+    {
+      "path": "prepared/train_91054.npz",
+      "raw_path": "data/train_91054.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7235469940146686e-08
+    },
+    {
+      "path": "prepared/train_91055.npz",
+      "raw_path": "data/train_91055.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8661086897964196e-08
+    },
+    {
+      "path": "prepared/train_91056.npz",
+      "raw_path": "data/train_91056.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.938926885713954e-08
+    },
+    {
+      "path": "prepared/train_91057.npz",
+      "raw_path": "data/train_91057.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8205525975645287e-08
+    },
+    {
+      "path": "prepared/train_91058.npz",
+      "raw_path": "data/train_91058.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7673341901058848e-08
+    },
+    {
+      "path": "prepared/train_91059.npz",
+      "raw_path": "data/train_91059.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 2.0567643588265128e-08
+    },
+    {
+      "path": "prepared/train_91060.npz",
+      "raw_path": "data/train_91060.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7077843139645665e-08
+    },
+    {
+      "path": "prepared/train_91061.npz",
+      "raw_path": "data/train_91061.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 2.0951970824967248e-08
+    },
+    {
+      "path": "prepared/train_91062.npz",
+      "raw_path": "data/train_91062.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 2.1063961241907236e-08
+    },
+    {
+      "path": "prepared/train_91063.npz",
+      "raw_path": "data/train_91063.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.912406943915812e-08
+    },
+    {
+      "path": "prepared/train_91064.npz",
+      "raw_path": "data/train_91064.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.775010893823037e-08
+    },
+    {
+      "path": "prepared/train_91065.npz",
+      "raw_path": "data/train_91065.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8997551975985516e-08
+    },
+    {
+      "path": "prepared/train_91066.npz",
+      "raw_path": "data/train_91066.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8217763297911915e-08
+    },
+    {
+      "path": "prepared/train_91067.npz",
+      "raw_path": "data/train_91067.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7475432656510748e-08
+    },
+    {
+      "path": "prepared/train_91068.npz",
+      "raw_path": "data/train_91068.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7873366786602674e-08
+    },
+    {
+      "path": "prepared/train_91069.npz",
+      "raw_path": "data/train_91069.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.9397020878386684e-08
+    },
+    {
+      "path": "prepared/train_91070.npz",
+      "raw_path": "data/train_91070.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.865642573761761e-08
+    },
+    {
+      "path": "prepared/train_91071.npz",
+      "raw_path": "data/train_91071.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.893184986556662e-08
+    },
+    {
+      "path": "prepared/train_91072.npz",
+      "raw_path": "data/train_91072.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7566273768920837e-08
+    },
+    {
+      "path": "prepared/train_91073.npz",
+      "raw_path": "data/train_91073.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8291336445486195e-08
+    },
+    {
+      "path": "prepared/train_91074.npz",
+      "raw_path": "data/train_91074.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 2.0194081074009773e-08
+    },
+    {
+      "path": "prepared/train_91075.npz",
+      "raw_path": "data/train_91075.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7653773554116015e-08
+    },
+    {
+      "path": "prepared/train_91076.npz",
+      "raw_path": "data/train_91076.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8774237275920314e-08
+    },
+    {
+      "path": "prepared/train_91077.npz",
+      "raw_path": "data/train_91077.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.869113397390265e-08
+    },
+    {
+      "path": "prepared/train_91078.npz",
+      "raw_path": "data/train_91078.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.6916784417730923e-08
+    },
+    {
+      "path": "prepared/train_91079.npz",
+      "raw_path": "data/train_91079.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8392062983707547e-08
+    },
+    {
+      "path": "prepared/val_92000.npz",
+      "raw_path": "data/val_92000.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.665976867570862e-08
+    },
+    {
+      "path": "prepared/val_92001.npz",
+      "raw_path": "data/val_92001.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.6766824373348754e-08
+    },
+    {
+      "path": "prepared/val_92002.npz",
+      "raw_path": "data/val_92002.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.709326191701166e-08
+    },
+    {
+      "path": "prepared/val_92003.npz",
+      "raw_path": "data/val_92003.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.6777965683445473e-08
+    },
+    {
+      "path": "prepared/val_92004.npz",
+      "raw_path": "data/val_92004.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.730846577174816e-08
+    },
+    {
+      "path": "prepared/val_92005.npz",
+      "raw_path": "data/val_92005.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.999970500321524e-08
+    },
+    {
+      "path": "prepared/val_92006.npz",
+      "raw_path": "data/val_92006.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7868199364556858e-08
+    },
+    {
+      "path": "prepared/val_92007.npz",
+      "raw_path": "data/val_92007.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8171949278666943e-08
+    },
+    {
+      "path": "prepared/val_92008.npz",
+      "raw_path": "data/val_92008.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7344801150898093e-08
+    },
+    {
+      "path": "prepared/val_92009.npz",
+      "raw_path": "data/val_92009.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7161315923885923e-08
+    },
+    {
+      "path": "prepared/val_92010.npz",
+      "raw_path": "data/val_92010.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.843911334731274e-08
+    },
+    {
+      "path": "prepared/val_92011.npz",
+      "raw_path": "data/val_92011.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.9838738651856147e-08
+    },
+    {
+      "path": "prepared/val_92012.npz",
+      "raw_path": "data/val_92012.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8815985214359898e-08
+    },
+    {
+      "path": "prepared/val_92013.npz",
+      "raw_path": "data/val_92013.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.8732521311903838e-08
+    },
+    {
+      "path": "prepared/val_92014.npz",
+      "raw_path": "data/val_92014.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.957358364279571e-08
+    },
+    {
+      "path": "prepared/val_92015.npz",
+      "raw_path": "data/val_92015.npz",
+      "source_sha256": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+      "reencoded_first86_mean_abs_delta": 1.7272911989607564e-08
+    }
+  ],
+  "ground_truth_obstacles_used": false
+}

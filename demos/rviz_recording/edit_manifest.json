@@ -1,0 +1,53 @@
+[
+  {
+    "file": "pp_verified_raw.mp4",
+    "start": 3.3,
+    "title": "PurePursuit · 긴 lookahead 설정에서 벽 충돌",
+    "params": "t_clip_min=1.5  /  t_clip_max=6.0  /  m_l1=1.0  /  q_l1=0.8  /  speed scale=0.65",
+    "note": "코너 안쪽으로 경로 이탈 → 시뮬레이터 wall 충돌 신호 확인",
+    "detail": "청록색: 실제 주행 궤적   |   녹색: local waypoints   |   원: 차량 위치 강조",
+    "roi": [
+      1210,
+      465,
+      1430,
+      635
+    ],
+    "duration": 6,
+    "playback_speed": 1,
+    "output_start": 0
+  },
+  {
+    "file": "local_verified_raw.mp4",
+    "start": 6.0,
+    "title": "Local planner · 회피 경로 생성 실패와 정체",
+    "params": "실제 spline_planner  /  evasion_dist=1.40 m  /  장애물 0.30 m  /  speed scale=0.25",
+    "note": "TRACKBOUNDS 제약으로 회피 취소 · 출력 0점 · TRAILING 상태로 감속",
+    "detail": "실행 로그: Evasion trajectory too close to TRACKBOUNDS, aborting evasion",
+    "roi": [
+      1250,
+      330,
+      1470,
+      500
+    ],
+    "duration": 6,
+    "playback_speed": 1,
+    "output_start": 6
+  },
+  {
+    "file": "tln_verified_raw.mp4",
+    "start": 3.3,
+    "title": "TinyLidarNet · 경로 이탈과 벽 충돌",
+    "params": "실제 TLN_aug.keras 추론  /  기본 v_min=3.0 m/s  /  정적 장애물 3개 배치",
+    "note": "벽 충돌 이후에도 양의 속도 명령 유지 · 정지 상태에서 v_cmd ≈ 4.0 m/s",
+    "detail": "TLN이 직접 구동하며 planner/state 출력은 TLN 제어에 사용하지 않음",
+    "roi": [
+      740,
+      300,
+      960,
+      470
+    ],
+    "duration": 6,
+    "playback_speed": 1,
+    "output_start": 12
+  }
+]

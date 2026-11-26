@@ -1,0 +1,357 @@
+{
+  "active": true,
+  "map": "hangar_1905_v0",
+  "controller": "new TLN + geometric guard",
+  "obstacles": [
+    {
+      "id": 1,
+      "s": 10.0,
+      "d": 0.22,
+      "x": 3.205998815479395,
+      "y": 9.149585960578543,
+      "theta": 1.5735628058527247,
+      "size_m": 0.3,
+      "location": "straight"
+    },
+    {
+      "id": 2,
+      "s": 33.1,
+      "d": 0.28,
+      "x": 0.39027206855712643,
+      "y": 13.383974312189197,
+      "theta": -3.0533681303643734,
+      "size_m": 0.3,
+      "location": "corner_exit"
+    },
+    {
+      "id": 3,
+      "s": 46.0,
+      "d": -0.2,
+      "x": -1.0681376173058508,
+      "y": 8.596619970151705,
+      "theta": -1.3021561021579207,
+      "size_m": 0.3,
+      "location": "return"
+    }
+  ],
+  "current_progress_m": 16.597052729588242,
+  "laps": [
+    {
+      "elapsed_wall_s": 28.071880183997564,
+      "progress_m": 55.39016392886671,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 27.195241550987703,
+      "progress_m": 55.390163928866706,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 29.291595835995395,
+      "progress_m": 55.39016392886671,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 29.794074443998397,
+      "progress_m": 55.390163928866706,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 29.700172689001192,
+      "progress_m": 55.39016392886671,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 30.953086495006573,
+      "progress_m": 55.39016392886672,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 29.8391584159981,
+      "progress_m": 55.39016392886671,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 29.882977474990184,
+      "progress_m": 55.39016392886671,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 29.536921309001627,
+      "progress_m": 55.390163928866706,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 30.22894986999745,
+      "progress_m": 55.39016392886671,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 29.709817160008242,
+      "progress_m": 55.3901639288667,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 29.931245608997415,
+      "progress_m": 55.390163928866706,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 34.82590822399652,
+      "progress_m": 55.3901639288667,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 31.31151141600276,
+      "progress_m": 55.390163928866706,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 30.430480331007857,
+      "progress_m": 55.3901639288667,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 27.518670032004593,
+      "progress_m": 55.390163928866706,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 29.877484558994183,
+      "progress_m": 55.39016392886671,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 30.036164099001326,
+      "progress_m": 55.3901639288667,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 30.097258395995595,
+      "progress_m": 55.390163928866706,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 30.267307534013526,
+      "progress_m": 55.3901639288667,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 30.04751964699244,
+      "progress_m": 55.3901639288667,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 29.585097758012125,
+      "progress_m": 55.390163928866706,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 28.117796270002145,
+      "progress_m": 55.3901639288667,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 30.11688050799421,
+      "progress_m": 55.390163928866706,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 30.057355854005436,
+      "progress_m": 55.3901639288667,
+      "collision_free": true
+    }
+  ],
+  "events": [
+    {
+      "event": "activated",
+      "time": 1793171644.1585367,
+      "car_s": 13.897532104896177
+    },
+    {
+      "event": "full_lap",
+      "time": 1793171669.7383726,
+      "elapsed_wall_s": 28.071880183997564,
+      "progress_m": 55.39016392886671,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793171696.933755,
+      "elapsed_wall_s": 27.195241550987703,
+      "progress_m": 55.390163928866706,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793171723.8382182,
+      "elapsed_wall_s": 29.291595835995395,
+      "progress_m": 55.39016392886671,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793171751.1978164,
+      "elapsed_wall_s": 29.794074443998397,
+      "progress_m": 55.390163928866706,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793171778.4434037,
+      "elapsed_wall_s": 29.700172689001192,
+      "progress_m": 55.39016392886671,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793171806.9086194,
+      "elapsed_wall_s": 30.953086495006573,
+      "progress_m": 55.39016392886672,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793171834.266933,
+      "elapsed_wall_s": 29.8391584159981,
+      "progress_m": 55.39016392886671,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793171861.7496154,
+      "elapsed_wall_s": 29.882977474990184,
+      "progress_m": 55.39016392886671,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793171888.7878206,
+      "elapsed_wall_s": 29.536921309001627,
+      "progress_m": 55.390163928866706,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793171916.4709022,
+      "elapsed_wall_s": 30.22894986999745,
+      "progress_m": 55.39016392886671,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793171943.8812048,
+      "elapsed_wall_s": 29.709817160008242,
+      "progress_m": 55.3901639288667,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793171971.3590631,
+      "elapsed_wall_s": 29.931245608997415,
+      "progress_m": 55.390163928866706,
+      "collision_free": true
+    },
+    {
+      "event": "stopped",
+      "time": 1793171985.1591506,
+      "progress_m": 18.39673314604961
+    },
+    {
+      "event": "full_lap",
+      "time": 1793172003.6621118,
+      "elapsed_wall_s": 34.82590822399652,
+      "progress_m": 55.3901639288667,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793172032.560342,
+      "elapsed_wall_s": 31.31151141600276,
+      "progress_m": 55.390163928866706,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793172060.4678054,
+      "elapsed_wall_s": 30.430480331007857,
+      "progress_m": 55.3901639288667,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793172087.9866238,
+      "elapsed_wall_s": 27.518670032004593,
+      "progress_m": 55.390163928866706,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793172115.5570354,
+      "elapsed_wall_s": 29.877484558994183,
+      "progress_m": 55.39016392886671,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793172143.1193984,
+      "elapsed_wall_s": 30.036164099001326,
+      "progress_m": 55.3901639288667,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793172170.7885084,
+      "elapsed_wall_s": 30.097258395995595,
+      "progress_m": 55.390163928866706,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793172198.5403264,
+      "elapsed_wall_s": 30.267307534013526,
+      "progress_m": 55.3901639288667,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793172226.2069304,
+      "elapsed_wall_s": 30.04751964699244,
+      "progress_m": 55.3901639288667,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793172253.3110032,
+      "elapsed_wall_s": 29.585097758012125,
+      "progress_m": 55.390163928866706,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793172278.9274046,
+      "elapsed_wall_s": 28.117796270002145,
+      "progress_m": 55.3901639288667,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793172306.5774012,
+      "elapsed_wall_s": 30.11688050799421,
+      "progress_m": 55.390163928866706,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793172334.1788356,
+      "elapsed_wall_s": 30.057355854005436,
+      "progress_m": 55.3901639288667,
+      "collision_free": true
+    },
+    {
+      "event": "stopped",
+      "time": 1793172344.6586003,
+      "progress_m": 16.597052729588242
+    }
+  ]
+}

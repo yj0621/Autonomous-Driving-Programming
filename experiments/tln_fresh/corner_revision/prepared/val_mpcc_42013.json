@@ -1,0 +1,49 @@
+{
+  "mode": "mpcc",
+  "obstacles": [
+    {
+      "id": "s005d+03t1",
+      "s": 7.598650647281363,
+      "d": 0.3,
+      "theta": 1.9636453883725469,
+      "x": 3.1279937549781702,
+      "y": 6.748801873341998,
+      "side": "LEFT",
+      "severity": 0.651,
+      "visibility": 6.6,
+      "half_w": 0.1959844447314565
+    },
+    {
+      "id": "s052d+01t0",
+      "s": 31.09447830663821,
+      "d": 0.1,
+      "theta": -1.5880232373550296,
+      "x": 1.4818120422285257,
+      "y": 15.155202901637105,
+      "side": "RIGHT",
+      "severity": 0.205,
+      "visibility": 4.2,
+      "half_w": 0.15
+    }
+  ],
+  "start_s": 0.0,
+  "required_progress_m": 55.29018168350776,
+  "recipe": "spread:1.0 forced:2:0.20",
+  "relaxed": [],
+  "split": "val",
+  "seed": 42013,
+  "success": true,
+  "collision": null,
+  "progress_m": 55.39016392886671,
+  "sim_time_s": 40.2,
+  "wall_time_s": 30.932146072387695,
+  "solver_failures": 0,
+  "samples": 402,
+  "mean_abs_raceline_error_m": 0.1285274920344342,
+  "teacher": "CornerMPCC",
+  "teacher_sha256": "54f4b860cfa245dacfab5e289a988fcc34e307df719bedcd44268915f2e45a66",
+  "no_reset": true,
+  "raw_lidar_recorded": true,
+  "obstacle_gt_student_input": false,
+  "source_raw": "corner_revision/data/val_mpcc_42013.npz"
+}

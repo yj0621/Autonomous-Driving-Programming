@@ -1,0 +1,35 @@
+{
+  "criterion": "minimum validation weighted Huber; no test metrics used",
+  "validation_seeds": [
+    203,
+    210,
+    211
+  ],
+  "validation_samples": 1108,
+  "candidates": [
+    {
+      "checkpoint": "tln_temporal_mpcc_bc.keras",
+      "weighted_huber": 0.010478713588270341,
+      "steer_mae_rad": 0.022381693124771118,
+      "speed_mae_mps": 0.22483063861727715
+    },
+    {
+      "checkpoint": "tln_temporal_mpcc_dagger.keras",
+      "weighted_huber": 0.009910983959367594,
+      "steer_mae_rad": 0.021220285892486573,
+      "speed_mae_mps": 0.21808238700032234
+    },
+    {
+      "checkpoint": "tln_temporal_mpcc_refined.keras",
+      "weighted_huber": 0.004064716571510963,
+      "steer_mae_rad": 0.017504671365022657,
+      "speed_mae_mps": 0.09796205908060074
+    }
+  ],
+  "selected": {
+    "checkpoint": "tln_temporal_mpcc_refined.keras",
+    "weighted_huber": 0.004064716571510963,
+    "steer_mae_rad": 0.017504671365022657,
+    "speed_mae_mps": 0.09796205908060074
+  }
+}

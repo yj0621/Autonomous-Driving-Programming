@@ -1,0 +1,57 @@
+{
+  "split": "val",
+  "mode": "mpcc",
+  "seed": 82007,
+  "success": true,
+  "collision": null,
+  "start_s": 14.348592499674726,
+  "obstacles": [
+    {
+      "x": 0.6435119894477238,
+      "y": 13.989856385591802,
+      "theta": -2.4649683337315906,
+      "s": 32.691520340592575,
+      "d": -0.23978375141210484,
+      "size_m": 0.3
+    },
+    {
+      "x": 1.284495282223814,
+      "y": 20.4788769735103,
+      "theta": 3.2249711794094704,
+      "s": 22.19511035798875,
+      "d": 0.23886542527608745,
+      "size_m": 0.3
+    },
+    {
+      "x": -1.044364877806222,
+      "y": 15.685366913760948,
+      "theta": 2.3245824268458817,
+      "s": 35.87684197868692,
+      "d": 0.3784515394877692,
+      "size_m": 0.3
+    }
+  ],
+  "corner_biased": false,
+  "progress_m": 55.339032515523925,
+  "sim_time_s": 25.6,
+  "wall_time_s": 52.06480746800662,
+  "samples": 256,
+  "mean_actual_speed_mps": 2.1824255037278903,
+  "max_actual_speed_mps": 3.0633621511805385,
+  "mean_abs_raceline_error_m": 0.12295446961470467,
+  "solver_failures": 0,
+  "recovery_steps": 0,
+  "max_observed_object_count": 2,
+  "teacher_gt_obstacle_input": false,
+  "teacher_obstacles": "LiDAR/map connected-corridor perception; uncertainty inflated; no layout GT supplied to Expert.act",
+  "source": "entirely new direct physical simulation, no earlier episode reused",
+  "teacher_source_sha256": {
+    "mpcc_teacher.py": "b402bf31c67d75e4edf98b24378ada5dc47f3c4bd208710d293ee8a4f287dfd3",
+    "mpcc_core.py": "c41d8c3d3152a988ffbaa8940fffdee24c2075c35207bea5c0215a12f09f1a61",
+    "beam_path.py": "c3eb33684de2734fb295516c4745f70fe9036c21d62baee25143ebacb40bc613",
+    "frenet_guide.py": "8d865a49b07c728d48fc046a0029951a3d766b5094bcfe21a9773ec4892339d8",
+    "recovery.py": "67e5c460539a7cd4613343491b0671d99f8f1f002cf24fa1aa7edba6f61625b8",
+    "sensors.py": "dfb778d760b0a74d7f7db56fe55c1637e2e8d30389f01bede020edab70fda034"
+  },
+  "collector_sha256": "e059d3f416cd095767241e811d93462e8a893ab19ecae3ddf03e43529de9e710"
+}

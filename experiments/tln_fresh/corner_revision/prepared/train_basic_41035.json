@@ -1,0 +1,22 @@
+{
+  "mode": "basic",
+  "obstacles": [],
+  "start_s": 15.0,
+  "required_progress_m": 55.29018168350776,
+  "split": "train",
+  "seed": 41035,
+  "success": true,
+  "collision": null,
+  "progress_m": 55.48748297807049,
+  "sim_time_s": 27.5,
+  "wall_time_s": -0.6931090354919434,
+  "solver_failures": 0,
+  "samples": 275,
+  "mean_abs_raceline_error_m": 0.06864655125526055,
+  "teacher": "basic_tracker",
+  "teacher_sha256": "54f4b860cfa245dacfab5e289a988fcc34e307df719bedcd44268915f2e45a66",
+  "no_reset": true,
+  "raw_lidar_recorded": true,
+  "obstacle_gt_student_input": false,
+  "source_raw": "corner_revision/data/train_basic_41035.npz"
+}

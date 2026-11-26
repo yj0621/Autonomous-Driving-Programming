@@ -1,0 +1,34 @@
+{
+  "split": "train",
+  "mode": "avoidance",
+  "seed": 1012,
+  "start_s": 0.0,
+  "success": true,
+  "collision": null,
+  "progress_m": 54.89025270207194,
+  "sim_time_s": 33.1,
+  "wall_time_s": 27.818930625915527,
+  "solver_failures": 0,
+  "samples": 331,
+  "mean_abs_raceline_error_m": 0.06749453377623911,
+  "obstacles": [
+    {
+      "id": "s005d+00t0",
+      "s": 7.598650647281363,
+      "d": 0.0,
+      "theta": 1.5709463066738227,
+      "x": 3.4279937516040757,
+      "y": 6.748846867305507,
+      "side": "LEFT",
+      "severity": 0.305,
+      "visibility": 6.7,
+      "half_w": 0.15
+    }
+  ],
+  "recipe": "spread:0.5 forced:1:0.30 either:1:0.20",
+  "relaxed": [
+    "either: dropped, no room left in num_obstacles"
+  ],
+  "source_npz": "/home/misys/forza_ws/race_stack/experiments/tln_fresh/data/train_avoidance_1012.npz",
+  "map_foreground_from_lidar_and_pose_only": true
+}

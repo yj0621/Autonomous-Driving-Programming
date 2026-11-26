@@ -1,0 +1,26 @@
+{
+  "bag": "/home/misys/forza_ws/race_stack/experiments/tln_fresh/revision_dynamic_v5/ros_teacher_synced",
+  "topic_counts": {
+    "/initialpose": 0,
+    "/drive": 562,
+    "/tln/control_debug": 562,
+    "/car_state/odom_GT": 5605,
+    "/scan": 5604,
+    "/sim/collision": 5604,
+    "/sim/physics_state_stamped": 5605,
+    "/sim/physics_state": 5605,
+    "/sim/obstacles": 111
+  },
+  "unique_odom_frames": 5605,
+  "collision_messages": 0,
+  "collision_events": 0,
+  "pose_resets": 0,
+  "full_path_traversals": 2,
+  "physics_duration_s": 56.040000001223234,
+  "mean_speed_mps": 3.0201286857499596,
+  "max_speed_mps": 4.182494564415943,
+  "observed_obstacle_counts": [
+    3
+  ],
+  "role": "MPCC teacher runtime validation; not claimed as final student raw-scan recording or used for new training"
+}

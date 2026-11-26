@@ -1,0 +1,13 @@
+{
+  "selected": "corner_revision/results_dagger/fresh_tln_corner.keras",
+  "final_copy": "corner_revision/results/final_model_corner.keras",
+  "sha256": "446056944410e3dfa87449a4a04e963a3d8f91f208cbd5765af348e489e4cd42",
+  "selection_primary": "no-reset neural validation completions across all 25 held-out validation scenarios",
+  "initial_neural_val_successes": 15,
+  "dagger_neural_val_successes": 16,
+  "validation_trials": 25,
+  "test_consulted": false,
+  "legacy_tln_weights_used": false,
+  "training_initialization": "from scratch; DAgger student was used only for collecting behavior, never initial training weights",
+  "frozen_at_unix": 1793121137.738354
+}

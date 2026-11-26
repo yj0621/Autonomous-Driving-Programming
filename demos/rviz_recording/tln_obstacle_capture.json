@@ -1,0 +1,14 @@
+{
+  "capture_wall_start": 1793292032.6577578,
+  "command_wall_time": 1793292035.6621723,
+  "command": {
+    "mode": "tln",
+    "case": "TinyLidarNet | TLN_aug.keras",
+    "reset": 300,
+    "obstacles": [
+      345
+    ],
+    "run_id": 1793292032.6564262
+  },
+  "duration": 14.0
+}

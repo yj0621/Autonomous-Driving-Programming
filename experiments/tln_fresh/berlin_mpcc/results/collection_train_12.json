@@ -1,0 +1,43 @@
+[
+  {
+    "seed": 91012,
+    "index": 12,
+    "split": "train",
+    "mode": "avoidance_mpcc",
+    "success": true,
+    "collision": null,
+    "start_s": 13.235536930271532,
+    "obstacles": [
+      {
+        "x": -3.488515227679205,
+        "y": -3.7591588930142525,
+        "theta": 2.7578714761401573,
+        "s": 26.61898566081922,
+        "d": 0.016069433665361788,
+        "size_m": 0.3
+      }
+    ],
+    "progress_m": 49.04392133809996,
+    "sim_time_s": 15.8,
+    "wall_s": 4.636910907000129,
+    "samples": 158,
+    "teacher_failed_frames": 0,
+    "mean_speed_mps": 3.1420960817639614,
+    "max_speed_mps": 4.197509645518692,
+    "reverse_steps": 0,
+    "pose_resets": 0,
+    "source_sha256": {
+      "inputs.py": "05d4a978ce6e0d3e05154e6c0595669492af0467e11ad667a7b4b5b6c5c3651b",
+      "frenet_guide.py": "b6d3c2700a5ba24f6b62964220adfce49e8164a71149a85fb918bf778901531c",
+      "train_moe96.py": "f9fefa63b293f617d0b303bfdb8c66e85ae7e5893485fe5c0bdddc76a7720a13",
+      "collect.py": "c00a737f9d3e77d0aeb58b8e48fb46c3ea332e785b2dd6d2c8c8edd97b7c8aaa",
+      "prepare.py": "ea5036284597babaa02b5d01c4b31eae4be54955ff67aa662f1c1997d9ab6591",
+      "decode.py": "bbe785e297ee7c36a37eb9e6623dc5d367518f8a5e6e8ba4036098c94542807f",
+      "sampled_mpcc.py": "63e929092b7b7f0282473a1d6a5e1d11f118fc3d116e9ab6b59c2ce4a3f1bbcb",
+      "prepare_moe.py": "95ef00b0e6440b065992e85c5a51bc69830f4ce8f9c51cfd32eb8fb8fdfc1e2f",
+      "physics.py": "1c7d86963369a2dcee4bab9da706de51b1943572e3bb4f1162d3160c47b2bc4f"
+    },
+    "teacher_gt_obstacle_input": false,
+    "teacher_state": "same measured pose/speed/steer/yaw-rate; slip estimated from speed and yaw-rate"
+  }
+]

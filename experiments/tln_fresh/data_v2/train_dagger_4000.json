@@ -1,0 +1,12 @@
+{
+  "split": "train",
+  "mode": "dagger_new",
+  "seed": 4000,
+  "success": false,
+  "collision": "obstacle",
+  "samples": 176,
+  "teacher_interventions": 127,
+  "progress_m": 26.095366038689914,
+  "source": "current randomly-initialized generation only",
+  "legacy_model_used": false
+}

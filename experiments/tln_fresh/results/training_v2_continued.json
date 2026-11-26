@@ -1,0 +1,439 @@
+{
+  "continued_new_generation_checkpoint": true,
+  "continued_checkpoint_sha256": "6b1d08e7658639e4a1787e068d1cd47d3e15bd889ecefbd43cfad8a5d0a26c9c",
+  "original_random_initialization_sha256": "4348024f6ffdbf8a0585826b3b6f58b5bbaae27652a4d6f8c85e6cb4149c7d77",
+  "legacy_pretrained_weights_used": false,
+  "legacy_tln_model_used": false,
+  "legacy_driving_data_used": false,
+  "initialization": "continuation of this task new-generation model; first three convolution layers frozen; no legacy weights",
+  "initial_weights_sha256": "5bcfdaf40bc2ed1805aed247e5605ffa1f33fd0054778553ed57ff924760c1fa",
+  "train_episodes": [
+    {
+      "path": "data_v2/train_avoidance_1008.npz",
+      "seed": 1008,
+      "mode": "avoidance",
+      "samples": 326,
+      "sha256": "a85bbf91174d862b90fa34309ebccb31d6e34c0f52746a1985e5c5c7a0c24847"
+    },
+    {
+      "path": "data_v2/train_avoidance_1009.npz",
+      "seed": 1009,
+      "mode": "avoidance",
+      "samples": 362,
+      "sha256": "a8ca90597313ceb26d027c7d5804bf70b7d0e6f837f9fca689587ee9e8b633f8"
+    },
+    {
+      "path": "data_v2/train_avoidance_1010.npz",
+      "seed": 1010,
+      "mode": "avoidance",
+      "samples": 331,
+      "sha256": "6476add37f1ac8a1fea519aeac906ffdac8a5f5fdd0bc30cc17898208f0a101f"
+    },
+    {
+      "path": "data_v2/train_avoidance_1011.npz",
+      "seed": 1011,
+      "mode": "avoidance",
+      "samples": 364,
+      "sha256": "62d224405a269bd608ff14cdfaae93069acc49080405594770507213631c86ad"
+    },
+    {
+      "path": "data_v2/train_avoidance_1012.npz",
+      "seed": 1012,
+      "mode": "avoidance",
+      "samples": 331,
+      "sha256": "f6f7518edf5f96e1ee561a721998a7f7061fb2cdb6d6eb5abba446bb918e6fd1"
+    },
+    {
+      "path": "data_v2/train_avoidance_1013.npz",
+      "seed": 1013,
+      "mode": "avoidance",
+      "samples": 362,
+      "sha256": "10fc3de2d9d6070cec390caa078254109eb0ec9e3d791b69c1a36b52ef0a9f57"
+    },
+    {
+      "path": "data_v2/train_avoidance_1014.npz",
+      "seed": 1014,
+      "mode": "avoidance",
+      "samples": 331,
+      "sha256": "a7c897b4f2ed7b3dcd4a9bb7d35ba720e05b5d15d41e606db4c19d3f08ee852c"
+    },
+    {
+      "path": "data_v2/train_avoidance_1015.npz",
+      "seed": 1015,
+      "mode": "avoidance",
+      "samples": 364,
+      "sha256": "4230942018d4e477f218f2f200c542bc406e47a20bb1e23158c0c3fc8494a644"
+    },
+    {
+      "path": "data_v2/train_avoidance_1016.npz",
+      "seed": 1016,
+      "mode": "avoidance",
+      "samples": 331,
+      "sha256": "4d3f57777f72c4faa5ee83d90d06139ee11b23a051d6458b2b9d06c48968c6f5"
+    },
+    {
+      "path": "data_v2/train_avoidance_1018.npz",
+      "seed": 1018,
+      "mode": "avoidance",
+      "samples": 330,
+      "sha256": "863fcb87a5e81aaba5877dc58109c7b8bfa9009e9e24a09c211126169986aaed"
+    },
+    {
+      "path": "data_v2/train_avoidance_1019.npz",
+      "seed": 1019,
+      "mode": "avoidance",
+      "samples": 365,
+      "sha256": "516c1d4c0019e8b314098f59ab1d5b1fe9a35d20687451ba59c0143fa492ac52"
+    },
+    {
+      "path": "data_v2/train_basic_1000.npz",
+      "seed": 1000,
+      "mode": "basic",
+      "samples": 270,
+      "sha256": "f14025fb190cf0b31a8765c0a7f7893f7ce3fddb08bed5dfe16c7499d4d4ffc6"
+    },
+    {
+      "path": "data_v2/train_basic_1001.npz",
+      "seed": 1001,
+      "mode": "basic",
+      "samples": 272,
+      "sha256": "fc35c7f294e1e44b100d091b1833155c0a0ab8df4bbee4b52be9491a8d775312"
+    },
+    {
+      "path": "data_v2/train_basic_1002.npz",
+      "seed": 1002,
+      "mode": "basic",
+      "samples": 273,
+      "sha256": "5463d595615eeb4f71c2cdeae82cc3ad7510f40d567d60baad160df08294397d"
+    },
+    {
+      "path": "data_v2/train_basic_1003.npz",
+      "seed": 1003,
+      "mode": "basic",
+      "samples": 272,
+      "sha256": "ec088fea0505cd7189c6dcc1080eeb209c1ba4ee237f14b46282cb1d7d123db1"
+    },
+    {
+      "path": "data_v2/train_basic_1004.npz",
+      "seed": 1004,
+      "mode": "basic",
+      "samples": 271,
+      "sha256": "9d1e158aaa527c635d52dfb2c0a4942386cb8cc12eaa1dd26f76278be0e9c2f8"
+    },
+    {
+      "path": "data_v2/train_basic_1005.npz",
+      "seed": 1005,
+      "mode": "basic",
+      "samples": 272,
+      "sha256": "614b99ed4d9ad327905233b697497ef679ef70862394171b1eb0ee3081fe7355"
+    },
+    {
+      "path": "data_v2/train_basic_1006.npz",
+      "seed": 1006,
+      "mode": "basic",
+      "samples": 273,
+      "sha256": "ec72d3616b4f5c225e0831c8b1b128e983fd2111567ec1884e1d560b52301174"
+    },
+    {
+      "path": "data_v2/train_basic_1007.npz",
+      "seed": 1007,
+      "mode": "basic",
+      "samples": 273,
+      "sha256": "41b09a06900d6377b9f43175dfa5ce0a1e417266f47cac7c0b25586127785a58"
+    },
+    {
+      "path": "data_v2/train_basic_fast_1100.npz",
+      "seed": 1100,
+      "mode": "basic_fast_ros",
+      "samples": 491,
+      "sha256": "5fe2584a72205084fa72fd3009efec7524fa6a393b61fdc081972ec2adb7aa68"
+    },
+    {
+      "path": "data_v2/train_basic_fast_1101.npz",
+      "seed": 1101,
+      "mode": "basic_fast_ros",
+      "samples": 503,
+      "sha256": "15da81b62d2c103341086a404c776d21082946e0af672d8d320752abf4c68ce4"
+    },
+    {
+      "path": "data_v2/train_dagger_2026.npz",
+      "seed": 2026,
+      "mode": "dagger_new",
+      "samples": 345,
+      "sha256": "98ab420ce12a098a4c8fc378f54084cbea1bec690e61fea2466dc2d7dbb6db26"
+    },
+    {
+      "path": "data_v2/train_dagger_4001.npz",
+      "seed": 4001,
+      "mode": "dagger_new",
+      "samples": 354,
+      "sha256": "c5f50443c106994a4f66c9a02491e8247a1b4cd9f0fd4da97bb118c0d5f5399d"
+    },
+    {
+      "path": "data_v2/train_dagger_4002.npz",
+      "seed": 4002,
+      "mode": "dagger_new",
+      "samples": 351,
+      "sha256": "454ff62d31f5a617f96628d934b401a9dbe4173e4a4b1253a7115e30d79a5170"
+    },
+    {
+      "path": "data_v2/train_dagger_4003.npz",
+      "seed": 4003,
+      "mode": "dagger_new",
+      "samples": 353,
+      "sha256": "d12ca8e244bab2b5dbb590b420fa484ff37f58475a4cab766c897a3c118bf063"
+    },
+    {
+      "path": "data_v2/train_dagger_4005.npz",
+      "seed": 4005,
+      "mode": "dagger_new",
+      "samples": 353,
+      "sha256": "905b80a644787a5f8e11a05e0a193ef550c82bb9d0ec893623c5e039ae5f0b93"
+    },
+    {
+      "path": "data_v2/train_mpcc_1020.npz",
+      "seed": 1020,
+      "mode": "mpcc",
+      "samples": 337,
+      "sha256": "78e39173f647796b91eddd88717e89867d77d00116a12487f31271a702f45e5e"
+    },
+    {
+      "path": "data_v2/train_mpcc_1021.npz",
+      "seed": 1021,
+      "mode": "mpcc",
+      "samples": 361,
+      "sha256": "9a66784841bd78ad319dcbac2041f70098f87402b55b8a0ef8abe7299e514f96"
+    },
+    {
+      "path": "data_v2/train_mpcc_1022.npz",
+      "seed": 1022,
+      "mode": "mpcc",
+      "samples": 360,
+      "sha256": "7dbf2b7c759a3622ca2643809d7505fcaa63ce19c97607d3de4ce80f0d12656d"
+    },
+    {
+      "path": "data_v2/train_mpcc_1023.npz",
+      "seed": 1023,
+      "mode": "mpcc",
+      "samples": 352,
+      "sha256": "ea36dd3c21bb05af100421c829197710b17a32b8a298cb7d10ef96f5bb1dab6e"
+    },
+    {
+      "path": "data_v2/train_mpcc_1024.npz",
+      "seed": 1024,
+      "mode": "mpcc",
+      "samples": 353,
+      "sha256": "d41b7b7f4df8808ad78e08c3a5dae77b143c6f4720ad6b97cb701e9799dfff35"
+    },
+    {
+      "path": "data_v2/train_mpcc_1025.npz",
+      "seed": 1025,
+      "mode": "mpcc",
+      "samples": 338,
+      "sha256": "ef5a9b7ff4aadd2e57df96ed767899e8579ff8cb7317b949dda8e14776b6c08b"
+    },
+    {
+      "path": "data_v2/train_mpcc_1026.npz",
+      "seed": 1026,
+      "mode": "mpcc",
+      "samples": 357,
+      "sha256": "98c40576c7b8e075c328de8689be5ab2a08a4416967583e4fef066674b20ab74"
+    },
+    {
+      "path": "data_v2/train_mpcc_1027.npz",
+      "seed": 1027,
+      "mode": "mpcc",
+      "samples": 334,
+      "sha256": "a76c80a27e96ad6e372d49d3cfbfc5cdd71f1057883af8382b806a91a2ffa841"
+    },
+    {
+      "path": "data_v2/train_mpcc_1028.npz",
+      "seed": 1028,
+      "mode": "mpcc",
+      "samples": 343,
+      "sha256": "9a9aec6818e1f1018df14ba9d6f21b82330831fb0631d31ad63aa2b3af03ef22"
+    },
+    {
+      "path": "data_v2/train_mpcc_1029.npz",
+      "seed": 1029,
+      "mode": "mpcc",
+      "samples": 352,
+      "sha256": "363b415c4c2db9b4deaa67733682a7dc09ac949617bb66849e2ce0979c6ef6db"
+    },
+    {
+      "path": "data_v2/train_mpcc_1030.npz",
+      "seed": 1030,
+      "mode": "mpcc",
+      "samples": 348,
+      "sha256": "f91d11109e83e1cb0a87033a9f08e969b1c60a97cdc6c8e546d0f50c34f6e7dd"
+    },
+    {
+      "path": "data_v2/train_mpcc_1031.npz",
+      "seed": 1031,
+      "mode": "mpcc",
+      "samples": 364,
+      "sha256": "901e905307ac2c9f885caf12a5b3265bbc9fd0089958f60ff39841a287ed8c63"
+    }
+  ],
+  "validation_episodes": [
+    {
+      "path": "data_v2/val_avoidance_2002.npz",
+      "seed": 2002,
+      "mode": "avoidance",
+      "samples": 326,
+      "sha256": "555583ff7ed7cba9159268eebee243d0d8e8da09ae269e52d335b2af17bc5ea4"
+    },
+    {
+      "path": "data_v2/val_avoidance_2003.npz",
+      "seed": 2003,
+      "mode": "avoidance",
+      "samples": 363,
+      "sha256": "edabadfd0b8b5337b2fbedf2564cbafae37196876a4f2e89614880488b381c18"
+    },
+    {
+      "path": "data_v2/val_avoidance_2004.npz",
+      "seed": 2004,
+      "mode": "avoidance",
+      "samples": 329,
+      "sha256": "d8ed5cadbce101e29d79fd445a2aef7bfac5b850bad0ae446267246b200a071f"
+    },
+    {
+      "path": "data_v2/val_basic_2000.npz",
+      "seed": 2000,
+      "mode": "basic",
+      "samples": 271,
+      "sha256": "72a7eb58a4c514fb6ab922f540d7aba999c17939c6835a323dd2ca2978ad7feb"
+    },
+    {
+      "path": "data_v2/val_basic_2001.npz",
+      "seed": 2001,
+      "mode": "basic",
+      "samples": 271,
+      "sha256": "72a7eb58a4c514fb6ab922f540d7aba999c17939c6835a323dd2ca2978ad7feb"
+    },
+    {
+      "path": "data_v2/val_mpcc_2007.npz",
+      "seed": 2007,
+      "mode": "mpcc",
+      "samples": 341,
+      "sha256": "bc3290aa819b91dc3e368a600cae8255334c6c1be5401ea69cfc944bee3a8042"
+    }
+  ],
+  "training_samples_after_mirror": 25844,
+  "validation_samples": 1901,
+  "epochs": 18,
+  "history": {
+    "loss": [
+      0.009982667863368988,
+      0.008374981582164764,
+      0.008047004230320454,
+      0.007419244386255741,
+      0.007179979234933853,
+      0.006978749763220549,
+      0.00667225755751133,
+      0.006485875230282545,
+      0.006343976594507694,
+      0.0060880957171320915,
+      0.006035596132278442,
+      0.005836783908307552,
+      0.005928301252424717,
+      0.005720191169530153,
+      0.00504960585385561,
+      0.00481043616309762,
+      0.004746516700834036,
+      0.004673456773161888
+    ],
+    "mae": [
+      0.021428143605589867,
+      0.020369352772831917,
+      0.020001277327537537,
+      0.019509311765432358,
+      0.019091149792075157,
+      0.01891532726585865,
+      0.01870139315724373,
+      0.01848090998828411,
+      0.018162652850151062,
+      0.017771199345588684,
+      0.017716802656650543,
+      0.01764240488409996,
+      0.01756438985466957,
+      0.017245078459382057,
+      0.016307463869452477,
+      0.01596859097480774,
+      0.015888947993516922,
+      0.01577579788863659
+    ],
+    "val_loss": [
+      0.00872696191072464,
+      0.0086444653570652,
+      0.008214776404201984,
+      0.00846325047314167,
+      0.008401780389249325,
+      0.008491383865475655,
+      0.00779688498005271,
+      0.007830874994397163,
+      0.008002745918929577,
+      0.007650040090084076,
+      0.007863427512347698,
+      0.007842786610126495,
+      0.007684251293540001,
+      0.007565185893326998,
+      0.007512360345572233,
+      0.007766625378280878,
+      0.0077261896803975105,
+      0.0075582340359687805
+    ],
+    "val_mae": [
+      0.02128458581864834,
+      0.02177654765546322,
+      0.021241411566734314,
+      0.020810777321457863,
+      0.02037760801613331,
+      0.020188499242067337,
+      0.020775210112333298,
+      0.01965371146798134,
+      0.020008960738778114,
+      0.019083788618445396,
+      0.01964491605758667,
+      0.019791148602962494,
+      0.018674811348319054,
+      0.018537813797593117,
+      0.018304096534848213,
+      0.01869027130305767,
+      0.01870340295135975,
+      0.018411485478281975
+    ],
+    "lr": [
+      0.0006000000284984708,
+      0.0006000000284984708,
+      0.0006000000284984708,
+      0.0006000000284984708,
+      0.0006000000284984708,
+      0.0006000000284984708,
+      0.0006000000284984708,
+      0.0006000000284984708,
+      0.0006000000284984708,
+      0.0006000000284984708,
+      0.0006000000284984708,
+      0.0006000000284984708,
+      0.0006000000284984708,
+      0.0006000000284984708,
+      0.0003000000142492354,
+      0.0003000000142492354,
+      0.0003000000142492354,
+      0.0003000000142492354
+    ]
+  },
+  "parameters": 189773,
+  "validation_offset_mae_m": [
+    0.015350240282714367,
+    0.015779538080096245,
+    0.026365458965301514
+  ],
+  "validation_steering_residual_mae_rad": 0.0077625039964914315,
+  "validation_speed_mae_mps": 0.0486992172896862,
+  "training_seconds": 81.33014130592346,
+  "input_contract": "541x6 range/foreground history; 42 route/state/foreground descriptors",
+  "output_contract": "3 auxiliary path offsets /0.9m, speed /2.8mps, expert steering residual /0.72rad",
+  "decoding": "nominal race-line feedback + learned MPCC steering residual; predicted path auxiliary; curvature cap; no EMA; zero speed allowed"
+}
