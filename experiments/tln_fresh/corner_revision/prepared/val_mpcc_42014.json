@@ -1,0 +1,63 @@
+{
+  "mode": "mpcc",
+  "obstacles": [
+    {
+      "id": "s054d-01t1",
+      "s": 32.09430076022786,
+      "d": -0.1,
+      "theta": -1.688145559346347,
+      "x": 1.0900874356796757,
+      "y": 14.236930958953295,
+      "side": "RIGHT",
+      "severity": 0.451,
+      "visibility": 4.8,
+      "half_w": 0.1959844447314565
+    },
+    {
+      "id": "s056d+00t3",
+      "s": 33.09412321381751,
+      "d": 0.0,
+      "theta": -1.8693647683743033,
+      "x": 0.3714548682388423,
+      "y": 13.663420042925372,
+      "side": "LEFT",
+      "severity": 0.351,
+      "visibility": 4.8,
+      "half_w": 0.1959844447314565
+    },
+    {
+      "id": "s004d+05t1",
+      "s": 7.098739420486536,
+      "d": 0.5,
+      "theta": 1.9626131241994627,
+      "x": 2.9280454575300947,
+      "y": 6.2493769281360185,
+      "side": "either",
+      "severity": 0.0,
+      "visibility": 6.1,
+      "half_w": 0.1959844447314565
+    }
+  ],
+  "start_s": 0.0,
+  "required_progress_m": 55.29018168350776,
+  "recipe": "chicane:2:0.10",
+  "relaxed": [
+    "chicane: dropped, no room left in num_obstacles"
+  ],
+  "split": "val",
+  "seed": 42014,
+  "success": true,
+  "collision": null,
+  "progress_m": 55.29018168350776,
+  "sim_time_s": 42.5,
+  "wall_time_s": 47.8704674243927,
+  "solver_failures": 0,
+  "samples": 425,
+  "mean_abs_raceline_error_m": 0.1601103021217624,
+  "teacher": "CornerMPCC",
+  "teacher_sha256": "54f4b860cfa245dacfab5e289a988fcc34e307df719bedcd44268915f2e45a66",
+  "no_reset": true,
+  "raw_lidar_recorded": true,
+  "obstacle_gt_student_input": false,
+  "source_raw": "corner_revision/data/val_mpcc_42014.npz"
+}

@@ -1,0 +1,22 @@
+{
+  "bag": "/home/misys/forza_ws/race_stack/experiments/tln_fresh/revision_random_v4/ros_basic_fast_3p0",
+  "topic_message_counts": {
+    "/initialpose": 0,
+    "/drive": 849,
+    "/car_state/odom_GT": 8494,
+    "/scan": 8492,
+    "/sim/collision": 8491,
+    "/sim/physics_state": 8491,
+    "/sim/obstacles": 11
+  },
+  "collision_messages": 0,
+  "collision_kinds": [],
+  "reset_messages": 0,
+  "full_path_traversals_without_teleport": 3,
+  "mean_measured_speed_mps": 2.292774581834499,
+  "max_measured_speed_mps": 2.999999999998857,
+  "straight_curvature_below_0p08_mean_mps": 2.971435200509355,
+  "tight_corner_curvature_above_0p55_mean_mps": 1.4164115601964007,
+  "physics_time_span_s": 84.90000000185319,
+  "command_steer_delta_p95_rad": 0.04169047474861144
+}

@@ -1,0 +1,20 @@
+{
+  "seed": 71001,
+  "split": "train",
+  "mode": "basic_fast_new",
+  "success": true,
+  "collision": null,
+  "start_s": 6.91127271043847,
+  "progress_m": 55.377666148196795,
+  "sim_time_s": 24.1,
+  "wall_elapsed_s": 1.4375540150067536,
+  "target_straight_mps": 3.0,
+  "mean_measured_speed_mps": 2.2216250249352942,
+  "max_measured_speed_mps": 2.9999999963038224,
+  "mean_abs_raceline_error_m": 0.0744724683912469,
+  "max_abs_raceline_error_m": 0.29915959217302734,
+  "samples": 241,
+  "obstacles": [],
+  "source": "new direct physical rollout; no previous episode reuse",
+  "controller_sha256": "f455f9d1baed9e31023e3480652caa62fdf8eaa0396c20b31445dfa36f3e1859"
+}

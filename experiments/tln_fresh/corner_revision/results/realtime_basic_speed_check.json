@@ -1,0 +1,8 @@
+{
+  "physics_to_wall_ratio": 1.0087430822443924,
+  "measured_speed_mean_mps": 1.8367013063866509,
+  "measured_speed_max_mps": 2.2000000476526065,
+  "zero_commands": 0,
+  "samples": 544,
+  "controller": "basic raceline; measured before switching to student"
+}

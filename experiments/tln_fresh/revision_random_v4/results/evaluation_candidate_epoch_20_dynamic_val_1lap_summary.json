@@ -1,0 +1,28 @@
+{
+  "model": "models/candidate_epoch_20.keras",
+  "model_sha256": "9e4cc8c1723d8921940450ca2c79247c0f2cfbf77978de7de81e2ab6648e4d46",
+  "controller_style": "dynamic",
+  "controller_source_sha256": "edabdc048e294a9cf722e005e59297232580a290eb051310c07b71e9b6f0687c",
+  "split": "val",
+  "laps": 1,
+  "no_resets": true,
+  "earlier_training_data_reused": false,
+  "time_basis": "fixed physics time; control timing includes input generation+network+guard, not ROS transmission",
+  "fast_goal": "full completion without collision or stationary period >=1s, <=32 physics seconds per lap",
+  "summary": {
+    "protected": {
+      "trials": 10,
+      "completions": 5,
+      "fast_goal_successes": 5,
+      "wall_collisions": 0,
+      "obstacle_collisions": 0,
+      "stops_or_timeouts": 5,
+      "successful_mean_lap_sim_s": 25.24,
+      "mean_abs_raceline_error_m": 0.1343729481293704,
+      "clear_road_mean_abs_error_m": 0.06396910645182068,
+      "total_control_p95_ms_mean": 14.095665625573016,
+      "reverse_steps": 63,
+      "path_corrections": 128
+    }
+  }
+}

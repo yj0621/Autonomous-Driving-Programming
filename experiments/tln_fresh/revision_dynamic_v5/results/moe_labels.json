@@ -1,0 +1,739 @@
+{
+  "classes": [
+    "clear",
+    "left",
+    "right"
+  ],
+  "future_states_for_labels_only": true,
+  "episodes": [
+    {
+      "path": "train_91000",
+      "counts": [
+        190.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91001",
+      "counts": [
+        193.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91002",
+      "counts": [
+        194.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91003",
+      "counts": [
+        193.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91004",
+      "counts": [
+        193.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91005",
+      "counts": [
+        197.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91006",
+      "counts": [
+        194.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91007",
+      "counts": [
+        193.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91008",
+      "counts": [
+        193.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91009",
+      "counts": [
+        190.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91010",
+      "counts": [
+        190.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91011",
+      "counts": [
+        192.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91013",
+      "counts": [
+        155.0,
+        49.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91016",
+      "counts": [
+        146.0,
+        56.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91017",
+      "counts": [
+        147.0,
+        10.0,
+        43.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91018",
+      "counts": [
+        172.0,
+        0.0,
+        26.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91019",
+      "counts": [
+        157.0,
+        56.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91020",
+      "counts": [
+        127.0,
+        58.0,
+        22.0
+      ],
+      "valid_fraction": 0.966183602809906
+    },
+    {
+      "path": "train_91021",
+      "counts": [
+        178.0,
+        22.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91022",
+      "counts": [
+        159.0,
+        22.0,
+        25.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91023",
+      "counts": [
+        139.0,
+        0.0,
+        59.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91024",
+      "counts": [
+        178.0,
+        0.0,
+        17.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91025",
+      "counts": [
+        154.0,
+        56.0,
+        0.0
+      ],
+      "valid_fraction": 0.9476190209388733
+    },
+    {
+      "path": "train_91027",
+      "counts": [
+        181.0,
+        21.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91028",
+      "counts": [
+        142.0,
+        25.0,
+        37.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91029",
+      "counts": [
+        141.0,
+        45.0,
+        54.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91030",
+      "counts": [
+        175.0,
+        0.0,
+        24.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91032",
+      "counts": [
+        129.0,
+        47.0,
+        24.0
+      ],
+      "valid_fraction": 0.9399999976158142
+    },
+    {
+      "path": "train_91033",
+      "counts": [
+        171.0,
+        0.0,
+        27.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91034",
+      "counts": [
+        155.0,
+        32.0,
+        18.0
+      ],
+      "valid_fraction": 0.9902439117431641
+    },
+    {
+      "path": "train_91035",
+      "counts": [
+        143.0,
+        68.0,
+        0.0
+      ],
+      "valid_fraction": 0.9526066184043884
+    },
+    {
+      "path": "train_91036",
+      "counts": [
+        176.0,
+        0.0,
+        21.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91037",
+      "counts": [
+        154.0,
+        41.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91038",
+      "counts": [
+        135.0,
+        70.0,
+        0.0
+      ],
+      "valid_fraction": 0.9463414549827576
+    },
+    {
+      "path": "train_91039",
+      "counts": [
+        166.0,
+        0.0,
+        33.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91040",
+      "counts": [
+        144.0,
+        0.0,
+        54.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91041",
+      "counts": [
+        127.0,
+        30.0,
+        47.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91042",
+      "counts": [
+        179.0,
+        0.0,
+        17.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91043",
+      "counts": [
+        146.0,
+        32.0,
+        25.0
+      ],
+      "valid_fraction": 0.9507389068603516
+    },
+    {
+      "path": "train_91045",
+      "counts": [
+        170.0,
+        0.0,
+        31.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91046",
+      "counts": [
+        143.0,
+        40.0,
+        19.0
+      ],
+      "valid_fraction": 0.9356435537338257
+    },
+    {
+      "path": "train_91047",
+      "counts": [
+        141.0,
+        40.0,
+        27.0
+      ],
+      "valid_fraction": 0.9182692170143127
+    },
+    {
+      "path": "train_91048",
+      "counts": [
+        168.0,
+        29.0,
+        0.0
+      ],
+      "valid_fraction": 0.8984771370887756
+    },
+    {
+      "path": "train_91049",
+      "counts": [
+        149.0,
+        66.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91050",
+      "counts": [
+        135.0,
+        58.0,
+        15.0
+      ],
+      "valid_fraction": 0.9519230723381042
+    },
+    {
+      "path": "train_91051",
+      "counts": [
+        170.0,
+        0.0,
+        22.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91053",
+      "counts": [
+        127.0,
+        56.0,
+        25.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91054",
+      "counts": [
+        179.0,
+        13.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91055",
+      "counts": [
+        150.0,
+        27.0,
+        20.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91056",
+      "counts": [
+        130.0,
+        72.0,
+        0.0
+      ],
+      "valid_fraction": 0.9752475023269653
+    },
+    {
+      "path": "train_91057",
+      "counts": [
+        169.0,
+        0.0,
+        30.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91059",
+      "counts": [
+        122.0,
+        23.0,
+        61.0
+      ],
+      "valid_fraction": 0.9271844625473022
+    },
+    {
+      "path": "train_91063",
+      "counts": [
+        174.0,
+        0.0,
+        25.0
+      ],
+      "valid_fraction": 0.929648220539093
+    },
+    {
+      "path": "train_91064",
+      "counts": [
+        153.0,
+        0.0,
+        49.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91065",
+      "counts": [
+        129.0,
+        78.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91066",
+      "counts": [
+        179.0,
+        19.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91067",
+      "counts": [
+        158.0,
+        0.0,
+        42.0
+      ],
+      "valid_fraction": 0.949999988079071
+    },
+    {
+      "path": "train_91068",
+      "counts": [
+        133.0,
+        30.0,
+        42.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91070",
+      "counts": [
+        151.0,
+        62.0,
+        0.0
+      ],
+      "valid_fraction": 0.9671361446380615
+    },
+    {
+      "path": "train_91071",
+      "counts": [
+        133.0,
+        74.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91072",
+      "counts": [
+        180.0,
+        0.0,
+        18.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91074",
+      "counts": [
+        142.0,
+        0.0,
+        62.0
+      ],
+      "valid_fraction": 0.9460784196853638
+    },
+    {
+      "path": "train_91075",
+      "counts": [
+        172.0,
+        24.0,
+        0.0
+      ],
+      "valid_fraction": 0.9489796161651611
+    },
+    {
+      "path": "train_91076",
+      "counts": [
+        146.0,
+        31.0,
+        23.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "train_91077",
+      "counts": [
+        143.0,
+        41.0,
+        19.0
+      ],
+      "valid_fraction": 0.9556650519371033
+    },
+    {
+      "path": "train_91079",
+      "counts": [
+        152.0,
+        22.0,
+        21.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92000",
+      "counts": [
+        192.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92001",
+      "counts": [
+        193.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92002",
+      "counts": [
+        192.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92003",
+      "counts": [
+        189.0,
+        0.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92005",
+      "counts": [
+        135.0,
+        33.0,
+        36.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92006",
+      "counts": [
+        175.0,
+        23.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92007",
+      "counts": [
+        153.0,
+        0.0,
+        48.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92008",
+      "counts": [
+        140.0,
+        23.0,
+        41.0
+      ],
+      "valid_fraction": 0.936274528503418
+    },
+    {
+      "path": "val_92009",
+      "counts": [
+        178.0,
+        0.0,
+        16.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92010",
+      "counts": [
+        153.0,
+        27.0,
+        26.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92011",
+      "counts": [
+        137.0,
+        59.0,
+        0.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92012",
+      "counts": [
+        180.0,
+        0.0,
+        17.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92013",
+      "counts": [
+        166.0,
+        15.0,
+        18.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92014",
+      "counts": [
+        128.0,
+        0.0,
+        72.0
+      ],
+      "valid_fraction": 1.0
+    },
+    {
+      "path": "val_92015",
+      "counts": [
+        178.0,
+        0.0,
+        20.0
+      ],
+      "valid_fraction": 1.0
+    }
+  ]
+}

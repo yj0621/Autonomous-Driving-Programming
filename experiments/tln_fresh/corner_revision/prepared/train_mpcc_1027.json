@@ -1,0 +1,67 @@
+{
+  "split": "train",
+  "mode": "mpcc",
+  "seed": 1027,
+  "start_s": 40.0,
+  "success": true,
+  "collision": null,
+  "progress_m": 54.88315084565799,
+  "sim_time_s": 33.4,
+  "wall_time_s": 29.74163293838501,
+  "solver_failures": 0,
+  "samples": 334,
+  "mean_abs_raceline_error_m": 0.15575817712771417,
+  "obstacles": [
+    {
+      "id": "s060d-01t0",
+      "s": 35.09376812099682,
+      "d": -0.1,
+      "theta": 1.4651000557475446,
+      "x": -0.6060659668939862,
+      "y": 14.97758823471829,
+      "side": "LEFT",
+      "severity": 0.205,
+      "visibility": 1.9,
+      "half_w": 0.15
+    },
+    {
+      "id": "s065d+00t0",
+      "s": 37.59332425497095,
+      "d": 0.0,
+      "theta": -2.7785033544002005,
+      "x": -2.007777835845032,
+      "y": 16.48308331847288,
+      "side": "RIGHT",
+      "severity": 0.305,
+      "visibility": 2.0,
+      "half_w": 0.15
+    },
+    {
+      "id": "s031d-02t2",
+      "s": 20.59634254394685,
+      "d": -0.2,
+      "theta": 2.930913917453027,
+      "x": 2.710211702135084,
+      "y": 19.705952337814928,
+      "side": "RIGHT",
+      "severity": 0.567,
+      "visibility": 15.0,
+      "half_w": 0.21213203435596423
+    },
+    {
+      "id": "s095d-03t1",
+      "s": 52.59066105881575,
+      "d": -0.3,
+      "theta": -1.03329158214957,
+      "x": -1.5182809004459263,
+      "y": 2.1153560425767592,
+      "side": "LEFT",
+      "severity": 0.051,
+      "visibility": 6.2,
+      "half_w": 0.1959844447314565
+    }
+  ],
+  "recipe": "spread:1.0 chicane:1:0.10 forced:1:0.20",
+  "relaxed": [],
+  "source_raw": "data/train_mpcc_1027.npz"
+}

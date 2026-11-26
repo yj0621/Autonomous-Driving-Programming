@@ -1,0 +1,21 @@
+{
+  "source": "live V4 on layout02",
+  "samples": 4332,
+  "physics_duration_s": 433.04000000945234,
+  "mean_speed_mps": 1.7697072094725055,
+  "max_speed_mps": 2.999906628448212,
+  "stationary_samples": 72,
+  "reverse_command_steps": 315,
+  "emergency_backup_steps": 18,
+  "braking_steps": 2283,
+  "actual_acceleration_p95_mps2": 1.7931523875556878,
+  "actual_deceleration_p05_mps2": -1.5127195850405217,
+  "confirmed_code_limits": {
+    "straight_speed_cap_mps": 3.0,
+    "command_speed_increase_per_0p1s": 0.25,
+    "command_acceleration_ceiling_mps2": 2.5,
+    "teacher_kinematic_model": "v4 MPCC uses beta=atan(0.5*tan(delta)); simulator uses tire-slip dynamics above 0.5m/s",
+    "teacher_solver_failure": "V4 solver exception emits zero speed; these stops must not be imitated as nominal driving",
+    "guard": "one-step candidate plus braking may lead into a corridor with no full passage; repeated recovery can cause stops"
+  }
+}

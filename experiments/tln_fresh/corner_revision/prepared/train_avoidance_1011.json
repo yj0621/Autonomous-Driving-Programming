@@ -1,0 +1,67 @@
+{
+  "split": "train",
+  "mode": "avoidance",
+  "seed": 1011,
+  "start_s": 40.0,
+  "success": true,
+  "collision": null,
+  "progress_m": 54.883150845658015,
+  "sim_time_s": 36.4,
+  "wall_time_s": 41.28180909156799,
+  "solver_failures": 0,
+  "samples": 364,
+  "mean_abs_raceline_error_m": 0.19838433417299822,
+  "obstacles": [
+    {
+      "id": "s026d+02t3",
+      "s": 18.09678640997272,
+      "d": 0.2,
+      "theta": 2.8669805832795543,
+      "x": 3.1207245814757396,
+      "y": 17.220670185608366,
+      "side": "LEFT",
+      "severity": 0.551,
+      "visibility": 15.0,
+      "half_w": 0.1959844447314565
+    },
+    {
+      "id": "s094d+01t2",
+      "s": 52.09074983202092,
+      "d": 0.1,
+      "theta": -0.7857056374101674,
+      "x": -1.1559414157545391,
+      "y": 2.6569023040823496,
+      "side": "either",
+      "severity": 0.267,
+      "visibility": 6.3,
+      "half_w": 0.21213203435596423
+    },
+    {
+      "id": "s002d+05t0",
+      "s": 6.0989169668968835,
+      "d": 0.5,
+      "theta": 1.5349796710321533,
+      "x": 2.914131711746867,
+      "y": 5.267170019774693,
+      "side": "either",
+      "severity": 0.0,
+      "visibility": 5.2,
+      "half_w": 0.15
+    },
+    {
+      "id": "s075d+01t1",
+      "s": 42.592436522919215,
+      "d": 0.1,
+      "theta": -0.8302796837293864,
+      "x": -1.944603322553172,
+      "y": 11.885103488759214,
+      "side": "RIGHT",
+      "severity": 0.251,
+      "visibility": 5.1,
+      "half_w": 0.1959844447314565
+    }
+  ],
+  "recipe": "spread:0.5 forced:1:0.30 either:1:0.20",
+  "relaxed": [],
+  "source_raw": "data/train_avoidance_1011.npz"
+}

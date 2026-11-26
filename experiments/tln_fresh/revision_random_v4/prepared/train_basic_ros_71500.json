@@ -1,0 +1,16 @@
+{
+  "seed": 71500,
+  "split": "train",
+  "mode": "basic_fast_ros_new",
+  "success": true,
+  "collision": null,
+  "source_bag": "/home/misys/forza_ws/race_stack/experiments/tln_fresh/revision_random_v4/ros_basic_fast_3p0",
+  "samples": 177,
+  "start_s": 0.0,
+  "progress_m": 55.79009291030256,
+  "obstacles": [],
+  "mean_measured_speed_mps": 2.2251238812983014,
+  "max_measured_speed_mps": 2.999999999998588,
+  "alignment": "record order; command uses latest scan/state no older than 0.03 physics s; 10 physics Hz; no future samples",
+  "source": "new recorded ROS data only; no earlier recording reused"
+}

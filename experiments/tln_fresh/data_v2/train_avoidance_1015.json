@@ -1,0 +1,68 @@
+{
+  "split": "train",
+  "mode": "avoidance",
+  "seed": 1015,
+  "start_s": 40.0,
+  "success": true,
+  "collision": null,
+  "progress_m": 54.883150845658015,
+  "sim_time_s": 36.4,
+  "wall_time_s": 25.09531545639038,
+  "solver_failures": 0,
+  "samples": 364,
+  "mean_abs_raceline_error_m": 0.17929462796330034,
+  "obstacles": [
+    {
+      "id": "s009d+02t1",
+      "s": 9.59829555446067,
+      "d": 0.2,
+      "theta": 1.9653085785831197,
+      "x": 3.2269123514501232,
+      "y": 8.748128582978884,
+      "side": "LEFT",
+      "severity": 0.551,
+      "visibility": 8.4,
+      "half_w": 0.1959844447314565
+    },
+    {
+      "id": "s014d+02t0",
+      "s": 12.097851688434801,
+      "d": 0.2,
+      "theta": 1.5772618262032625,
+      "x": 3.2157065026137635,
+      "y": 11.246726902505165,
+      "side": "either",
+      "severity": 0.105,
+      "visibility": 10.8,
+      "half_w": 0.15
+    },
+    {
+      "id": "s057d-01t0",
+      "s": 33.59403444061234,
+      "d": -0.1,
+      "theta": 2.7413255216862815,
+      "x": -0.07870078524801984,
+      "y": 13.830462313367082,
+      "side": "LEFT",
+      "severity": 0.205,
+      "visibility": 2.6,
+      "half_w": 0.15
+    },
+    {
+      "id": "s094d+10t3",
+      "s": 52.09074983202092,
+      "d": 1.0,
+      "theta": -0.3930065557114433,
+      "x": -0.2559414582976597,
+      "y": 2.6566255774752627,
+      "side": "either",
+      "severity": 0.0,
+      "visibility": 10.7,
+      "half_w": 0.1959844447314565
+    }
+  ],
+  "recipe": "spread:1.0 chicane:1:0.10 forced:1:0.20",
+  "relaxed": [],
+  "source_npz": "/home/misys/forza_ws/race_stack/experiments/tln_fresh/data/train_avoidance_1015.npz",
+  "map_foreground_from_lidar_and_pose_only": true
+}

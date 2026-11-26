@@ -1,0 +1,43 @@
+{
+  "model": "models_mixture/candidate_epoch_20.keras",
+  "model_sha256": "47ed81f96f525e1a3eecb17497a45fd17383625ef86398713cbf805a890a959b",
+  "decoder": "mixture",
+  "controller_style": "dynamic",
+  "controller_source_sha256": "290900975395b1602b45c06918cb04c235fb9c3d8a3f09aaa2de85aea3d61ccd",
+  "split": "test",
+  "laps": 1,
+  "no_resets": true,
+  "earlier_training_data_reused": false,
+  "time_basis": "fixed physics time; control timing includes input generation+network+guard, not ROS transmission",
+  "fast_goal": "full completion without collision or stationary period >=1s, <=32 physics seconds per lap",
+  "summary": {
+    "raw": {
+      "trials": 19,
+      "completions": 8,
+      "fast_goal_successes": 8,
+      "wall_collisions": 4,
+      "obstacle_collisions": 6,
+      "stops_or_timeouts": 1,
+      "successful_mean_lap_sim_s": 25.675000000000004,
+      "mean_abs_raceline_error_m": 0.06493716905321438,
+      "clear_road_mean_abs_error_m": 0.050563168372720506,
+      "total_control_p95_ms_mean": 17.7225634356881,
+      "reverse_steps": 39,
+      "path_corrections": 0
+    },
+    "protected": {
+      "trials": 19,
+      "completions": 15,
+      "fast_goal_successes": 14,
+      "wall_collisions": 1,
+      "obstacle_collisions": 0,
+      "stops_or_timeouts": 3,
+      "successful_mean_lap_sim_s": 26.966666666666665,
+      "mean_abs_raceline_error_m": 0.106786001358041,
+      "clear_road_mean_abs_error_m": 0.06194480381609794,
+      "total_control_p95_ms_mean": 52.930345472122994,
+      "reverse_steps": 209,
+      "path_corrections": 342
+    }
+  }
+}

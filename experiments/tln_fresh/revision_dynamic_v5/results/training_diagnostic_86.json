@@ -1,0 +1,802 @@
+{
+  "from_scratch": true,
+  "pretrained_weights_used": false,
+  "old_episodes_used": false,
+  "initial_weight_sha256": "4ecba283fbf89be2c0cd6f270afb7aa5db894c9b0730a34ea0fc201331e2752c",
+  "random_seed": 20261028,
+  "epochs": 44,
+  "training_wall_s": 338.4061374180019,
+  "history": {
+    "loss": [
+      0.14022231101989746,
+      0.07115599513053894,
+      0.055125340819358826,
+      0.04945764318108559,
+      0.04569968581199646,
+      0.043631214648485184,
+      0.04169657081365585,
+      0.040439069271087646,
+      0.039651550352573395,
+      0.038320235908031464,
+      0.03778952732682228,
+      0.03706202283501625,
+      0.03617333620786667,
+      0.03541925549507141,
+      0.03473580256104469,
+      0.03409983590245247,
+      0.03366304188966751,
+      0.03354170173406601,
+      0.032631732523441315,
+      0.032130930572748184,
+      0.03168779984116554,
+      0.031026070937514305,
+      0.029362255707383156,
+      0.028816722333431244,
+      0.02842206321656704,
+      0.028611935675144196,
+      0.02830338478088379,
+      0.027655959129333496,
+      0.0277971513569355,
+      0.026546891778707504,
+      0.026306627318263054,
+      0.02630787529051304,
+      0.02631308138370514,
+      0.026017099618911743,
+      0.02548282966017723,
+      0.025403553619980812,
+      0.025332864373922348,
+      0.02525963820517063,
+      0.0249500535428524,
+      0.02500154823064804,
+      0.024845333769917488,
+      0.02484751306474209,
+      0.024701843038201332,
+      0.02471080981194973
+    ],
+    "val_loss": [
+      0.06921267509460449,
+      0.0498986653983593,
+      0.044038668274879456,
+      0.0424402691423893,
+      0.041710298508405685,
+      0.03802424669265747,
+      0.037784818559885025,
+      0.037222087383270264,
+      0.037951573729515076,
+      0.036726564168930054,
+      0.03635863587260246,
+      0.03517793118953705,
+      0.03488369658589363,
+      0.035143353044986725,
+      0.03588947281241417,
+      0.034495312720537186,
+      0.037370987236499786,
+      0.03360932320356369,
+      0.033714573830366135,
+      0.03362342715263367,
+      0.03435187786817551,
+      0.033751532435417175,
+      0.03297647461295128,
+      0.03353467956185341,
+      0.03242272883653641,
+      0.033345501869916916,
+      0.03306898474693298,
+      0.03300965949892998,
+      0.03302440792322159,
+      0.03206949308514595,
+      0.03264275938272476,
+      0.03224661946296692,
+      0.033019062131643295,
+      0.032536398619413376,
+      0.03232689946889877,
+      0.03249737247824669,
+      0.0322917141020298,
+      0.032463978976011276,
+      0.03227795287966728,
+      0.03225374221801758,
+      0.032269272953271866,
+      0.03231721743941307,
+      0.03218986466526985,
+      0.03233543410897255
+    ],
+    "lr": [
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0002500000118743628,
+      0.0002500000118743628,
+      0.0002500000118743628,
+      0.0002500000118743628,
+      0.0002500000118743628,
+      0.0002500000118743628,
+      0.0002500000118743628,
+      0.0001250000059371814,
+      0.0001250000059371814,
+      0.0001250000059371814,
+      0.0001250000059371814,
+      0.0001250000059371814,
+      6.25000029685907e-05,
+      6.25000029685907e-05,
+      6.25000029685907e-05,
+      6.25000029685907e-05,
+      3.125000148429535e-05,
+      3.125000148429535e-05,
+      3.125000148429535e-05,
+      3.125000148429535e-05,
+      1.5625000742147677e-05,
+      1.5625000742147677e-05
+    ]
+  },
+  "parameters": 93940,
+  "samples_after_mirror": 26432,
+  "validation_samples": 2963,
+  "validation_first_steer_mae_rad": 0.017253223657608032,
+  "validation_first_speed_mae_mps": 0.058775950223207474,
+  "input_shapes": [
+    [
+      4,
+      541,
+      2
+    ],
+    [
+      86
+    ]
+  ],
+  "output_contract": "six pairs: t0 residual steering x0.72rad + nominal; t1..5 absolute steering x0.36rad; all speed x4.5m/s, nonnegative",
+  "manifest": {
+    "train": [
+      {
+        "path": "data/train_91000.npz",
+        "seed": 91000,
+        "mode": "basic_mpcc",
+        "samples": 190,
+        "sha256": "96fdfa0816d5d6b04553b8ac3572345c9c77eb8f4b93f5261d1e775e4977d001"
+      },
+      {
+        "path": "data/train_91001.npz",
+        "seed": 91001,
+        "mode": "basic_mpcc",
+        "samples": 193,
+        "sha256": "7a723cad7fd269f05d458e4d34743778de31e3b6485f134ca3f873e2c43892b9"
+      },
+      {
+        "path": "data/train_91002.npz",
+        "seed": 91002,
+        "mode": "basic_mpcc",
+        "samples": 194,
+        "sha256": "244421882db1cc2acbe76b9959e368999efbd76fea3676de41dc7bc3f29e108d"
+      },
+      {
+        "path": "data/train_91003.npz",
+        "seed": 91003,
+        "mode": "basic_mpcc",
+        "samples": 193,
+        "sha256": "b94e4f7ed8be2b8109a29a03232ee132568a32b807431d2d333b70ab6e6e9177"
+      },
+      {
+        "path": "data/train_91004.npz",
+        "seed": 91004,
+        "mode": "basic_mpcc",
+        "samples": 193,
+        "sha256": "6a6de0182525a3520fff3230e68b32546c4a1a0698e4bf4b633ae92a4ee35ee5"
+      },
+      {
+        "path": "data/train_91005.npz",
+        "seed": 91005,
+        "mode": "basic_mpcc",
+        "samples": 197,
+        "sha256": "353c1ef3f7d8234b6eff9786106dfc5f46ecd65f6bb4cd3ff0db718e6b581876"
+      },
+      {
+        "path": "data/train_91006.npz",
+        "seed": 91006,
+        "mode": "basic_mpcc",
+        "samples": 194,
+        "sha256": "07d4a6a0102c860d9677079c2b7d9e47891eb83a09e1de3d450689ac25f18bfd"
+      },
+      {
+        "path": "data/train_91007.npz",
+        "seed": 91007,
+        "mode": "basic_mpcc",
+        "samples": 193,
+        "sha256": "425b9391d898f86838c428213360a6abb7e33ff7a6bd381734d8d345af246278"
+      },
+      {
+        "path": "data/train_91008.npz",
+        "seed": 91008,
+        "mode": "basic_mpcc",
+        "samples": 193,
+        "sha256": "219e2190dbe40710e21f31bf04a7f0ab3fdb09bee10407ebbfbde926374283fe"
+      },
+      {
+        "path": "data/train_91009.npz",
+        "seed": 91009,
+        "mode": "basic_mpcc",
+        "samples": 190,
+        "sha256": "1c2d41af7d2eab428ccc95d4c0a6400bb93200a078c700efda7fa7f99215f934"
+      },
+      {
+        "path": "data/train_91010.npz",
+        "seed": 91010,
+        "mode": "basic_mpcc",
+        "samples": 190,
+        "sha256": "80618cb03b601848ae06f7879f695ee8e90745af6a66f71bb578bcebd48d3c39"
+      },
+      {
+        "path": "data/train_91011.npz",
+        "seed": 91011,
+        "mode": "basic_mpcc",
+        "samples": 192,
+        "sha256": "481bd7a8f48b13a7529b6d7230d8c3c55580257f16bdeec47bec0458ae6fc4d1"
+      },
+      {
+        "path": "data/train_91013.npz",
+        "seed": 91013,
+        "mode": "avoidance_mpcc",
+        "samples": 201,
+        "sha256": "19eb768b48f7147a135afcfc4c33d5c73c06e03347783952ddc64f946d8e70d3"
+      },
+      {
+        "path": "data/train_91016.npz",
+        "seed": 91016,
+        "mode": "avoidance_mpcc",
+        "samples": 202,
+        "sha256": "12251695f87a06e8dd0f00e3b1ea67cfc37932a8e8fd5758f13ce1700a3bb9ee"
+      },
+      {
+        "path": "data/train_91017.npz",
+        "seed": 91017,
+        "mode": "avoidance_mpcc",
+        "samples": 199,
+        "sha256": "8d84e2aa1c8989c92317ef3784441f2e32c155ee9f897dcbc0372c6a6635c3d1"
+      },
+      {
+        "path": "data/train_91018.npz",
+        "seed": 91018,
+        "mode": "avoidance_mpcc",
+        "samples": 198,
+        "sha256": "9b86c14165e7809eb35dcf4f11ef3d76b6e7553a033cfac9e3b507a2dd7d3e6a"
+      },
+      {
+        "path": "data/train_91019.npz",
+        "seed": 91019,
+        "mode": "avoidance_mpcc",
+        "samples": 211,
+        "sha256": "3232549422ac7cdfc7298213a3b7596aa93d853077994cce442d398deff2abdf"
+      },
+      {
+        "path": "data/train_91020.npz",
+        "seed": 91020,
+        "mode": "avoidance_mpcc",
+        "samples": 207,
+        "sha256": "e5df5c064193f29f46c42801277c031985b73dfcf380fb27572861d6a15bc15e"
+      },
+      {
+        "path": "data/train_91021.npz",
+        "seed": 91021,
+        "mode": "avoidance_mpcc",
+        "samples": 198,
+        "sha256": "0ae1de4e5da9e710a052796e57f04ae8dfb7ad458a9a7ff94710cb3e993c6064"
+      },
+      {
+        "path": "data/train_91022.npz",
+        "seed": 91022,
+        "mode": "avoidance_mpcc",
+        "samples": 206,
+        "sha256": "888cb27f3c0d6076821b0f36ad9f2ab60a16c15a2832c5829aea79e82dc2d12d"
+      },
+      {
+        "path": "data/train_91023.npz",
+        "seed": 91023,
+        "mode": "avoidance_mpcc",
+        "samples": 198,
+        "sha256": "291b28b887579116cde7b0834d44ca1308dcfa55d2766dfa17223887302256be"
+      },
+      {
+        "path": "data/train_91024.npz",
+        "seed": 91024,
+        "mode": "avoidance_mpcc",
+        "samples": 195,
+        "sha256": "b39701d8b47daf1db28a0999877ed2ac8a35895640ca73d34c7c86c095d2a1b8"
+      },
+      {
+        "path": "data/train_91025.npz",
+        "seed": 91025,
+        "mode": "avoidance_mpcc",
+        "samples": 210,
+        "sha256": "6bdde25381f43a53090808a6a5370d637379253068dac8a5567e2889cc1733c1"
+      },
+      {
+        "path": "data/train_91027.npz",
+        "seed": 91027,
+        "mode": "avoidance_mpcc",
+        "samples": 201,
+        "sha256": "83953d7e30b8ffc373366bd691591f90e9bc9fd2b638618c20e13881418374ce"
+      },
+      {
+        "path": "data/train_91028.npz",
+        "seed": 91028,
+        "mode": "avoidance_mpcc",
+        "samples": 204,
+        "sha256": "8c5da06bb9bf262050a53f61146343334e1826ed54732a2c75bb2e12b7843045"
+      },
+      {
+        "path": "data/train_91029.npz",
+        "seed": 91029,
+        "mode": "avoidance_mpcc",
+        "samples": 214,
+        "sha256": "aa31579b576221a9df72344b1d063417b5c3a9b5d4407f415d4a198bb1f0867d"
+      },
+      {
+        "path": "data/train_91030.npz",
+        "seed": 91030,
+        "mode": "avoidance_mpcc",
+        "samples": 199,
+        "sha256": "c0baac4654e6c6b7ee5af2d0b6c9fe17f67af6da48c5d85a8d5ac3650a3e8762"
+      },
+      {
+        "path": "data/train_91032.npz",
+        "seed": 91032,
+        "mode": "avoidance_mpcc",
+        "samples": 198,
+        "sha256": "8bd15d45d6d3f4ac61fff1882032a153e7a6378a3dbd72efb30e5775a1c387ba"
+      },
+      {
+        "path": "data/train_91033.npz",
+        "seed": 91033,
+        "mode": "avoidance_mpcc",
+        "samples": 198,
+        "sha256": "4a7b9e81d84ce93688d05b8f3de75f61b148a97c658f50584935d9ab85417b82"
+      },
+      {
+        "path": "data/train_91034.npz",
+        "seed": 91034,
+        "mode": "avoidance_mpcc",
+        "samples": 205,
+        "sha256": "ef1f4dd527dbcb452be27e38977afbabe426235e59217bdb5b221c42db90bbb0"
+      },
+      {
+        "path": "data/train_91035.npz",
+        "seed": 91035,
+        "mode": "avoidance_mpcc",
+        "samples": 211,
+        "sha256": "4d48d741e6a619c56658a90b24e9cf63c46cebe55f5f0d7b33893daacdbefa6f"
+      },
+      {
+        "path": "data/train_91036.npz",
+        "seed": 91036,
+        "mode": "avoidance_mpcc",
+        "samples": 197,
+        "sha256": "ecd7cdfd5a434d0bedf18361886bac32be97841867bd21f449f0aaf63748937d"
+      },
+      {
+        "path": "data/train_91037.npz",
+        "seed": 91037,
+        "mode": "avoidance_mpcc",
+        "samples": 195,
+        "sha256": "224f355e460f414684b9fbe4b9adbe7ec658ca9117530a802a2816ed5979125f"
+      },
+      {
+        "path": "data/train_91038.npz",
+        "seed": 91038,
+        "mode": "avoidance_mpcc",
+        "samples": 205,
+        "sha256": "4b23bcfb48a01a17eab821209dcdae85182c524de6ce990b37a4ce673e6034e7"
+      },
+      {
+        "path": "data/train_91039.npz",
+        "seed": 91039,
+        "mode": "avoidance_mpcc",
+        "samples": 199,
+        "sha256": "b112528c42f7daf0728b72e568a18757018b984986e379358d1d8a6ad2faa6e9"
+      },
+      {
+        "path": "data/train_91040.npz",
+        "seed": 91040,
+        "mode": "avoidance_mpcc",
+        "samples": 198,
+        "sha256": "3c4a1bea8d58ff1c8eb99bd693bef2e1fe0b014bb6ff24b6d8afa26f03d3ea44"
+      },
+      {
+        "path": "data/train_91041.npz",
+        "seed": 91041,
+        "mode": "avoidance_mpcc",
+        "samples": 204,
+        "sha256": "cfe89a76c5a668eb710bf5786af250011129e917f6b7cfb4bc9a9a9651546347"
+      },
+      {
+        "path": "data/train_91042.npz",
+        "seed": 91042,
+        "mode": "avoidance_mpcc",
+        "samples": 196,
+        "sha256": "ab0c78ed94c0e35f92875b3c091db544e4ae32b9108ea57d177996c55a775191"
+      },
+      {
+        "path": "data/train_91043.npz",
+        "seed": 91043,
+        "mode": "avoidance_mpcc",
+        "samples": 203,
+        "sha256": "41d61e4a48e0ce0b6a6d27ebc635dd59089c9b30cba98c5fbcb7a62b47430d0e"
+      },
+      {
+        "path": "data/train_91045.npz",
+        "seed": 91045,
+        "mode": "avoidance_mpcc",
+        "samples": 201,
+        "sha256": "ebb205ea197fb234f543487c1fede3645f57ff17cf06e59cfc547fa2dcd840ea"
+      },
+      {
+        "path": "data/train_91046.npz",
+        "seed": 91046,
+        "mode": "avoidance_mpcc",
+        "samples": 202,
+        "sha256": "0629bd4fd958394c438e429400761bb03044b0129baa30160caf62952890b71a"
+      },
+      {
+        "path": "data/train_91047.npz",
+        "seed": 91047,
+        "mode": "avoidance_mpcc",
+        "samples": 208,
+        "sha256": "0f9dbb4caf3e0b2c788f696521692887ffb23845f6f7446d0329cd2a5ec2ae6c"
+      },
+      {
+        "path": "data/train_91048.npz",
+        "seed": 91048,
+        "mode": "avoidance_mpcc",
+        "samples": 197,
+        "sha256": "2e4f8595fc9dda358b01c8c178f68bc985035bf777d18624624a6a489e02e412"
+      },
+      {
+        "path": "data/train_91049.npz",
+        "seed": 91049,
+        "mode": "avoidance_mpcc",
+        "samples": 215,
+        "sha256": "e2a5c11e61d9741406c0f96056918b33ba0f249de88c3dcd0cbabb5c88c41344"
+      },
+      {
+        "path": "data/train_91050.npz",
+        "seed": 91050,
+        "mode": "avoidance_mpcc",
+        "samples": 208,
+        "sha256": "02185f518463aa8b408781cafb0e707612babe90041c5dcea8d22162e2295416"
+      },
+      {
+        "path": "data/train_91051.npz",
+        "seed": 91051,
+        "mode": "avoidance_mpcc",
+        "samples": 192,
+        "sha256": "02d5e14887bfafc95fd781b30d9b1e9061d862e0c554d8b6ccae8804f4ed0554"
+      },
+      {
+        "path": "data/train_91053.npz",
+        "seed": 91053,
+        "mode": "avoidance_mpcc",
+        "samples": 208,
+        "sha256": "e49d51316de359276411f79aed13f036629e58ebe50fff5b492e2f04a4b8a0ca"
+      },
+      {
+        "path": "data/train_91054.npz",
+        "seed": 91054,
+        "mode": "avoidance_mpcc",
+        "samples": 192,
+        "sha256": "c37b39cb9fa2b4a566bbba081cb6a378b74d14d2338b1387140945527848c1d0"
+      },
+      {
+        "path": "data/train_91055.npz",
+        "seed": 91055,
+        "mode": "avoidance_mpcc",
+        "samples": 197,
+        "sha256": "6fa8edb69225de8a13f0af7490e2bfc3d3f5b7ff1fd82ce5f6d60b10e32cbeb8"
+      },
+      {
+        "path": "data/train_91056.npz",
+        "seed": 91056,
+        "mode": "avoidance_mpcc",
+        "samples": 202,
+        "sha256": "cdff3bb2d5b04d0da4c2bb8d9398c9363d0c3651604ca53c8f100de5c9d355ac"
+      },
+      {
+        "path": "data/train_91057.npz",
+        "seed": 91057,
+        "mode": "avoidance_mpcc",
+        "samples": 199,
+        "sha256": "451c92d0e3150350a9eb0cc38e1ea33a0645e6c748f00c22b860dc85bd85e4a9"
+      },
+      {
+        "path": "data/train_91059.npz",
+        "seed": 91059,
+        "mode": "avoidance_mpcc",
+        "samples": 206,
+        "sha256": "5291cfadf14de7f20ac128421645513c4f1df9a20a8698565579338faa72758f"
+      },
+      {
+        "path": "data/train_91063.npz",
+        "seed": 91063,
+        "mode": "avoidance_mpcc",
+        "samples": 199,
+        "sha256": "ccb066d017921f304566561e9a7de69c8fb32971fe893a780a4b1712c6a0d8cf"
+      },
+      {
+        "path": "data/train_91064.npz",
+        "seed": 91064,
+        "mode": "avoidance_mpcc",
+        "samples": 202,
+        "sha256": "8484c22c3a74b1bb0f8c562d07ab69c0ba6f4eba4e839692d47fe2c940be89a4"
+      },
+      {
+        "path": "data/train_91065.npz",
+        "seed": 91065,
+        "mode": "avoidance_mpcc",
+        "samples": 207,
+        "sha256": "dc84c282621d236353b518d4971d5904cc4337d7a2983097ea7b7706a210a98e"
+      },
+      {
+        "path": "data/train_91066.npz",
+        "seed": 91066,
+        "mode": "avoidance_mpcc",
+        "samples": 198,
+        "sha256": "078e68382bbad6d095df99ce2b44bd243cbc0167172de86123dafd12531e652f"
+      },
+      {
+        "path": "data/train_91067.npz",
+        "seed": 91067,
+        "mode": "avoidance_mpcc",
+        "samples": 200,
+        "sha256": "a618cb6d44cb1f2580aaf3274d0dc487010c7430e826eb5c185fe5e37aafe91a"
+      },
+      {
+        "path": "data/train_91068.npz",
+        "seed": 91068,
+        "mode": "avoidance_mpcc",
+        "samples": 205,
+        "sha256": "c2cc34e543db78b0c887f826054fbc2e3d5823689e2090e2d8c1497e415d75ea"
+      },
+      {
+        "path": "data/train_91070.npz",
+        "seed": 91070,
+        "mode": "avoidance_mpcc",
+        "samples": 213,
+        "sha256": "a37d387a5a5009a363641252e97e4af1d1ca0a7016463ab2918b862844ea6362"
+      },
+      {
+        "path": "data/train_91071.npz",
+        "seed": 91071,
+        "mode": "avoidance_mpcc",
+        "samples": 207,
+        "sha256": "3adecabe2f78fb2f64acd4bd5eec61a57c713473cc031b084a274d3f67f7f665"
+      },
+      {
+        "path": "data/train_91072.npz",
+        "seed": 91072,
+        "mode": "avoidance_mpcc",
+        "samples": 198,
+        "sha256": "31a67c52b693c1665a016c58cbdd43ce32fa106f942e6871e1aef34d18ea57cd"
+      },
+      {
+        "path": "data/train_91074.npz",
+        "seed": 91074,
+        "mode": "avoidance_mpcc",
+        "samples": 204,
+        "sha256": "c791f40c1d48e9c583eb553a1bd73e2dda907bd99f460e5b40ac6921d26cbd84"
+      },
+      {
+        "path": "data/train_91075.npz",
+        "seed": 91075,
+        "mode": "avoidance_mpcc",
+        "samples": 196,
+        "sha256": "d769a79fe6cba2a6101ef22a563fa105fdd5288d25030959625d6ec870646bc6"
+      },
+      {
+        "path": "data/train_91076.npz",
+        "seed": 91076,
+        "mode": "avoidance_mpcc",
+        "samples": 200,
+        "sha256": "84aa5264a0660e3dcd999d9fc95f5b332b392f9cb58305e2017de4b76bf1aefd"
+      },
+      {
+        "path": "data/train_91077.npz",
+        "seed": 91077,
+        "mode": "avoidance_mpcc",
+        "samples": 203,
+        "sha256": "e1731d46d320b75a7d361f135fa06253f48370141ea0f5d40bd40a2e1d44b3a0"
+      },
+      {
+        "path": "data/train_91079.npz",
+        "seed": 91079,
+        "mode": "avoidance_mpcc",
+        "samples": 193,
+        "sha256": "d93a2f712ba9bb7de83a3ae1fe0c680442b8ef8c6323b4eb65810c595c562082"
+      }
+    ],
+    "val": [
+      {
+        "path": "data/val_92000.npz",
+        "seed": 92000,
+        "mode": "basic_mpcc",
+        "samples": 192,
+        "sha256": "a650060a44a606d480f30f1673a3827600dd7f6ad11767821610508e70292a95"
+      },
+      {
+        "path": "data/val_92001.npz",
+        "seed": 92001,
+        "mode": "basic_mpcc",
+        "samples": 193,
+        "sha256": "6502217d82d27c114cf9690ab24d04b39c14c4a338e90a5a37a0f130581b9ef9"
+      },
+      {
+        "path": "data/val_92002.npz",
+        "seed": 92002,
+        "mode": "basic_mpcc",
+        "samples": 192,
+        "sha256": "0b092eb4726fbebd7fe26c5d9b1afc4eb10b17fe3d3c100ab2ac8882362ff9d3"
+      },
+      {
+        "path": "data/val_92003.npz",
+        "seed": 92003,
+        "mode": "basic_mpcc",
+        "samples": 189,
+        "sha256": "f3aa57fdcfd42fd5ec9a40ba7d2000a3ccd8d1bd3313cc484f7bfb8d119f8787"
+      },
+      {
+        "path": "data/val_92005.npz",
+        "seed": 92005,
+        "mode": "avoidance_mpcc",
+        "samples": 204,
+        "sha256": "19cb4aac9552d0e376b37a471687230a987aee87447990e4eca01b5a30ac4149"
+      },
+      {
+        "path": "data/val_92006.npz",
+        "seed": 92006,
+        "mode": "avoidance_mpcc",
+        "samples": 198,
+        "sha256": "007dc3f1374b1d2f80a10b891b2726efbc2556baf62e1b80b30a9cbac54c04b6"
+      },
+      {
+        "path": "data/val_92007.npz",
+        "seed": 92007,
+        "mode": "avoidance_mpcc",
+        "samples": 201,
+        "sha256": "215894198e7642d89603e5265671cc70688f2ee7786a31bb01a1f6c6aa879d59"
+      },
+      {
+        "path": "data/val_92008.npz",
+        "seed": 92008,
+        "mode": "avoidance_mpcc",
+        "samples": 204,
+        "sha256": "c9a99d4b181f55da2c3dc36ba79a97474bd50d53e5d1b7448a027e612d9fe754"
+      },
+      {
+        "path": "data/val_92009.npz",
+        "seed": 92009,
+        "mode": "avoidance_mpcc",
+        "samples": 194,
+        "sha256": "79a6ee4eae7e00ee2040daec86cdaa031a699d7a1af05182c5b96c8a653924a1"
+      },
+      {
+        "path": "data/val_92010.npz",
+        "seed": 92010,
+        "mode": "avoidance_mpcc",
+        "samples": 206,
+        "sha256": "b462ba792afd5028bfa73247d216980e815c199c5be74c704e5ea82f45bdd13a"
+      },
+      {
+        "path": "data/val_92011.npz",
+        "seed": 92011,
+        "mode": "avoidance_mpcc",
+        "samples": 196,
+        "sha256": "90b86fe7d63654e48c4dfc0ec8db1c53b31c942522025dc74ceba84fa255615b"
+      },
+      {
+        "path": "data/val_92012.npz",
+        "seed": 92012,
+        "mode": "avoidance_mpcc",
+        "samples": 197,
+        "sha256": "d0f997996079a007664a128528bcb3faa428ab62c597b08c2ab20fb7df3a3ce4"
+      },
+      {
+        "path": "data/val_92013.npz",
+        "seed": 92013,
+        "mode": "avoidance_mpcc",
+        "samples": 199,
+        "sha256": "9aec8e6fd175a6abccec53a57a0675ba677b450ba87ab667f48b7fa488451f7b"
+      },
+      {
+        "path": "data/val_92014.npz",
+        "seed": 92014,
+        "mode": "avoidance_mpcc",
+        "samples": 200,
+        "sha256": "e6fe150cac29fbd5fe96b4b33d97a1d347316be020d0535a57e3ac53d16239be"
+      },
+      {
+        "path": "data/val_92015.npz",
+        "seed": 92015,
+        "mode": "avoidance_mpcc",
+        "samples": 198,
+        "sha256": "77d917a7f9de3fa207a7b71b22e560e5e1042a88e907809eea9e501b001980af"
+      }
+    ],
+    "excluded": [
+      {
+        "path": "data/train_91012.json",
+        "reason": "teacher episode did not complete forward without collision"
+      },
+      {
+        "path": "data/train_91014.json",
+        "reason": "teacher episode did not complete forward without collision"
+      },
+      {
+        "path": "data/train_91015.json",
+        "reason": "teacher episode did not complete forward without collision"
+      },
+      {
+        "path": "data/train_91026.json",
+        "reason": "teacher episode did not complete forward without collision"
+      },
+      {
+        "path": "data/train_91031.json",
+        "reason": "teacher episode did not complete forward without collision"
+      },
+      {
+        "path": "data/train_91044.json",
+        "reason": "teacher episode did not complete forward without collision"
+      },
+      {
+        "path": "data/train_91052.json",
+        "reason": "teacher episode did not complete forward without collision"
+      },
+      {
+        "path": "data/train_91058.json",
+        "reason": "teacher episode did not complete forward without collision"
+      },
+      {
+        "path": "data/train_91060.json",
+        "reason": "teacher episode did not complete forward without collision"
+      },
+      {
+        "path": "data/train_91061.json",
+        "reason": "teacher episode did not complete forward without collision"
+      },
+      {
+        "path": "data/train_91062.json",
+        "reason": "teacher episode did not complete forward without collision"
+      },
+      {
+        "path": "data/train_91069.json",
+        "reason": "teacher episode did not complete forward without collision"
+      },
+      {
+        "path": "data/train_91073.json",
+        "reason": "teacher episode did not complete forward without collision"
+      },
+      {
+        "path": "data/train_91078.json",
+        "reason": "teacher episode did not complete forward without collision"
+      },
+      {
+        "path": "data/val_92004.json",
+        "reason": "teacher episode did not complete forward without collision"
+      }
+    ],
+    "test_used": false,
+    "earlier_data_used": false
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "seed": 400,
+    "samples": 309,
+    "teacher_interventions": 166,
+    "collision": "wall",
+    "progress_m": 37.69330650032992,
+    "solver_failures": 0,
+    "success": false
+  },
+  {
+    "seed": 401,
+    "samples": 427,
+    "teacher_interventions": 196,
+    "collision": null,
+    "progress_m": 54.790270456712975,
+    "solver_failures": 0,
+    "success": true
+  },
+  {
+    "seed": 402,
+    "samples": 155,
+    "teacher_interventions": 79,
+    "collision": "wall",
+    "progress_m": 20.196413562510983,
+    "solver_failures": 0,
+    "success": false
+  },
+  {
+    "seed": 403,
+    "samples": 411,
+    "teacher_interventions": 185,
+    "collision": null,
+    "progress_m": 54.790270456712975,
+    "solver_failures": 0,
+    "success": true
+  },
+  {
+    "seed": 404,
+    "samples": 500,
+    "teacher_interventions": 354,
+    "collision": null,
+    "progress_m": 39.093057935355425,
+    "solver_failures": 0,
+    "success": false
+  },
+  {
+    "seed": 405,
+    "samples": 500,
+    "teacher_interventions": 348,
+    "collision": null,
+    "progress_m": 38.79311119927853,
+    "solver_failures": 0,
+    "success": false
+  }
+]

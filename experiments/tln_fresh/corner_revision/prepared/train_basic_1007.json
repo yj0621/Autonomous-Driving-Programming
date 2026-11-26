@@ -1,0 +1,21 @@
+{
+  "split": "train",
+  "mode": "basic",
+  "seed": 1007,
+  "start_s": 40.0,
+  "success": true,
+  "collision": null,
+  "progress_m": 54.98313309101695,
+  "sim_time_s": 27.3,
+  "wall_time_s": 1.2227025032043457,
+  "solver_failures": 0,
+  "samples": 273,
+  "mean_abs_raceline_error_m": 0.06714820026305629,
+  "obstacles": [],
+  "recipe": "spread:1.0 chicane:1:0.10 forced:1:0.20",
+  "relaxed": [
+    "chicane: dropped, no room left in num_obstacles",
+    "forced: dropped, no room left in num_obstacles"
+  ],
+  "source_raw": "data/train_basic_1007.npz"
+}

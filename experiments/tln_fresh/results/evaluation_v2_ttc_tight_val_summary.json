@@ -1,0 +1,17 @@
+{
+  "model_sha256": "6b1d08e7658639e4a1787e068d1cd47d3e15bd889ecefbd43cfad8a5d0a26c9c",
+  "pretrained_weights_used": false,
+  "split": "val",
+  "summary": {
+    "protected": {
+      "trials": 8,
+      "successes": 4,
+      "wall_collisions": 0,
+      "obstacle_collisions": 3,
+      "timeouts": 1,
+      "clean_lap_mean_s": 32.65,
+      "mean_abs_raceline_error_m": 0.10155078440887944,
+      "controller_p95_ms_mean": 13.355397642453678
+    }
+  }
+}

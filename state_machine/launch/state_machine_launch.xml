@@ -1,0 +1,13 @@
+<launch>
+  <arg name="mode" default="timetrials" description="choose between: dummy / timetrials / head_to_head"/>
+  <arg name="log-level" default="info"/>
+
+  <node pkg="state_machine"
+        name="state_machine"
+        exec="state_machine"
+        output="screen"
+        args="--ros-args --log-level state_machine:=$(var log-level)">
+    <param from="$(find-pkg-share stack_master)/config/state_machine_params.yaml"/>
+    <param name="mode" value="$(var mode)"/>
+  </node>
+</launch>

@@ -1,0 +1,312 @@
+[
+  {
+    "controller": "neural",
+    "seed": 3003,
+    "outcome": "collision",
+    "kind": "obstacle",
+    "progress_m": 26.495295020125806,
+    "last_xy": [
+      -0.7118222802501368,
+      19.08275880574514
+    ],
+    "last_speed_state_mps": 1.2712615024046792,
+    "last_command": [
+      0.3548712228767703,
+      1.2664740646409143
+    ],
+    "last_guard": {},
+    "closest_obstacle_proxy": {
+      "id": "s044d+01t1",
+      "s": 27.095188492279597,
+      "d": 0.1,
+      "theta": -0.15504631155840887,
+      "x": -0.15004398522360674,
+      "y": 18.704393606878096,
+      "side": "LEFT",
+      "severity": 0.451,
+      "visibility": 2.2,
+      "half_w": 0.1959844447314565
+    },
+    "first_deviation_from_basic_at_least_0p06rad_within5m": {
+      "distance_to_obstacle_centre_m": 1.1592949298210018,
+      "steering_difference_rad": 0.0770346575975418
+    },
+    "car_lateral_offset_m": 0.0995844374257503,
+    "obstacle_lateral_offset_m": 0.1,
+    "centre_lateral_separation_m": 0.00041556257424971155,
+    "approx_required_separation_m": 0.3475844447314565,
+    "interpretation_limit": "Closest obstacle and lateral separation are geometric proxies; this does not prove a unique cause or global path infeasibility."
+  },
+  {
+    "controller": "neural",
+    "seed": 3005,
+    "outcome": "collision",
+    "kind": "obstacle",
+    "progress_m": 25.09554358510028,
+    "last_xy": [
+      -1.0336104197966864,
+      20.193066580016165
+    ],
+    "last_speed_state_mps": 1.2631172390912453,
+    "last_command": [
+      0.36,
+      1.1993015646934508
+    ],
+    "last_guard": {},
+    "closest_obstacle_proxy": {
+      "id": "s041d-02t2",
+      "s": 25.595454811895117,
+      "d": -0.2,
+      "theta": -0.6256064386793203,
+      "x": -1.3778035179760035,
+      "y": 19.653153544170962,
+      "side": "RIGHT",
+      "severity": 0.567,
+      "visibility": 3.0,
+      "half_w": 0.21213203435596423
+    },
+    "first_deviation_from_basic_at_least_0p06rad_within5m": {
+      "distance_to_obstacle_centre_m": 1.8608616169709868,
+      "steering_difference_rad": 0.06017272531986237
+    },
+    "car_lateral_offset_m": 0.08798955975771428,
+    "obstacle_lateral_offset_m": -0.2,
+    "centre_lateral_separation_m": 0.2879895597577143,
+    "approx_required_separation_m": 0.3637320343559642,
+    "interpretation_limit": "Closest obstacle and lateral separation are geometric proxies; this does not prove a unique cause or global path infeasibility."
+  },
+  {
+    "controller": "neural",
+    "seed": 3007,
+    "outcome": "collision",
+    "kind": "obstacle",
+    "progress_m": 27.095188492279576,
+    "last_xy": [
+      -0.13776719186452296,
+      18.775239000648916
+    ],
+    "last_speed_state_mps": 1.3058345744007314,
+    "last_command": [
+      0.09785448082296225,
+      1.1529159069061279
+    ],
+    "last_guard": {},
+    "closest_obstacle_proxy": {
+      "id": "s045d+04t1",
+      "s": 27.595099719074422,
+      "d": 0.4,
+      "theta": -0.2938915169220957,
+      "x": 0.462566109201053,
+      "y": 18.644881678209835,
+      "side": "either",
+      "severity": 0.0,
+      "visibility": 2.4,
+      "half_w": 0.1959844447314565
+    },
+    "first_deviation_from_basic_at_least_0p06rad_within5m": {
+      "distance_to_obstacle_centre_m": 3.297642710219935,
+      "steering_difference_rad": 0.07323884904384613
+    },
+    "car_lateral_offset_m": 0.16687349479785302,
+    "obstacle_lateral_offset_m": 0.4,
+    "centre_lateral_separation_m": 0.233126505202147,
+    "approx_required_separation_m": 0.3475844447314565,
+    "interpretation_limit": "Closest obstacle and lateral separation are geometric proxies; this does not prove a unique cause or global path infeasibility."
+  },
+  {
+    "controller": "protected",
+    "seed": 3003,
+    "outcome": "stopped",
+    "kind": null,
+    "progress_m": 26.495295020125806,
+    "last_xy": [
+      -0.6711385222316608,
+      19.015040822593726
+    ],
+    "last_speed_state_mps": 5.390049907141675e-38,
+    "last_command": [
+      0.36,
+      0.0
+    ],
+    "last_guard": {
+      "corridor_planned": false,
+      "corridor_feasible": false,
+      "foreground_detected": true,
+      "base_tracking_only": false,
+      "preferred_side": "left",
+      "ttc_stopping_distance_m": 0.0,
+      "speed_cap_mps": 0.0,
+      "free_path_m": 0.0,
+      "path_clearance_m": -0.06829308671853906,
+      "braking": true
+    },
+    "closest_obstacle_proxy": {
+      "id": "s044d+01t1",
+      "s": 27.095188492279597,
+      "d": 0.1,
+      "theta": -0.15504631155840887,
+      "x": -0.15004398522360674,
+      "y": 18.704393606878096,
+      "side": "LEFT",
+      "severity": 0.451,
+      "visibility": 2.2,
+      "half_w": 0.1959844447314565
+    },
+    "first_deviation_from_basic_at_least_0p06rad_within5m": {
+      "distance_to_obstacle_centre_m": 1.0511660949808252,
+      "steering_difference_rad": 0.08959160855552117
+    },
+    "car_lateral_offset_m": 0.07370266683866618,
+    "obstacle_lateral_offset_m": 0.1,
+    "centre_lateral_separation_m": 0.026297333161333827,
+    "approx_required_separation_m": 0.3475844447314565,
+    "interpretation_limit": "Closest obstacle and lateral separation are geometric proxies; this does not prove a unique cause or global path infeasibility."
+  },
+  {
+    "controller": "protected",
+    "seed": 3004,
+    "outcome": "stopped",
+    "kind": null,
+    "progress_m": 25.19552583045924,
+    "last_xy": [
+      -1.1989038107257348,
+      20.0455288199743
+    ],
+    "last_speed_state_mps": 1.440485587580147e-38,
+    "last_command": [
+      0.36,
+      0.0
+    ],
+    "last_guard": {
+      "corridor_planned": false,
+      "corridor_feasible": false,
+      "foreground_detected": true,
+      "base_tracking_only": false,
+      "preferred_side": "right",
+      "ttc_stopping_distance_m": 0.0,
+      "speed_cap_mps": 0.0,
+      "free_path_m": 0.020000000000000018,
+      "path_clearance_m": -0.018685314432083266,
+      "braking": true
+    },
+    "closest_obstacle_proxy": {
+      "id": "s041d-04t1",
+      "s": 25.595454811895117,
+      "d": -0.4,
+      "theta": -1.0183055203780444,
+      "x": -1.5752556067775059,
+      "y": 19.62133102654706,
+      "side": "either",
+      "severity": 0.0,
+      "visibility": 3.1,
+      "half_w": 0.1959844447314565
+    },
+    "first_deviation_from_basic_at_least_0p06rad_within5m": {
+      "distance_to_obstacle_centre_m": 2.438972693387105,
+      "steering_difference_rad": 0.11043329878389677
+    },
+    "car_lateral_offset_m": -0.02577168644480187,
+    "obstacle_lateral_offset_m": -0.4,
+    "centre_lateral_separation_m": 0.37422831355519814,
+    "approx_required_separation_m": 0.3475844447314565,
+    "interpretation_limit": "Closest obstacle and lateral separation are geometric proxies; this does not prove a unique cause or global path infeasibility."
+  },
+  {
+    "controller": "protected",
+    "seed": 3005,
+    "outcome": "stopped",
+    "kind": null,
+    "progress_m": 25.095543585100273,
+    "last_xy": [
+      -1.3086361207621497,
+      20.21488041919644
+    ],
+    "last_speed_state_mps": 5.365167471457218e-38,
+    "last_command": [
+      0.14065926790237426,
+      0.0
+    ],
+    "last_guard": {
+      "corridor_planned": false,
+      "corridor_feasible": false,
+      "foreground_detected": true,
+      "base_tracking_only": false,
+      "preferred_side": "right",
+      "ttc_stopping_distance_m": 0.0,
+      "speed_cap_mps": 0.0,
+      "free_path_m": 0.020000000000000018,
+      "path_clearance_m": -0.008443409069610358,
+      "braking": true
+    },
+    "closest_obstacle_proxy": {
+      "id": "s041d-02t2",
+      "s": 25.595454811895117,
+      "d": -0.2,
+      "theta": -0.6256064386793203,
+      "x": -1.3778035179760035,
+      "y": 19.653153544170962,
+      "side": "RIGHT",
+      "severity": 0.567,
+      "visibility": 3.0,
+      "half_w": 0.21213203435596423
+    },
+    "first_deviation_from_basic_at_least_0p06rad_within5m": {
+      "distance_to_obstacle_centre_m": 2.392013857899311,
+      "steering_difference_rad": 0.0929827979674778
+    },
+    "car_lateral_offset_m": -0.17726390085789281,
+    "obstacle_lateral_offset_m": -0.2,
+    "centre_lateral_separation_m": 0.022736099142107197,
+    "approx_required_separation_m": 0.3637320343559642,
+    "interpretation_limit": "Closest obstacle and lateral separation are geometric proxies; this does not prove a unique cause or global path infeasibility."
+  },
+  {
+    "controller": "protected",
+    "seed": 3007,
+    "outcome": "stopped",
+    "kind": null,
+    "progress_m": 34.49387464884301,
+    "last_xy": [
+      -0.6848493175272462,
+      14.397883158144678
+    ],
+    "last_speed_state_mps": 9.059715061521452e-38,
+    "last_command": [
+      -0.36,
+      0.0
+    ],
+    "last_guard": {
+      "corridor_planned": false,
+      "corridor_feasible": false,
+      "foreground_detected": true,
+      "base_tracking_only": false,
+      "preferred_side": "right",
+      "ttc_stopping_distance_m": 0.0,
+      "speed_cap_mps": 0.0,
+      "free_path_m": 0.0,
+      "path_clearance_m": -0.10113472958444959,
+      "braking": true
+    },
+    "closest_obstacle_proxy": {
+      "id": "s060d+01t1",
+      "s": 35.09376812099682,
+      "d": 0.1,
+      "theta": 1.8577991374462688,
+      "x": -0.8049498363930846,
+      "y": 14.998688150667544,
+      "side": "either",
+      "severity": 0.251,
+      "visibility": 2.1,
+      "half_w": 0.1959844447314565
+    },
+    "first_deviation_from_basic_at_least_0p06rad_within5m": {
+      "distance_to_obstacle_centre_m": 4.9311549699020185,
+      "steering_difference_rad": 0.061264003515243526
+    },
+    "car_lateral_offset_m": -0.006992621079595671,
+    "obstacle_lateral_offset_m": 0.1,
+    "centre_lateral_separation_m": 0.10699262107959567,
+    "approx_required_separation_m": 0.3475844447314565,
+    "interpretation_limit": "Closest obstacle and lateral separation are geometric proxies; this does not prove a unique cause or global path infeasibility."
+  }
+]

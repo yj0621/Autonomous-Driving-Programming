@@ -1,0 +1,14 @@
+{
+  "split": "train",
+  "mode": "basic_fast_ros",
+  "seed": 1100,
+  "success": true,
+  "collision": null,
+  "samples": 491,
+  "source_bag": "/home/misys/forza_ws/race_stack/experiments/tln_fresh/recordings/basic_fast_2p2",
+  "recording_type": "actual ROS bag, nearest-state alignment <=40ms, command age <=100ms",
+  "progress_m": 54.790270456712925,
+  "mean_actual_speed_mps": 1.9834254792460797,
+  "max_actual_speed_mps": 2.2000000476837114,
+  "source_raw": "data/ros_fast/train_basic_fast_1100.npz"
+}

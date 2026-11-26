@@ -1,0 +1,408 @@
+[
+  {
+    "folder": "ros_recordings",
+    "episode": "train_corner_exit_41000",
+    "success": false,
+    "collision_events": [
+      "wall"
+    ],
+    "progress_m": 5.7989702308199895,
+    "required_progress_m": 11.0,
+    "wall_elapsed_s": 15.56121449800412,
+    "training_inclusion": "diagnostic_only; not automatically imported",
+    "obstacles": [
+      {
+        "x": -1.4647304956743719,
+        "y": 19.69789613146329,
+        "theta": -1.4563481053510572,
+        "s": 25.55,
+        "d": -0.28
+      }
+    ]
+  },
+  {
+    "folder": "ros_recordings",
+    "episode": "train_corner_exit_41011",
+    "success": false,
+    "collision_events": [],
+    "progress_m": 0.0,
+    "required_progress_m": 11.0,
+    "wall_elapsed_s": 90.70368807899649,
+    "training_inclusion": "diagnostic_only; not automatically imported",
+    "obstacles": [
+      {
+        "x": 0.39027206855712643,
+        "y": 13.383974312189197,
+        "theta": -3.0533681303643734,
+        "s": 33.1,
+        "d": 0.28
+      }
+    ]
+  },
+  {
+    "folder": "ros_recordings",
+    "episode": "train_corner_exit_41018",
+    "success": false,
+    "collision_events": [
+      "wall"
+    ],
+    "progress_m": 4.199254305076543,
+    "required_progress_m": 11.0,
+    "wall_elapsed_s": 16.822412339999573,
+    "training_inclusion": "diagnostic_only; not automatically imported",
+    "obstacles": [
+      {
+        "x": -1.2355547882510258,
+        "y": 16.458980771374364,
+        "theta": 2.7132922214977335,
+        "s": 36.8,
+        "d": 0.0
+      }
+    ]
+  },
+  {
+    "folder": "ros_recordings",
+    "episode": "train_mpcc_41028",
+    "success": false,
+    "collision_events": [
+      "wall"
+    ],
+    "progress_m": 3.6993430782817356,
+    "required_progress_m": 55.29018168350776,
+    "wall_elapsed_s": 13.074333343000035,
+    "training_inclusion": "diagnostic_only; not automatically imported",
+    "obstacles": [
+      {
+        "id": "s084d-01t2",
+        "s": 47.091637564072656,
+        "d": -0.1,
+        "theta": -0.6409517653179004,
+        "x": -0.7463981033716809,
+        "y": 7.56843834707971,
+        "side": "LEFT",
+        "severity": 0.267,
+        "visibility": 9.2,
+        "half_w": 0.21213203435596423
+      },
+      {
+        "id": "s080d+02t3",
+        "s": 45.09199265689335,
+        "d": 0.2,
+        "theta": -0.05488583284921322,
+        "x": -0.9598932657296579,
+        "y": 9.581705828239725,
+        "side": "either",
+        "severity": 0.151,
+        "visibility": 7.1,
+        "half_w": 0.1959844447314565
+      }
+    ]
+  },
+  {
+    "folder": "ros_recordings_safe",
+    "episode": "train_corner_exit_41000",
+    "success": false,
+    "collision_events": [
+      "wall"
+    ],
+    "progress_m": 8.998402082306878,
+    "required_progress_m": 11.0,
+    "wall_elapsed_s": 22.869407731996034,
+    "training_inclusion": "diagnostic_only; not automatically imported",
+    "obstacles": [
+      {
+        "x": -1.4647304956743719,
+        "y": 19.69789613146329,
+        "theta": -1.4563481053510572,
+        "s": 25.55,
+        "d": -0.28
+      }
+    ]
+  },
+  {
+    "folder": "ros_recordings_serial",
+    "episode": "train_corner_exit_41000",
+    "success": false,
+    "collision_events": [],
+    "progress_m": 3.8993075689996495,
+    "required_progress_m": 11.0,
+    "wall_elapsed_s": 27.69134402599593,
+    "training_inclusion": "diagnostic_only; not automatically imported",
+    "obstacles": [
+      {
+        "x": -1.4647304956743719,
+        "y": 19.69789613146329,
+        "theta": -1.4563481053510572,
+        "s": 25.55,
+        "d": -0.28
+      }
+    ]
+  },
+  {
+    "folder": "ros_recordings_serial",
+    "episode": "train_corner_exit_41011",
+    "success": false,
+    "collision_events": [
+      "wall"
+    ],
+    "progress_m": 2.8994851154099948,
+    "required_progress_m": 11.0,
+    "wall_elapsed_s": 12.588413340003171,
+    "training_inclusion": "diagnostic_only; not automatically imported",
+    "obstacles": [
+      {
+        "x": 0.39027206855712643,
+        "y": 13.383974312189197,
+        "theta": -3.0533681303643734,
+        "s": 33.1,
+        "d": 0.28
+      }
+    ]
+  },
+  {
+    "folder": "ros_recordings_serial",
+    "episode": "train_corner_exit_41018",
+    "success": false,
+    "collision_events": [
+      "wall"
+    ],
+    "progress_m": 4.499201041153434,
+    "required_progress_m": 11.0,
+    "wall_elapsed_s": 18.337483267001517,
+    "training_inclusion": "diagnostic_only; not automatically imported",
+    "obstacles": [
+      {
+        "x": -1.2355547882510258,
+        "y": 16.458980771374364,
+        "theta": 2.7132922214977335,
+        "s": 36.8,
+        "d": 0.0
+      }
+    ]
+  },
+  {
+    "folder": "ros_recordings_serial",
+    "episode": "train_mpcc_41028",
+    "success": false,
+    "collision_events": [
+      "wall"
+    ],
+    "progress_m": 2.799502870051043,
+    "required_progress_m": 55.29018168350776,
+    "wall_elapsed_s": 12.906997776000935,
+    "training_inclusion": "diagnostic_only; not automatically imported",
+    "obstacles": [
+      {
+        "id": "s084d-01t2",
+        "s": 47.091637564072656,
+        "d": -0.1,
+        "theta": -0.6409517653179004,
+        "x": -0.7463981033716809,
+        "y": 7.56843834707971,
+        "side": "LEFT",
+        "severity": 0.267,
+        "visibility": 9.2,
+        "half_w": 0.21213203435596423
+      },
+      {
+        "id": "s080d+02t3",
+        "s": 45.09199265689335,
+        "d": 0.2,
+        "theta": -0.05488583284921322,
+        "x": -0.9598932657296579,
+        "y": 9.581705828239725,
+        "side": "either",
+        "severity": 0.151,
+        "visibility": 7.1,
+        "half_w": 0.1959844447314565
+      }
+    ]
+  },
+  {
+    "folder": "ros_recordings_sync_fixed",
+    "episode": "train_corner_exit_41000",
+    "success": true,
+    "collision_events": [],
+    "progress_m": 11.09802923484515,
+    "required_progress_m": 11.0,
+    "wall_elapsed_s": 38.73914013800095,
+    "training_inclusion": "diagnostic_only; not automatically imported",
+    "obstacles": [
+      {
+        "x": -1.4647304956743719,
+        "y": 19.69789613146329,
+        "theta": -1.4563481053510572,
+        "s": 25.55,
+        "d": -0.28
+      }
+    ]
+  },
+  {
+    "folder": "ros_recordings_sync_fixed",
+    "episode": "train_corner_exit_41011",
+    "success": true,
+    "collision_events": [],
+    "progress_m": 11.098029234845146,
+    "required_progress_m": 11.0,
+    "wall_elapsed_s": 39.67604149799445,
+    "training_inclusion": "diagnostic_only; not automatically imported",
+    "obstacles": [
+      {
+        "x": 0.39027206855712643,
+        "y": 13.383974312189197,
+        "theta": -3.0533681303643734,
+        "s": 33.1,
+        "d": 0.28
+      }
+    ]
+  },
+  {
+    "folder": "ros_recordings_sync_fixed",
+    "episode": "train_corner_exit_41018",
+    "success": false,
+    "collision_events": [],
+    "progress_m": 4.299236550435509,
+    "required_progress_m": 11.0,
+    "wall_elapsed_s": 33.591585284004395,
+    "training_inclusion": "diagnostic_only; not automatically imported",
+    "obstacles": [
+      {
+        "x": -1.2355547882510258,
+        "y": 16.458980771374364,
+        "theta": 2.7132922214977335,
+        "s": 36.8,
+        "d": 0.0
+      }
+    ]
+  },
+  {
+    "folder": "ros_recordings_background",
+    "episode": "train_corner_exit_41000",
+    "success": true,
+    "collision_events": [],
+    "progress_m": 11.09802923484515,
+    "required_progress_m": 11.0,
+    "wall_elapsed_s": 96.762569763996,
+    "training_inclusion": "diagnostic_only; not automatically imported",
+    "obstacles": [
+      {
+        "x": -1.4647304956743719,
+        "y": 19.69789613146329,
+        "theta": -1.4563481053510572,
+        "s": 25.55,
+        "d": -0.28
+      }
+    ]
+  },
+  {
+    "folder": "ros_recordings_background",
+    "episode": "train_corner_exit_41011",
+    "success": true,
+    "collision_events": [],
+    "progress_m": 11.098029234845146,
+    "required_progress_m": 11.0,
+    "wall_elapsed_s": 90.00917283099989,
+    "training_inclusion": "diagnostic_only; not automatically imported",
+    "obstacles": [
+      {
+        "x": 0.39027206855712643,
+        "y": 13.383974312189197,
+        "theta": -3.0533681303643734,
+        "s": 33.1,
+        "d": 0.28
+      }
+    ]
+  },
+  {
+    "folder": "ros_recordings_background",
+    "episode": "train_corner_exit_41018",
+    "success": false,
+    "collision_events": [],
+    "progress_m": 4.299236550435509,
+    "required_progress_m": 11.0,
+    "wall_elapsed_s": 56.441225338006916,
+    "training_inclusion": "diagnostic_only; not automatically imported",
+    "obstacles": [
+      {
+        "x": -1.2355547882510258,
+        "y": 16.458980771374364,
+        "theta": 2.7132922214977335,
+        "s": 36.8,
+        "d": 0.0
+      }
+    ]
+  },
+  {
+    "folder": "ros_recordings_background",
+    "episode": "train_mpcc_41028",
+    "success": false,
+    "collision_events": [],
+    "progress_m": 31.594389533433034,
+    "required_progress_m": 55.29018168350776,
+    "wall_elapsed_s": 160.9056709659999,
+    "training_inclusion": "diagnostic_only; not automatically imported",
+    "obstacles": [
+      {
+        "id": "s084d-01t2",
+        "s": 47.091637564072656,
+        "d": -0.1,
+        "theta": -0.6409517653179004,
+        "x": -0.7463981033716809,
+        "y": 7.56843834707971,
+        "side": "LEFT",
+        "severity": 0.267,
+        "visibility": 9.2,
+        "half_w": 0.21213203435596423
+      },
+      {
+        "id": "s080d+02t3",
+        "s": 45.09199265689335,
+        "d": 0.2,
+        "theta": -0.05488583284921322,
+        "x": -0.9598932657296579,
+        "y": 9.581705828239725,
+        "side": "either",
+        "severity": 0.151,
+        "visibility": 7.1,
+        "half_w": 0.1959844447314565
+      }
+    ]
+  },
+  {
+    "folder": "ros_recordings_full",
+    "episode": "train_mpcc_41028",
+    "success": true,
+    "collision_events": [],
+    "progress_m": 55.29018168350776,
+    "required_progress_m": 55.29018168350776,
+    "wall_elapsed_s": 305.74755788400216,
+    "wall_budget_s": 600.0,
+    "training_inclusion": "diagnostic_only; not automatically imported",
+    "obstacles": [
+      {
+        "id": "s084d-01t2",
+        "s": 47.091637564072656,
+        "d": -0.1,
+        "theta": -0.6409517653179004,
+        "x": -0.7463981033716809,
+        "y": 7.56843834707971,
+        "side": "LEFT",
+        "severity": 0.267,
+        "visibility": 9.2,
+        "half_w": 0.21213203435596423
+      },
+      {
+        "id": "s080d+02t3",
+        "s": 45.09199265689335,
+        "d": 0.2,
+        "theta": -0.05488583284921322,
+        "x": -0.9598932657296579,
+        "y": 9.581705828239725,
+        "side": "either",
+        "severity": 0.151,
+        "visibility": 7.1,
+        "half_w": 0.1959844447314565
+      }
+    ]
+  }
+]

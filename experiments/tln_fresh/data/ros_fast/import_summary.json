@@ -1,0 +1,37 @@
+{
+  "source_bag": "/home/misys/forza_ws/race_stack/experiments/tln_fresh/recordings/basic_fast_2p2",
+  "raw_scan_samples_10hz": 1046,
+  "odometry_messages": 5058,
+  "command_messages": 2283,
+  "collision_messages": 0,
+  "reset_messages": 0,
+  "full_lap_episodes": [
+    {
+      "split": "train",
+      "mode": "basic_fast_ros",
+      "seed": 1100,
+      "success": true,
+      "collision": null,
+      "samples": 491,
+      "source_bag": "/home/misys/forza_ws/race_stack/experiments/tln_fresh/recordings/basic_fast_2p2",
+      "recording_type": "actual ROS bag, nearest-state alignment <=40ms, command age <=100ms",
+      "progress_m": 54.790270456712925,
+      "mean_actual_speed_mps": 1.9834254792460797,
+      "max_actual_speed_mps": 2.2000000476837114
+    },
+    {
+      "split": "train",
+      "mode": "basic_fast_ros",
+      "seed": 1101,
+      "success": true,
+      "collision": null,
+      "samples": 503,
+      "source_bag": "/home/misys/forza_ws/race_stack/experiments/tln_fresh/recordings/basic_fast_2p2",
+      "recording_type": "actual ROS bag, nearest-state alignment <=40ms, command age <=100ms",
+      "progress_m": 54.79027045671291,
+      "mean_actual_speed_mps": 1.9579361918190132,
+      "max_actual_speed_mps": 2.2000000476837114
+    }
+  ],
+  "used_for_training_only": true
+}

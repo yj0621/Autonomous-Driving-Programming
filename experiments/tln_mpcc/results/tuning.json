@@ -1,0 +1,101 @@
+[
+  {
+    "cruise": 1.3,
+    "seed": 90,
+    "success": true,
+    "collision": null,
+    "progress": 54.790270456712975,
+    "time": 40.800000000000004,
+    "failures": 0,
+    "latency_p95": 103.8382259030186,
+    "wall_seconds": 37.20533585548401
+  },
+  {
+    "cruise": 1.3,
+    "seed": 91,
+    "success": true,
+    "collision": null,
+    "progress": 54.89025270207194,
+    "time": 40.900000000000006,
+    "failures": 0,
+    "latency_p95": 149.35235199955056,
+    "wall_seconds": 46.05262231826782
+  },
+  {
+    "cruise": 1.3,
+    "seed": 92,
+    "success": false,
+    "collision": "wall",
+    "progress": 34.49387464884302,
+    "time": 26.400000000000002,
+    "failures": 0,
+    "latency_p95": 139.03271934905203,
+    "wall_seconds": 26.801695108413696
+  },
+  {
+    "cruise": 1.7,
+    "seed": 90,
+    "success": true,
+    "collision": null,
+    "progress": 54.790270456712975,
+    "time": 34.0,
+    "failures": 0,
+    "latency_p95": 117.77440825317171,
+    "wall_seconds": 34.68554067611694
+  },
+  {
+    "cruise": 1.7,
+    "seed": 91,
+    "success": true,
+    "collision": null,
+    "progress": 54.89025270207193,
+    "time": 34.0,
+    "failures": 0,
+    "latency_p95": 121.46202145268035,
+    "wall_seconds": 37.99832248687744
+  },
+  {
+    "cruise": 1.7,
+    "seed": 92,
+    "success": false,
+    "collision": "obstacle",
+    "progress": 32.99414096845854,
+    "time": 19.1,
+    "failures": 0,
+    "latency_p95": 155.92682049828,
+    "wall_seconds": 20.93534517288208
+  },
+  {
+    "cruise": 2.0,
+    "seed": 90,
+    "success": true,
+    "collision": null,
+    "progress": 54.9902349474309,
+    "time": 30.8,
+    "failures": 0,
+    "latency_p95": 135.7713638477435,
+    "wall_seconds": 32.1721465587616
+  },
+  {
+    "cruise": 2.0,
+    "seed": 91,
+    "success": true,
+    "collision": null,
+    "progress": 54.89025270207193,
+    "time": 30.8,
+    "failures": 0,
+    "latency_p95": 148.43827784679885,
+    "wall_seconds": 37.73310136795044
+  },
+  {
+    "cruise": 2.0,
+    "seed": 92,
+    "success": false,
+    "collision": null,
+    "progress": 33.09412321381749,
+    "time": 18.0,
+    "failures": 13,
+    "latency_p95": 998.0736667475863,
+    "wall_seconds": 32.00976324081421
+  }
+]

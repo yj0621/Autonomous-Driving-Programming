@@ -1,0 +1,25 @@
+{
+  "capture_wall_start": 1793292208.459318,
+  "command_wall_time": 1793292211.462655,
+  "command": {
+    "mode": "tln",
+    "case": "TLN verified | corner obstacles",
+    "reset": 120,
+    "obstacles": [
+      {
+        "index": 210,
+        "d": -0.25
+      },
+      {
+        "index": 60,
+        "d": -0.3
+      },
+      {
+        "index": 345,
+        "d": 0.7
+      }
+    ],
+    "run_id": 1793292208.454377
+  },
+  "duration": 16.0
+}

@@ -1,0 +1,55 @@
+{
+  "split": "train",
+  "mode": "mpcc",
+  "seed": 1025,
+  "start_s": 0.0,
+  "success": true,
+  "collision": null,
+  "progress_m": 54.890252702071926,
+  "sim_time_s": 33.800000000000004,
+  "wall_time_s": 28.48851203918457,
+  "solver_failures": 0,
+  "samples": 338,
+  "mean_abs_raceline_error_m": 0.15098534795062418,
+  "obstacles": [
+    {
+      "id": "s079d+01t1",
+      "s": 44.592081430098524,
+      "d": 0.1,
+      "theta": -0.8175813943721724,
+      "x": -1.226500861973029,
+      "y": 10.020263184552501,
+      "side": "LEFT",
+      "severity": 0.451,
+      "visibility": 6.8,
+      "half_w": 0.1959844447314565
+    },
+    {
+      "id": "s045d-01t3",
+      "s": 27.595099719074422,
+      "d": -0.1,
+      "theta": 0.4915066464753526,
+      "x": 0.14561410893466586,
+      "y": 18.258175808682186,
+      "side": "LEFT",
+      "severity": 0.251,
+      "visibility": 2.6,
+      "half_w": 0.1959844447314565
+    },
+    {
+      "id": "s011d+12t0",
+      "s": 10.598118008050323,
+      "d": 1.2,
+      "theta": 1.5749734783761247,
+      "x": 2.223918889530946,
+      "y": 9.743296349884746,
+      "side": "RIGHT",
+      "severity": 0.0,
+      "visibility": 8.9,
+      "half_w": 0.15
+    }
+  ],
+  "recipe": "spread:1.0 forced:2:0.20",
+  "relaxed": [],
+  "source_raw": "data/train_mpcc_1025.npz"
+}

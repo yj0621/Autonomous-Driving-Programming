@@ -1,0 +1,38 @@
+[
+  {
+    "case": 0,
+    "progress": 55.59012841958461,
+    "collision": null,
+    "steps": 242,
+    "failures": 0,
+    "mean_solve_ms": 111.45933321412568,
+    "wall_s": 28.334544237004593
+  },
+  {
+    "case": 1,
+    "progress": 3.6955080758182177,
+    "collision": null,
+    "steps": 61,
+    "failures": 13,
+    "mean_solve_ms": 143.10805878714567,
+    "wall_s": 9.201813114006654
+  },
+  {
+    "case": 2,
+    "progress": 11.092951407509226,
+    "collision": null,
+    "steps": 71,
+    "failures": 1,
+    "mean_solve_ms": 128.62000807084334,
+    "wall_s": 9.70908908599813
+  },
+  {
+    "case": 3,
+    "progress": 55.39016392886668,
+    "collision": null,
+    "steps": 259,
+    "failures": 4,
+    "mean_solve_ms": 116.59779364894221,
+    "wall_s": 32.58848849500646
+  }
+]

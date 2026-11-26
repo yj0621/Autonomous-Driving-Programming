@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "mode": "basic",
+  "seed": 1000,
+  "start_s": 0.0,
+  "success": true,
+  "collision": null,
+  "progress_m": 54.79027045671296,
+  "sim_time_s": 27.0,
+  "wall_time_s": 1.4960472583770752,
+  "solver_failures": 0,
+  "samples": 270,
+  "mean_abs_raceline_error_m": 0.06747126344259011,
+  "obstacles": [],
+  "recipe": "chicane:2:0.10",
+  "relaxed": [
+    "chicane: dropped, no room left in num_obstacles"
+  ],
+  "source_raw": "data/train_basic_1000.npz"
+}

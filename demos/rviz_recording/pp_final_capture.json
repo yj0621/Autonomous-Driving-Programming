@@ -1,0 +1,12 @@
+{
+  "capture_wall_start": 1793292122.228726,
+  "command_wall_time": 1793292125.23383,
+  "command": {
+    "mode": "pp",
+    "case": "PurePursuit | long lookahead",
+    "reset": 300,
+    "obstacles": [],
+    "run_id": 1793292122.227015
+  },
+  "duration": 14.0
+}

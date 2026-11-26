@@ -1,0 +1,41 @@
+{
+  "model": "models/candidate_epoch_20.keras",
+  "model_sha256": "681a35175cb5b27a47507f0540ea16b72c7b3e8ec069e7326d012f58e2883d1c",
+  "split": "val",
+  "laps": 1,
+  "no_resets": true,
+  "old_training_data_used": false,
+  "source_sha256": {
+    "inputs.py": "21b6d67b69c512cb5c19ba05c1b125e145077dd47aa12a82439aef87cc9c8c5c",
+    "train_after_preparation.py": "8cdf02ab6982519203fa61d2524d4c5fe47182c6d28c6803d27f5163bdf2fe30",
+    "live.py": "4d562c7f56f93ca16a7a43dca416dc388d4fe60dd8a398be35c842a958e3cd9f",
+    "probe_teacher.py": "651ce31eefee7dc58ec2bb60d101427a63d2ff420ceefc53b87593b297f10b2b",
+    "train.py": "8904329a49ca2393262dfadf20703756eda183ca9147a523999b56f36ae0a1ad",
+    "controller.py": "f6969b0b01a7878855044942d6da1320956dbe00243e209b8caf13edd7481f35",
+    "frenet_guide.py": "b6d3c2700a5ba24f6b62964220adfce49e8164a71149a85fb918bf778901531c",
+    "train_when_ready.py": "9859f48d5b9c52b1b0a3f29353d2de5a2e5c7c61ed4c391a91ed9a45cea942a1",
+    "collect.py": "81155947f599480382a147e57cc7b35d49b28f7247c0a3237a36e5611d5ae6fd",
+    "prepare.py": "ea5036284597babaa02b5d01c4b31eae4be54955ff67aa662f1c1997d9ab6591",
+    "decode.py": "bbe785e297ee7c36a37eb9e6623dc5d367518f8a5e6e8ba4036098c94542807f",
+    "sampled_mpcc.py": "7cd281f615d181983cdd06877b8af687f8ec5430046c2056f327190be15120a1",
+    "evaluate.py": "75005571902e095fbf6c093c9ebff5ac986951973da6b0c343518e1cc1fb2d1c",
+    "neural_rollout.py": "74928c89d5951a225e7403dc623712aac32d6bf9764a9b2481d4cdc5d1f5a6d8",
+    "physics.py": "1c7d86963369a2dcee4bab9da706de51b1943572e3bb4f1162d3160c47b2bc4f"
+  },
+  "fast_goal_definition": "collision-free and stationary <1sec, <=24 physics seconds/lap",
+  "summary": {
+    "protected": {
+      "trials": 16,
+      "completions": 16,
+      "fast_goal_successes": 16,
+      "wall_collisions": 0,
+      "obstacle_collisions": 0,
+      "stops_or_timeouts": 0,
+      "successful_mean_lap_sim_s": 19.462500000000002,
+      "mean_abs_raceline_error_m": 0.05837265818117192,
+      "mean_straight_speed_mps": 3.8141183678478807,
+      "mean_control_latency_p95_ms": 54.91831529739101,
+      "intervention_steps": 110
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "observed_until_wall_time": 1793172088.3305545,
+  "control_samples": 4386,
+  "collisions_after_scene_activation": [],
+  "pose_resets_after_scene_activation": [],
+  "layout_full_laps": 16,
+  "reverse_command_steps": 21,
+  "max_stationary_physics_s_below_0p05mps": 0.29999999999972715,
+  "note": "Layout monitor used signed v<0.15 and incorrectly labeled reversing as stopped. Absolute-speed audit corrects that; source monitor fixed for next start. The observed reverse recovery is retained, not reported as uninterrupted forward racing."
+}

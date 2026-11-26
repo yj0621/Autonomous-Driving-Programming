@@ -1,0 +1,39 @@
+{
+  "model": "models_mixture/candidate_epoch_20.keras",
+  "decoder": "mixture",
+  "controller_style": "dynamic",
+  "protected": true,
+  "reason": "validation: 7/10 completions, zero collisions, three stops/timeouts; not a release pass",
+  "alternatives_rejected": [
+    "mixture best regression: raw 6/10",
+    "space-clipped wider-side decoder: raw collisions remain",
+    "steering-grid decoder: raw 6/10, no overall improvement"
+  ],
+  "test_used_for_selection": false,
+  "source_sha256": {
+    "mpcc_core.py": "c41d8c3d3152a988ffbaa8940fffdee24c2075c35207bea5c0215a12f09f1a61",
+    "inputs_wide.py": "ce567d9a42c6a55e32b36d5990a69dd351917843dbdf2f6233d664e01a41d641",
+    "recovery.py": "67e5c460539a7cd4613343491b0671d99f8f1f002cf24fa1aa7edba6f61625b8",
+    "prepare_mixture.py": "3cf5be41d8a6e2d65923507c5d8df85bc5b5790c3773b72b5e25f75cae1ef20d",
+    "train.py": "115ad75b161399708ab36cec0415d6ed67f4d9980a9578b86c3eea51e68f6b65",
+    "controller.py": "290900975395b1602b45c06918cb04c235fb9c3d8a3f09aaa2de85aea3d61ccd",
+    "frenet_guide.py": "8d865a49b07c728d48fc046a0029951a3d766b5094bcfe21a9773ec4892339d8",
+    "expert.py": "b9d0b4f2cbaaa82fe916940b87e238ce7112b6aebc520f816af85f457103e701",
+    "dynamics_shield.py": "ef870453e9ae8fbfcb3c87d39256004a49ed928e8882d7128638d04d840ee873",
+    "train_when_ready.py": "556f70cb055537c5f751291fbc3de694f0ac661d7f9d35316cd3be5148363965",
+    "beam_path.py": "c3eb33684de2734fb295516c4745f70fe9036c21d62baee25143ebacb40bc613",
+    "train_mixture.py": "23d4d304287a7c79489ad455fffc824a8237d61b2cf21f5970486147709c2886",
+    "prepare.py": "2a44b0a9c6e238cb11d99f111aa1f80d7c0ff7d8623555824e0c298abfb264a8",
+    "live_v4.py": "a804fbc057ade612fa3e6aa4c77c2b189462696b6d11f7d77e1082676d632147",
+    "fast_basic.py": "f455f9d1baed9e31023e3480652caa62fdf8eaa0396c20b31445dfa36f3e1859",
+    "mpcc_teacher.py": "b402bf31c67d75e4edf98b24378ada5dc47f3c4bd208710d293ee8a4f287dfd3",
+    "sensors.py": "dfb778d760b0a74d7f7db56fe55c1637e2e8d30389f01bede020edab70fda034",
+    "evaluate.py": "f3987bada13cb9368f5154a66110f688c27bee1bd732aa079330b5e412a8a0e0",
+    "recover_training_report.py": "661870f4da60b5d66561c80e04d90491bdade7fa6149be395f32a1d231f2b42f",
+    "prepare_path.py": "b9099cca359618918cd536ca92b93583365756c9500e8e5522a3e918c7031ce1",
+    "import_basic_ros.py": "8f10ed242a66c9bc30203121ce30a6bfe0485bedd409d0e1489fe746d7a13648",
+    "train_path.py": "1d96999d09058349f7c1b051b785462b14abf08d66bd36dd6ec90551a3b86e8c",
+    "record_random.py": "e059d3f416cd095767241e811d93462e8a893ab19ecae3ddf03e43529de9e710",
+    "audit_basic_ros.py": "7c1de6073e9c70c233aa2b09ae43925f6586c50af47d63a9cdc7aae270afc5b2"
+  }
+}

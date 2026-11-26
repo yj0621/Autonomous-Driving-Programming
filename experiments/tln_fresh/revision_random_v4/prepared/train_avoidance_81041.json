@@ -1,0 +1,56 @@
+{
+  "split": "train",
+  "mode": "avoidance",
+  "seed": 81041,
+  "success": true,
+  "collision": null,
+  "start_s": 54.53535818843196,
+  "obstacles": [
+    {
+      "x": 2.2433574185628964,
+      "y": 1.7513928639296457,
+      "theta": 1.2796709104950061,
+      "s": 2.284613433651285,
+      "d": 0.20423358178422002,
+      "size_m": 0.3
+    },
+    {
+      "x": -0.7963770772971903,
+      "y": 8.236650008856659,
+      "theta": -0.805797802152208,
+      "s": 46.42036330224913,
+      "d": -0.024890318591498484,
+      "size_m": 0.3
+    },
+    {
+      "x": -0.24605461780445517,
+      "y": 13.571141163827171,
+      "theta": 3.267747547670098,
+      "s": 33.63811359784643,
+      "d": 0.20520065633363394,
+      "size_m": 0.3
+    }
+  ],
+  "corner_biased": false,
+  "progress_m": 55.34512946107082,
+  "sim_time_s": 37.7,
+  "wall_time_s": 58.61519172199769,
+  "samples": 377,
+  "mean_actual_speed_mps": 1.4983450664529365,
+  "max_actual_speed_mps": 3.0676199042772176,
+  "mean_abs_raceline_error_m": 0.21258519823509495,
+  "solver_failures": 14,
+  "recovery_steps": 51,
+  "max_observed_object_count": 1,
+  "teacher_gt_obstacle_input": false,
+  "teacher_obstacles": "LiDAR/map connected-corridor perception; uncertainty inflated; no layout GT supplied to Expert.act",
+  "source": "entirely new direct physical simulation, no earlier episode reused",
+  "teacher_source_sha256": {
+    "mpcc_teacher.py": "b402bf31c67d75e4edf98b24378ada5dc47f3c4bd208710d293ee8a4f287dfd3",
+    "mpcc_core.py": "c8ce1e4440b43c0c9f5ad4c6112453a4a7fe01a772219a5d4bdfaf8567562043",
+    "beam_path.py": "950921f17ce99d0601b0ec7b64145648f0767744d1ada809d4786e66a5884a5c",
+    "recovery.py": "67e5c460539a7cd4613343491b0671d99f8f1f002cf24fa1aa7edba6f61625b8",
+    "sensors.py": "dfb778d760b0a74d7f7db56fe55c1637e2e8d30389f01bede020edab70fda034"
+  },
+  "collector_sha256": "2c183d03674fe697715fe0d1af2c0101a60bed9b2669755bb6a815eff314d45b"
+}

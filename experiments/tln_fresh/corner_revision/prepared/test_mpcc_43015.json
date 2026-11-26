@@ -1,0 +1,61 @@
+{
+  "mode": "mpcc",
+  "obstacles": [
+    {
+      "id": "s075d+00t2",
+      "s": 42.592436522919215,
+      "d": 0.0,
+      "theta": -0.4375806020306623,
+      "x": -2.0386152054074005,
+      "y": 11.85101880184261,
+      "side": "RIGHT",
+      "severity": 0.367,
+      "visibility": 5.1,
+      "half_w": 0.21213203435596423
+    },
+    {
+      "id": "s055d+00t3",
+      "s": 32.59421198702269,
+      "d": 0.0,
+      "theta": -1.3865505891246968,
+      "x": 0.8388797425668075,
+      "y": 13.826743842405511,
+      "side": "either",
+      "severity": 0.351,
+      "visibility": 5.1,
+      "half_w": 0.1959844447314565
+    },
+    {
+      "id": "s031d-09t1",
+      "s": 20.59634254394685,
+      "d": -0.9,
+      "theta": 2.538214835754303,
+      "x": 3.2977531003582734,
+      "y": 20.086471858173528,
+      "side": "LEFT",
+      "severity": 0.0,
+      "visibility": 15.0,
+      "half_w": 0.1959844447314565
+    }
+  ],
+  "start_s": 0.0,
+  "required_progress_m": 55.29018168350776,
+  "recipe": "spread:0.5 forced:1:0.30 either:1:0.20",
+  "relaxed": [],
+  "split": "test",
+  "seed": 43015,
+  "success": true,
+  "collision": null,
+  "progress_m": 55.390163928866706,
+  "sim_time_s": 43.0,
+  "wall_time_s": 39.81865739822388,
+  "solver_failures": 0,
+  "samples": 430,
+  "mean_abs_raceline_error_m": 0.0844316238468088,
+  "teacher": "CornerMPCC",
+  "teacher_sha256": "54f4b860cfa245dacfab5e289a988fcc34e307df719bedcd44268915f2e45a66",
+  "no_reset": true,
+  "raw_lidar_recorded": true,
+  "obstacle_gt_student_input": false,
+  "source_raw": "corner_revision/data/test_mpcc_43015.npz"
+}

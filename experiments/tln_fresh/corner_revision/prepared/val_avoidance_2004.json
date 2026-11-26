@@ -1,0 +1,33 @@
+{
+  "split": "val",
+  "mode": "avoidance",
+  "seed": 2004,
+  "start_s": 0.0,
+  "success": true,
+  "collision": null,
+  "progress_m": 54.790270456712975,
+  "sim_time_s": 32.9,
+  "wall_time_s": 27.36644220352173,
+  "solver_failures": 0,
+  "samples": 329,
+  "mean_abs_raceline_error_m": 0.045694270149402666,
+  "obstacles": [
+    {
+      "id": "s055d-01t2",
+      "s": 32.59421198702269,
+      "d": -0.1,
+      "theta": -1.779249670823421,
+      "x": 0.7843331587048199,
+      "y": 13.910557147966067,
+      "side": "LEFT",
+      "severity": 0.267,
+      "visibility": 5.0,
+      "half_w": 0.21213203435596423
+    }
+  ],
+  "recipe": "spread:1.0 chicane:1:0.10 forced:1:0.20",
+  "relaxed": [
+    "chicane: dropped, no room left in num_obstacles"
+  ],
+  "source_raw": "data/val_avoidance_2004.npz"
+}

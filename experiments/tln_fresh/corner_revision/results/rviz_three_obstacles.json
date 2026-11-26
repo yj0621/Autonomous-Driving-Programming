@@ -1,0 +1,592 @@
+{
+  "active": true,
+  "map": "hangar_1905_v0",
+  "controller": "new TLN + geometric guard",
+  "obstacles": [
+    {
+      "id": 1,
+      "s": 10.0,
+      "d": 0.22,
+      "x": 3.205998815479395,
+      "y": 9.149585960578543,
+      "theta": 1.5735628058527247,
+      "size_m": 0.3,
+      "location": "straight"
+    },
+    {
+      "id": 2,
+      "s": 33.1,
+      "d": 0.28,
+      "x": 0.39027206855712643,
+      "y": 13.383974312189197,
+      "theta": -3.0533681303643734,
+      "size_m": 0.3,
+      "location": "corner_exit"
+    },
+    {
+      "id": 3,
+      "s": 46.0,
+      "d": -0.2,
+      "x": -1.0681376173058508,
+      "y": 8.596619970151705,
+      "theta": -1.3021561021579207,
+      "size_m": 0.3,
+      "location": "return"
+    }
+  ],
+  "current_progress_m": 30.894513815920224,
+  "laps": [
+    {
+      "elapsed_wall_s": 46.29556271400361,
+      "progress_m": 55.29018168350776,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 51.37577986600809,
+      "progress_m": 55.29018168350776,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 45.59961370799283,
+      "progress_m": 55.39016392886673,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 50.50809781200951,
+      "progress_m": 55.39016392886672,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 50.31664628299768,
+      "progress_m": 55.39016392886672,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 42.113322170000174,
+      "progress_m": 55.39016392886672,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 52.50784133998968,
+      "progress_m": 55.39016392886673,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 48.92213685999741,
+      "progress_m": 55.39016392886672,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 42.60399710200727,
+      "progress_m": 55.39016392886672,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 47.962721150004654,
+      "progress_m": 55.39016392886672,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 50.11969914400834,
+      "progress_m": 55.39016392886669,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 43.5623457509937,
+      "progress_m": 55.39016392886671,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 49.03228181898885,
+      "progress_m": 55.39016392886668,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 44.10335393399873,
+      "progress_m": 55.3901639288667,
+      "collision_free": true
+    },
+    {
+      "elapsed_wall_s": 48.484001688993885,
+      "progress_m": 55.39016392886668,
+      "collision_free": true
+    }
+  ],
+  "events": [
+    {
+      "event": "activated",
+      "time": 1793126298.4175942,
+      "car_s": 13.297638632742386
+    },
+    {
+      "event": "collision",
+      "time": 1793126309.0677943,
+      "kind": "wall",
+      "progress_m": 15.997159257434433
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793126310.1076696,
+      "xy": [
+        2.22971417753408,
+        1.4079504351227206
+      ]
+    },
+    {
+      "event": "collision",
+      "time": 1793126333.7685604,
+      "kind": "obstacle",
+      "progress_m": 30.594567079843372
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793126333.8513887,
+      "xy": [
+        3.132444580012086,
+        3.1742051294215705
+      ]
+    },
+    {
+      "event": "full_lap",
+      "time": 1793126377.1832876,
+      "elapsed_wall_s": 46.29556271400361,
+      "progress_m": 55.29018168350776,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793126422.6569912,
+      "elapsed_wall_s": 51.37577986600809,
+      "progress_m": 55.29018168350776,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793126465.29915,
+      "elapsed_wall_s": 45.59961370799283,
+      "progress_m": 55.39016392886673,
+      "collision_free": true
+    },
+    {
+      "event": "collision",
+      "time": 1793126491.2139366,
+      "kind": "wall",
+      "progress_m": 29.694726871612666
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793126491.4447916,
+      "xy": [
+        3.409969346152139,
+        5.150423734514384
+      ]
+    },
+    {
+      "event": "full_lap",
+      "time": 1793126536.0379174,
+      "elapsed_wall_s": 50.50809781200951,
+      "progress_m": 55.39016392886672,
+      "collision_free": true
+    },
+    {
+      "event": "collision",
+      "time": 1793126556.4570477,
+      "kind": "obstacle",
+      "progress_m": 26.395312774766804
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793126556.8170426,
+      "xy": [
+        3.427962810815883,
+        7.150196259734162
+      ]
+    },
+    {
+      "event": "collision",
+      "time": 1793126587.9570968,
+      "kind": "obstacle",
+      "progress_m": 37.29337751889401
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793126588.3684592,
+      "xy": [
+        3.41633042874073,
+        11.150170292849724
+      ]
+    },
+    {
+      "event": "full_lap",
+      "time": 1793126632.777326,
+      "elapsed_wall_s": 50.31664628299768,
+      "progress_m": 55.39016392886672,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793126671.922436,
+      "elapsed_wall_s": 42.113322170000174,
+      "progress_m": 55.39016392886672,
+      "collision_free": true
+    },
+    {
+      "event": "collision",
+      "time": 1793126686.566711,
+      "kind": "wall",
+      "progress_m": 15.4972480306396
+    },
+    {
+      "event": "stopped",
+      "time": 1793126688.9195173,
+      "progress_m": 0.0
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793126690.857677,
+      "xy": [
+        0.5250879348308329,
+        0.4618231505104494
+      ]
+    },
+    {
+      "event": "collision",
+      "time": 1793126698.8969827,
+      "kind": "wall",
+      "progress_m": 9.39833106374277
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793126700.9388807,
+      "xy": [
+        2.229951257156505,
+        1.4082233128284567
+      ]
+    },
+    {
+      "event": "full_lap",
+      "time": 1793126747.538261,
+      "elapsed_wall_s": 52.50784133998968,
+      "progress_m": 55.39016392886673,
+      "collision_free": true
+    },
+    {
+      "event": "collision",
+      "time": 1793126768.7270126,
+      "kind": "obstacle",
+      "progress_m": 30.394602589125434
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793126768.9281814,
+      "xy": [
+        3.132444580012086,
+        3.1742051294215705
+      ]
+    },
+    {
+      "event": "collision",
+      "time": 1793126793.0967743,
+      "kind": "wall",
+      "progress_m": 28.89486890874095
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793126793.6501665,
+      "xy": [
+        3.409969346152139,
+        5.150423734514384
+      ]
+    },
+    {
+      "event": "full_lap",
+      "time": 1793126836.6579127,
+      "elapsed_wall_s": 48.92213685999741,
+      "progress_m": 55.39016392886672,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793126876.308119,
+      "elapsed_wall_s": 42.60399710200727,
+      "progress_m": 55.39016392886672,
+      "collision_free": true
+    },
+    {
+      "event": "collision",
+      "time": 1793126882.3667223,
+      "kind": "wall",
+      "progress_m": 8.198544119435127
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793126882.6784282,
+      "xy": [
+        3.427962810815883,
+        7.150196259734162
+      ]
+    },
+    {
+      "event": "collision",
+      "time": 1793126903.4374,
+      "kind": "obstacle",
+      "progress_m": 24.39566786758749
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793126904.0269127,
+      "xy": [
+        3.41633042874073,
+        11.150170292849724
+      ]
+    },
+    {
+      "event": "collision",
+      "time": 1793126923.8279634,
+      "kind": "wall",
+      "progress_m": 21.796129488254415
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793126924.2472672,
+      "xy": [
+        3.402717884354159,
+        13.150123957334607
+      ]
+    },
+    {
+      "event": "full_lap",
+      "time": 1793126969.2493222,
+      "elapsed_wall_s": 47.962721150004654,
+      "progress_m": 55.39016392886672,
+      "collision_free": true
+    },
+    {
+      "event": "stopped",
+      "time": 1793126985.4188695,
+      "progress_m": 18.596697636767537
+    },
+    {
+      "event": "collision",
+      "time": 1793127005.0598311,
+      "kind": "obstacle",
+      "progress_m": 18.596697636767537
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793127005.2579184,
+      "xy": [
+        3.393969689116182,
+        15.150100290171999
+      ]
+    },
+    {
+      "event": "collision",
+      "time": 1793127019.408459,
+      "kind": "wall",
+      "progress_m": 15.197301294562727
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793127019.6987746,
+      "xy": [
+        3.3301767234703568,
+        17.148057598707535
+      ]
+    },
+    {
+      "event": "collision",
+      "time": 1793127032.6681216,
+      "kind": "wall",
+      "progress_m": 13.297638632742387
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793127032.921442,
+      "xy": [
+        2.829516884793355,
+        19.07514065029859
+      ]
+    },
+    {
+      "event": "collision",
+      "time": 1793127043.6975455,
+      "kind": "wall",
+      "progress_m": 10.698100253409287
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793127044.0184586,
+      "xy": [
+        1.5660792900773426,
+        20.59063207516186
+      ]
+    },
+    {
+      "event": "collision",
+      "time": 1793127055.5972838,
+      "kind": "wall",
+      "progress_m": 10.798082498768256
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793127056.0481849,
+      "xy": [
+        -0.3456782245715333,
+        20.88661799040674
+      ]
+    },
+    {
+      "event": "collision",
+      "time": 1793127068.3279328,
+      "kind": "wall",
+      "progress_m": 9.798260045178601
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793127068.6906838,
+      "xy": [
+        -1.0389484840412262,
+        19.308504810742573
+      ]
+    },
+    {
+      "event": "collision",
+      "time": 1793127074.9025133,
+      "kind": "wall",
+      "progress_m": 5.399041249384126
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793127076.6879466,
+      "xy": [
+        0.4993799669095008,
+        18.053940812402406
+      ]
+    },
+    {
+      "event": "stopped",
+      "time": 1793127077.420929,
+      "progress_m": 0.0
+    },
+    {
+      "event": "collision",
+      "time": 1793127082.878379,
+      "kind": "obstacle",
+      "progress_m": 4.499201041153441
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793127084.7618105,
+      "xy": [
+        1.295786346745695,
+        16.246557921572222
+      ]
+    },
+    {
+      "event": "full_lap",
+      "time": 1793127128.9671948,
+      "elapsed_wall_s": 50.11969914400834,
+      "progress_m": 55.39016392886669,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793127169.539608,
+      "elapsed_wall_s": 43.5623457509937,
+      "progress_m": 55.39016392886671,
+      "collision_free": true
+    },
+    {
+      "event": "full_lap",
+      "time": 1793127212.6989741,
+      "elapsed_wall_s": 49.03228181898885,
+      "progress_m": 55.39016392886668,
+      "collision_free": true
+    },
+    {
+      "event": "collision",
+      "time": 1793127213.447255,
+      "kind": "wall",
+      "progress_m": 0.6998757175127572
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793127213.8975205,
+      "xy": [
+        -0.7087292907968327,
+        15.885053513284985
+      ]
+    },
+    {
+      "event": "full_lap",
+      "time": 1793127255.040363,
+      "elapsed_wall_s": 44.10335393399873,
+      "progress_m": 55.3901639288667,
+      "collision_free": true
+    },
+    {
+      "event": "collision",
+      "time": 1793127291.6368332,
+      "kind": "obstacle",
+      "progress_m": 51.59083860522604
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793127291.8766887,
+      "xy": [
+        -2.3495802797001946,
+        16.2675929391429
+      ]
+    },
+    {
+      "event": "full_lap",
+      "time": 1793127334.4390838,
+      "elapsed_wall_s": 48.484001688993885,
+      "progress_m": 55.39016392886668,
+      "collision_free": true
+    },
+    {
+      "event": "collision",
+      "time": 1793127352.3084962,
+      "kind": "obstacle",
+      "progress_m": 26.69525951084371
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793127352.649638,
+      "xy": [
+        -2.668863223715982,
+        14.359088606999487
+      ]
+    },
+    {
+      "event": "collision",
+      "time": 1793127389.647647,
+      "kind": "obstacle",
+      "progress_m": 47.791513281585345
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793127389.8968487,
+      "xy": [
+        -2.231545399060583,
+        12.411132213780084
+      ]
+    },
+    {
+      "event": "collision",
+      "time": 1793127426.8363488,
+      "kind": "wall",
+      "progress_m": 46.891673073354646
+    },
+    {
+      "event": "pose_reset",
+      "time": 1793127427.2690744,
+      "xy": [
+        -0.8940345994628619,
+        4.709863952522154
+      ]
+    }
+  ]
+}
